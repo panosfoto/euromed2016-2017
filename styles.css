@@ -1,0 +1,113 @@
+body {
+    margin:0px;
+    background-color:#ffffff;
+    font-family:arial, verdana, sans-serif;
+}
+
+    #header{
+        background-color:#cccccc;
+        padding:10px;
+        height:120px;
+    }
+
+    #navigation{
+        background-color:#efefef;
+        padding:10px;
+        height:20px;
+    }
+
+    #footer{
+        background-color:#cccccc;
+        padding:10px;
+        height:40px;
+        clear:both;
+        border-top:20px solid #ffffff;
+    }
+
+    .side_menu{
+         float:left;
+         width:17%;
+         margin-left:2%;
+         background-color:#cccccc;
+         padding:0%;
+         margin-top:20px;
+         height:1000px;
+    }
+
+    .page_content{
+         float:left;
+         width:54%;
+         margin-left:2%;
+         background-color:#cccccc;
+         padding:1%;
+         margin-top:20px;
+         height:1000px;
+    }
+
+    .ads_panel{
+         float:right;
+         width:17%;
+         margin-right:2%;
+         background-color:#cccccc;
+         padding:1%;
+         margin-top:20px;
+         height:1000px;
+    }
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    background-color: #f1f1f1;
+}
+
+li a {
+    display: block;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+.active {
+    background-color: #4CAF50;
+    color: white;
+}
+
+li a:hover {
+    background-color: #555;
+    color: white;
+}
+
+a:link {
+    color: black;
+}
+
+a:visited {
+     color: blue;
+}
+
+input[type=text], select {
+    width: 30%;
+    padding: 12px 20px;
+    margin-left: 30%;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=submit] {
+    width: 10%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
