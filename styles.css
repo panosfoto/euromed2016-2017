@@ -96,7 +96,7 @@ input[type=submit]:hover {
          background-color:white;
          padding:0%;
          margin-top:20px;
-         height:1000px;
+         height:800px;
     }
 
     .page_content{
@@ -106,7 +106,7 @@ input[type=submit]:hover {
          background-color:#cccccc;
          padding:1%;
          margin-top:20px;
-         height:1000px;
+         height:800px;
          overflow: auto;
     }
 
@@ -117,7 +117,7 @@ input[type=submit]:hover {
          background-color:#dbdbdb;
          padding:1%;
          margin-top:20px;
-         height:1000px;
+         height:800px;
     }
 
 .ads_panel img {
