@@ -82,6 +82,11 @@ input[type=submit]:hover {
         height:40px;
         clear:both;
         border-top:20px solid #ffffff;
+	display: inline-block;
+	line-height: 40px;
+	vertical-align: middle;
+	font-size: 80%;
+	width: 100%;
     }
 
     .side_menu{
