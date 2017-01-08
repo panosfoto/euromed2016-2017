@@ -77,7 +77,7 @@ input[type=submit]:hover {
 
     #footer{
         background-color:#cccccc;
-        padding:10px;
+        padding:0;
         height:40px;
         clear:both;
         border-top:20px solid #ffffff;
@@ -120,18 +120,18 @@ input[type=submit]:hover {
     height: auto;
 }
 
-#footer backtotop{
-    float:right;
+#footer button{
     background-color: #123455;
+    float:right;
     color: white;
-    margin-left: 2%;
     border: none;
+    width: auto;
+    height:40px;
+    margin-right:2%;
     cursor: pointer;
-    width: 10%;
-    height :100%
     display:block;
     text-decoration:none;
-
+    margin-top:0;
 }
 
 ul {
