@@ -42,7 +42,7 @@ html{
 input[type=text], select {
     width: 40%;
     padding: 1% 1%;
-    margin: 5.8% 1% 5.8% 23%;
+    margin: 5.8% 0.5% 5.8% 23%;
     display: inline-block;
     border: 1px solid #ccc;
     border-radius: 4px;
@@ -144,20 +144,20 @@ ul {
     background-color: #f1f1f1;
 }
 
-button {
+.login button {
     float :right;
-    margin-right:5%;
+    margin-right:4%;
+    margin-left: 0.5%;
     margin-top: 4%;
     background-color: #4CAF50;
     color: white;
     padding: 3% 5%;
-    margin-left: 2%;
     border: none;
     cursor: pointer;
     width: 30%;
 }
 
-button:hover {
+.login button:hover {
     background-color: #45a049;
 }
 
