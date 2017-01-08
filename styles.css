@@ -84,7 +84,7 @@ input[type=submit]:hover {
     .side_menu{
          float:left;
          width:17%;
-         margin-left:2%;
+         margin-left:8%;
          background-color:white;
          padding:0%;
          margin-top:20px;
@@ -93,7 +93,7 @@ input[type=submit]:hover {
 
     .page_content{
          float:left;
-         width:54%;
+         width:48%;
          margin-left:2%;
          background-color:#cccccc;
          padding:1%;
@@ -118,6 +118,19 @@ input[type=submit]:hover {
     height: auto;
 }
 
+#footer backtotop{
+    float:right;
+    background-color: #123455;
+    color: white;
+    padding: 14px 20px;
+    margin-left: 2%;
+    border: none;
+    cursor: pointer;
+    width: 10%;
+    display:block;
+    text-decoration:none;
+
+}
 
 ul {
     list-style-type: none;
@@ -165,4 +178,5 @@ a:link {
 a:visited {
      color: blue;
 }
+
 
