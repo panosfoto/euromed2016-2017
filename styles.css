@@ -121,12 +121,12 @@ input[type=submit]:hover {
     height: auto;
 }
 
-#footer backtotop{
+#footer button{
     float:right;
     background-color: #123455;
     color: white;
-    padding: 14px 20px;
     margin-left: 2%;
+    padding: 14px 20px;
     border: none;
     cursor: pointer;
     width: 10%;
