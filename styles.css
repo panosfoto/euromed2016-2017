@@ -62,9 +62,10 @@ input[type=submit]:hover {
     background-color: #45a049;
 }
     div.login{
-        margin-left:2%;
-        float:right;
-        width: 10%;
+        height:120px;
+        margin:0 auto;
+        float:left;
+        width: 20%;
     }
 
     div.img img {
