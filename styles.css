@@ -11,8 +11,9 @@ body {
     }
 
     #navigation{
-        border-top-style:solid;
-        border-bottom-style:solid;
+        border-top-style: solid;
+        border-bottom-style: solid;
+        border-width:2px;
         border-color:#bababa;
         background-color:#efefef;
         padding:10px;
@@ -58,6 +59,17 @@ body {
          height:1000px;
     }
 
+div.img {
+    margin: 5px;
+    float: left;
+    width: 180px;
+}
+
+div.img img {
+    width: 200%;
+    height: auto;
+}
+
 ul {
     list-style-type: none;
     margin: 0;
@@ -96,7 +108,8 @@ a:visited {
 input[type=text], select {
     width: 30%;
     padding: 12px 20px;
-    margin-left: 30%;
+    margin-left: 20%;
+    margin-top: 2.5%;
     display: inline-block;
     border: 1px solid #ccc;
     border-radius: 4px;
