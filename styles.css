@@ -10,7 +10,7 @@ html{
     #header{
         background-color:#cccccc;
         padding:0;
-        height:120px;
+        height:93px;
     }
 
     #navigation{
@@ -27,12 +27,12 @@ html{
         margin: 0 auto;
         float: left;
         width: 21%;
-        height:120px;
+        height:100%;
         background-color: #4CAF50;
     }
 
     div.search_bar{
-        height:120px;
+        height:100%;
         margin:0 auto;
         float: left;
         width: 56%;
@@ -42,7 +42,7 @@ html{
 input[type=text], select {
     width: 40%;
     padding: 1% 1%;
-    margin: 5.8% 0.5% 5.8% 23%;
+    margin: 3.4% 0.5% 2.7% 23%;
     display: inline-block;
     border: 1px solid #ccc;
     border-radius: 4px;
@@ -52,7 +52,7 @@ input[type=text], select {
 input[type=submit] {
     width: 10%;
     background-color: #4CAF50;
-    margin-top: 5.8%;
+    margin-top: 2.7%;
     color: white;
     padding: 1% 1%;
     border: none;
