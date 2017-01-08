@@ -71,6 +71,18 @@ div.img {
     width: 180px;
 }
 
+div.search_bar{
+    margin-left:2%;
+    float: left;
+    width: 73%;
+}
+
+div.login{
+    margin-left:2%;
+    float:right;
+    width: 10%;
+}
+
 div.img img {
     width: 200%;
     height: auto;
@@ -84,6 +96,18 @@ ul {
     border: 1px solid #dbdbdb; 
     border-radius:2px;
     background-color: #f1f1f1;
+}
+
+button {
+    float :right;
+    margin-top: 2%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin-left: 2%;
+    border: none;
+    cursor: pointer;
+    width: 100%;
 }
 
 li a {
@@ -114,8 +138,8 @@ a:visited {
 input[type=text], select {
     width: 30%;
     padding: 12px 20px;
-    margin-left: 20%;
-    margin-top: 2.5%;
+    margin-left: 29%;
+    margin-top: 3%;
     display: inline-block;
     border: 1px solid #ccc;
     border-radius: 4px;
