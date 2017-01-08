@@ -39,7 +39,7 @@ body {
 input[type=text], select {
     width: 40%;
     padding: 12px 20px;
-    margin-left: 30%;
+    margin-left: 25%;
     margin-top: 4%;
     display: inline-block;
     border: 1px solid #ccc;
