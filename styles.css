@@ -59,6 +59,12 @@ body {
          height:1000px;
     }
 
+.ads_panel img {
+    margin-top:5%;
+    width: 100%;
+    height: auto;
+}
+
 div.img {
     margin: 5px;
     float: left;
