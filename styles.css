@@ -32,14 +32,14 @@ body {
         height:120px;
         margin:0 auto;
         float: left;
-        width: 55%;
+        width: 52%;
         background-color: #123456;
     }
 
 input[type=text], select {
     width: 40%;
     padding: 12px 20px;
-    margin-left: 17%;
+    margin-left: 25%;
     margin-top: 4%;
     display: inline-block;
     border: 1px solid #ccc;
