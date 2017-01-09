@@ -1,6 +1,12 @@
+:root {
+  --main-color: #f2d388;
+  --button-color: #c98474;
+  --button-hover-color: #874c62;
+}
+
 body {
     margin:0px;
-    background-color:#ffffff;
+    background-color: var(--main-color);
     font-family:arial, verdana, sans-serif;
 }
 
@@ -8,7 +14,7 @@ html{
     min-width:850px;
 }
     #header{
-        background-color:#cccccc;
+        background-color: #a7d2cb;
         padding:0;
         height:93px;
     }
@@ -18,7 +24,7 @@ html{
         border-bottom-style: solid;
         border-width:2px;
         border-color:#bababa;
-        background-color:#efefef;
+        background-color: var(--button-color);
         margin-top:0%;
         padding:10px;
         height:20px;
@@ -29,7 +35,6 @@ html{
         float: left;
         width: 21%;
         height:100%;
-        background-color: #4CAF50;
     }
 
     div.search_bar{
@@ -37,7 +42,6 @@ html{
         margin:0 auto;
         float: left;
         width: 56%;
-        background-color: #123456;
     }
 
 input[type=text], select {
@@ -46,23 +50,23 @@ input[type=text], select {
     margin: 3.4% 0.5% 2.7% 23%;
     display: inline-block;
     border: 1px solid #ccc;
-    border-radius: 4px;
+    border-radius: 6px;
     box-sizing: border-box;
 }
 
 input[type=submit] {
     width: 10%;
-    background-color: #4CAF50;
+    background-color: var(--button-color);
     margin-top: 2.7%;
     color: white;
     padding: 1% 1%;
     border: none;
-    border-radius: 4px;
+    border-radius: 6px;
     cursor: pointer;
 }
 
 input[type=submit]:hover {
-    background-color: #45a049;
+    background-color: var(--button-hover-color);
 }
     div.login{
         height:100%;
@@ -77,7 +81,7 @@ input[type=submit]:hover {
     }
 
     #footer{
-        background-color:#cccccc;
+        background-color: var(--main-color);
         padding:0;
         height:40px;
         clear:both;
@@ -93,17 +97,17 @@ input[type=submit]:hover {
          float:left;
          width:17%;
          margin-left:2%;
-         background-color:white;
+         background-color: var(--main-color);
          padding:0%;
-         margin-top:20px;
+         margin-top:3%;
          height:800px;
     }
 
     .page_content{
          float:left;
          width:54%;
-         margin-left:2%;
-         background-color:#cccccc;
+         margin-left:1%;
+         background-color: var(--main-color);
          padding:1%;
          margin-top:20px;
          height:800px;
@@ -113,8 +117,8 @@ input[type=submit]:hover {
     .ads_panel{
          float:right;
          width:17%;
-         margin-right:2%;
-         background-color:#dbdbdb;
+         margin-right:3%;
+         background-color: var(--main-color);
          padding:1%;
          margin-top:20px;
          height:800px;
@@ -127,7 +131,7 @@ input[type=submit]:hover {
 }
 
 #footer button{
-    background-color: #123455;
+    background-color: var(--button-color);
     float:right;
     color: white;
     border: none;
@@ -141,7 +145,7 @@ input[type=submit]:hover {
 }
 
 #footer button:hover {
-    background-color: #45a049;
+    background-color: var(--button-hover-color);
 }
 
 ul {
@@ -149,26 +153,28 @@ ul {
     margin: 0;
     padding: 0;
     width: 98%;
-    border: 1px solid #dbdbdb; 
+    border: 2px solid  var(--button-color); 
     border-radius:2px;
-    background-color: #f1f1f1;
+    background-color: var(--main-color);
 }
 
 .login button {
     float :right;
     margin-right:4%;
     margin-left: 0.5%;
-    background-color: #4CAF50;
+    background-color: var(--button-color);
     color: white;
     padding: 3% 3%;
     border: none;
+    border-bottom-right-radius: 6px;
+    border-bottom-left-radius: 6px;
     cursor: pointer;
     width: 33%;
     white-space:nowrap;
 }
 
 .login button:hover {
-    background-color: #45a049;
+    background-color: var(--button-hover-color);
 }
 
 li a {
@@ -179,12 +185,12 @@ li a {
 }
 
 .active {
-    background-color: #4CAF50;
+    background-color: var(--button-color);
     color: white;
 }
 
 li a:hover {
-    background-color: #555;
+    background-color: var(--button-hover-color);
     color: white;
 }
 
