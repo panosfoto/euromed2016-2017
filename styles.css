@@ -19,27 +19,22 @@ html{
         height:93px;
     }
 
-    #navigation{
-        border-top-style: solid;
-        border-bottom-style: solid;
-        border-width:2px;
-        border-color:#bababa;
-        background-color: var(--button-color);
-        margin-top:0%;
-        padding:10px;
-        height:20px;
-    }
-
     div.img {
-        margin: 0 auto;
+        margin: 0 ;
+        padding-left: 2%;
         float: left;
         width: 21%;
         height:100%;
     }
 
+    div.img img {
+        width: auto;
+        height: 100%;
+    }
+
     div.search_bar{
         height:100%;
-        margin:0 auto;
+        margin:0;
         float: left;
         width: 56%;
     }
@@ -75,22 +70,15 @@ input[type=submit]:hover {
         width: 20%;
     }
 
-    div.img img {
-        width: 100%;
-        height: auto;
-    }
-
-    #footer{
-        background-color: var(--main-color);
-        padding:0;
-        height:40px;
-        clear:both;
-        border-top:20px solid #ffffff;
-	display: inline-block;
-	line-height: 40px;
-	vertical-align: middle;
-	font-size: 80%;
-	width: 100%;
+    #navigation{
+        border-top-style: solid;
+        border-bottom-style: solid;
+        border-width:2px;
+        border-color:#bababa;
+        background-color: var(--button-color);
+        margin-top:0%;
+        padding:10px 10px 10px 2%;
+        height:20px;
     }
 
     .side_menu{
@@ -106,7 +94,7 @@ input[type=submit]:hover {
     .page_content{
          float:left;
          width:54%;
-         margin-left:1%;
+         margin-left:2%;
          background-color: var(--main-color);
          padding:1%;
          margin-top:20px;
@@ -117,7 +105,7 @@ input[type=submit]:hover {
     .ads_panel{
          float:right;
          width:17%;
-         margin-right:3%;
+         margin-right:2%;
          background-color: var(--main-color);
          padding:1%;
          margin-top:20px;
@@ -128,6 +116,19 @@ input[type=submit]:hover {
     margin-top:5%;
     width: 100%;
     height: auto;
+}
+
+#footer{
+    background-color: var(--main-color);
+    padding:0;
+    height:40px;
+    clear:both;
+    border-top:20px solid #ffffff;
+    display: inline-block;
+    line-height: 40px;
+    vertical-align: middle;
+    font-size: 80%;
+    width: 100%;
 }
 
 #footer button{
@@ -153,8 +154,8 @@ ul {
     margin: 0;
     padding: 0;
     width: 98%;
-    border: 2px solid  var(--button-color); 
-    border-radius:2px;
+    border: 2px solid  var(--button-color);
+    border-radius:6px;
     background-color: var(--main-color);
 }
 
@@ -191,6 +192,7 @@ li a {
 
 li a:hover {
     background-color: var(--button-hover-color);
+    border-radius:4px;
     color: white;
 }
 
