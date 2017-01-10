@@ -1,7 +1,8 @@
 :root {
   --main-color: #f2d388;
   --button-color: #c98474;
-  --button-darker-color: #dbbf7d;
+  --button-darker-color: #bc7a6b;
+  --main-darker-color: #dbbf7d;
   --button-hover-color: #874c62;
 }
 
@@ -170,7 +171,7 @@ ul ul{
     /*background-color: var(--main-color);*/
     border: 0;
     border-radius:0;
-    background-color: var(--button-darker-color);
+    background-color: var(--main-darker-color);
 }
 
 .login button {
@@ -201,7 +202,6 @@ li a {
 
 .active {
     background-color: var(--button-color);
-    color: white;
 }
 
 li a:hover {
@@ -210,15 +210,19 @@ li a:hover {
     color: white;
 }
 
-ul li a:visited{
-    color: black;
+ul ul .active {
+    background-color: var(--button-darker-color);
+}
+
+ul ul li a {
+  padding: 8px 16px 8px 30px;
 }
 
 a:link {
     color: black;
 }
 
-a:visited {
+.content a:visited {
      color: blue;
 }
 
