@@ -1,6 +1,7 @@
 :root {
   --main-color: #f2d388;
   --button-color: #c98474;
+  --button-darker-color: #dbbf7d;
   --button-hover-color: #874c62;
 }
 
@@ -159,6 +160,19 @@ ul {
     background-color: var(--main-color);
 }
 
+ul ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    /*border: 2px solid  var(--button-color);*/
+    /*border-radius:6px;*/
+    /*background-color: var(--main-color);*/
+    border: 0;
+    border-radius:0;
+    background-color: var(--button-darker-color);
+}
+
 .login button {
     float: left;
     margin-right:4%;
@@ -194,6 +208,10 @@ li a:hover {
     background-color: var(--button-hover-color);
     border-radius:4px;
     color: white;
+}
+
+ul li a:visited{
+    color: black;
 }
 
 a:link {
