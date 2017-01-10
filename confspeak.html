@@ -1,20 +1,3 @@
-<script>
-function getSorted(selector, attrName) {
-    return $($(selector).toArray().sort(function(a, b){
-        return $(a).text().toUpperCase().localeCompare($(b).text().toUpperCase());
-   }));
-}
-
-<!--getSorted('#conf_speaker', 'data-sort');-->
-
-$.fn.order_speakers = function() {
-    arr=getSorted('.conf_speaker','name');
-    $(".conf_speaker").remove();
-    $.each( arr, function( index, value ){
-        $("#speakers").append(value);
-    });
-};
-</script>
 <html>
     <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
     <script type="text/javascript" src="speakers.js"></script>
@@ -72,14 +55,18 @@ $.fn.order_speakers = function() {
                 <!--<hr style="width:0;height:96%;float:left;margin-top:3.1%;margin-left:1.3%;"/>-->
                 <div class="page_content">
                     <div><h1>Speakers and Researchers</h1></div>
-                    <button onClick="$(this).order_speakers();">Order Speakers</button>
-                    <div id="speakers">
-                        <div class="conf_speaker" name="a" >Speaker A</div>
-                        <div class="conf_speaker" name="e" >Speaker E</div>
-                        <div class="conf_speaker" name="c" >Speaker C</div>
-                        <div class="conf_speaker" name="b" >Speaker B</div>
-                        <div class="conf_speaker" name="d" >Speaker D</div>
+                    <div class=order_bar>
+                        <button id="nameorderbutton" onClick="$(this).order_speakers();">Name &darr;</button>
+                        <button id="famousorderbutton" onClick="$(this).order_speakers_famous();">Publicity</button>
+
                     </div>
+                    <div id="speakers">
+                        <div class="conf_speaker" data-name="a" data-famous="e">Speaker A</div>
+                        <div class="conf_speaker" data-name="b" data-famous="d">Speaker B</div>
+                        <div class="conf_speaker" data-name="c" data-famous="b">Speaker C</div>
+                        <div class="conf_speaker" data-name="d" data-famous='c'>Speaker D</div>
+                 <div class="conf_speaker" data-name="e" data-famous="a">Speaker E</div>
+                      </div>
                </div>
                 <!--<hr style="width:0;height:96%;float:left;margin-top:3.1%;"/>-->
                 <div class="ads_panel">
