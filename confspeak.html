@@ -1,4 +1,23 @@
+<script>
+function getSorted(selector, attrName) {
+    return $($(selector).toArray().sort(function(a, b){
+        return $(a).text().toUpperCase().localeCompare($(b).text().toUpperCase());
+   }));
+}
+
+<!--getSorted('#conf_speaker', 'data-sort');-->
+
+$.fn.order_speakers = function() {
+    arr=getSorted('.conf_speaker','name');
+    $(".conf_speaker").remove();
+    $.each( arr, function( index, value ){
+        $("#speakers").append(value);
+    });
+};
+</script>
 <html>
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
+    <script type="text/javascript" src="speakers.js"></script>
     <link rel="stylesheet" href="styles.css">
     <title>Euromed 2016: Speakers & Researchers</title>
     <body>
@@ -53,33 +72,15 @@
                 <!--<hr style="width:0;height:96%;float:left;margin-top:3.1%;margin-left:1.3%;"/>-->
                 <div class="page_content">
                     <div><h1>Speakers and Researchers</h1></div>
-                    <div>
-                        <p>
-                            The ultimate aim of the 6th EuroMed conference will be to bring together as many stakeholders 
-                            as possible from different backgrounds in order to achieve a high level of mutual understanding of the needs, 
-                            the requirements and the technical means of meeting them. Therefore, our common goal is to focus on 
-                            interdisciplinary and multi-disciplinary research on tangible and intangible Cultural Heritage, 
-                            the use of cutting edge technologies for the protection, preservation, conservation, 
-                            massive digitalisation and visualization/presentation of the Cultural Heritage content 
-                            (archeological sites, artifacts, monuments, libraries, archives, museums, etc). 
-                            At the same time, the event is intended to cover topics of research ready for exploitation, 
-                            demonstrating the acceptability of new sustainable approaches 
-                            and new technologies by the user community, SME’s, owners, managers and conservators of 
-                            cultural patrimony. Below there is a link to the list of all confernece speakers.
-                        </p>
+                    <button onClick="$(this).order_speakers();">Order Speakers</button>
+                    <div id="speakers">
+                        <div class="conf_speaker" name="a" >Speaker A</div>
+                        <div class="conf_speaker" name="e" >Speaker E</div>
+                        <div class="conf_speaker" name="c" >Speaker C</div>
+                        <div class="conf_speaker" name="b" >Speaker B</div>
+                        <div class="conf_speaker" name="d" >Speaker D</div>
                     </div>
-                    <div style="margin-left:2%;"> &#11044;  <a href="confspeak.html" style="margin-left:1%;">Conference Speakers</a></div>
-                    <div>
-                        <p>
-                            The Conference is an entity in its own right representing the collective accredited members. Speakers or Researchers 
-                            that meet the criteria set out in the Conferences rules and procedures can apply to be members. There are over 100 
-                            monkeys and baboons accredited to the Conference with more joining each year. Certain baboons 
-                            may also observe the closed session of the annual meeting. 
-                            Find out more below about the Conference membership and how to become an accredited baboon or a monkey.
-                        </p>
-                    </div>
-                <div style="margin-left:2%;"> &#11044;  <a href="info4speakres.html" style="margin-left:1%;">Info for Speakers & Researchers</a></div>
-                </div>
+               </div>
                 <!--<hr style="width:0;height:96%;float:left;margin-top:3.1%;"/>-->
                 <div class="ads_panel">
                         <a href="index.html">
@@ -106,4 +107,5 @@
         </div>
     </body>
 </html>
+
 
