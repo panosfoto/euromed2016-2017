@@ -1,7 +1,7 @@
 :root {
   --main-color: #f2d388;
   --button-color: #c98474;
-  --button-darker-color: #bc7a6b;
+  --main-darker-darker-color: #ba9e5e;
   --main-darker-color: #dbbf7d;
   --button-hover-color: #874c62;
 }
@@ -204,15 +204,16 @@ li a {
     background-color: var(--button-color);
 }
 
+.lower_active{
+    background-color: var(--main-darker-darker-color);
+}
+
 li a:hover {
     background-color: var(--button-hover-color);
     border-radius:4px;
     color: white;
 }
 
-ul ul .active {
-    background-color: var(--button-darker-color);
-}
 
 ul ul li a {
   padding: 8px 16px 8px 30px;
