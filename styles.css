@@ -109,9 +109,14 @@ input[type=submit]:hover {
          background-color: var(--main-color);
          padding:1%;
          margin-top:20px;
-         height:800px;
+         height:auto;
          overflow: auto;
          font-family: var(--custom-font);
+    }
+    
+    .euromed_banner{
+        width:100%;
+        height:auto;
     }
 
     .order_bar{
