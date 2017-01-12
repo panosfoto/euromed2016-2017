@@ -206,7 +206,7 @@ input[type=submit]:hover {
     background-color: var(--button-hover-color);
 }
 
-ul {
+.side_menu ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -216,7 +216,7 @@ ul {
     background-color: var(--main-color);
 }
 
-ul ul{
+.side_menu ul ul{
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -248,7 +248,7 @@ ul ul{
     background-color: var(--button-hover-color);
 }
 
-li a {
+.side_menu li a {
     display: block;
     color: #000;
     padding: 8px 16px;
@@ -263,19 +263,19 @@ li a {
     background-color: var(--main-darker-darker-color);
 }
 
-li a:hover {
+.side_menu li a:hover {
     background-color: var(--button-hover-color);
     border-radius:4px;
     color: white;
 }
 
 
-ul ul li a {
+.side_menu ul ul li a {
   padding: 8px 16px 8px 30px;
 }
 
 
-ul ul ul li a {
+.side_menu ul ul ul li a {
   padding: 8px 16px 8px 44px;
 }
 
