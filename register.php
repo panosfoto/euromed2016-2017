@@ -118,8 +118,11 @@
                         $passwordmsg2 = '';
                         $password1=$_POST['password'];
                         $password2=$_POST['password1'];
-                        if (empty($password1) || empty($password2)){
+                        if (empty($password1) ){
                             $passwordmsg='*';
+                        }
+                        else if(empty($password2)){
+                            $passwordmsg='Confirm password!';
                             $passwordmsg2='*';
                         }
                         else if(strlen($password1)<4 || strlen($password1)>32)
