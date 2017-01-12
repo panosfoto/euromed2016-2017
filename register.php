@@ -10,7 +10,7 @@
 <!DOCTYPE html>
 <html>
     <link rel="stylesheet" href="styles.css">
-    <title>Euromed 2016: Home</title>
+    <title>Euromed 2016: Register</title>
     <body>
         <div id="frame">
             <div id="page">
