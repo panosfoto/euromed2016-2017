@@ -320,15 +320,16 @@ p{
 }
 
 .page_content input[type=submit] {
-    width: 10%;
+    width: 15%;
     float:right;
     background-color: var(--button-color);
-    margin-top: 5%;
+    margin-top: 8%;
     color: white;
     padding: 1% 0.5%;
     border: none;
     border-radius: 6px;
     cursor: pointer;
+    font-size: 120%;
 }
 
 .page_content input[type=submit]:hover {
