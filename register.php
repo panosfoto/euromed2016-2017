@@ -120,6 +120,7 @@
                         $password2=$_POST['password1'];
                         if (empty($password1) ){
                             $passwordmsg='*';
+                            $passwordmsg2='*';
                         }
                         else if(empty($password2)){
                             $passwordmsg='Confirm password!';
@@ -127,24 +128,24 @@
                         }
                         else if(strlen($password1)<4 || strlen($password1)>32)
                         {
-                            $usermsg='Your password must be between 3 and 32 characters!';
+                            $passwordmsg='Password too short/long';
                         }
                         else if(strcmp($password1,$password2)){
-                            $passwordmsg ="Passwords don't match!";
+                            $passwordmsg ='Passwords don\'t match!';
                         }
-                        $adressmsg = '';
-                        $adress=$_POST['adress'];
-                        if (empty($_POST['adress'])){
-                            $adressmsg='*';
+                        $addressmsg = '';
+                        $address=$_POST['address'];
+                        if (empty($_POST['address'])){
+                            $addressmsg='*';
                         }
-                        else if(strlen($adress)<4 || strlen($adress)>32)
+                        else if(strlen($address)<4 || strlen($address)>32)
                         {
-                            $adressmsg='Your adress value must be between 3 and 32 characters!';
+                            $addressmsg='Address too short/long';
                             $errors[4]=1;
                         }
-                        else if(!preg_match("/^[a-zA-Z\-0-9 ]*$/",$name))
+                        else if(!preg_match("/^[a-zA-Z\-0-9 ]*$/",$address))
                         {
-                            $adressmsg='Your adress contains invalid characters!';
+                            $addressmsg='Your address contains invalid characters!';
                             $errors[4]=1;
                         }
                         $phonemsg = '';
@@ -152,12 +153,12 @@
                         if (empty($phone)){
                             $phonemsg='*';
                         }
-                        else if(strlen($phone)<6 || strlen($adress)>20)
+                        else if(strlen($phone)<6 || strlen($address)>20)
                         {
                             $phonemsg='Your phone number is not supported , contact Euromed!';
                             $errors[5]=1;
                         }
-                        else if(!preg_match("/^[0-9]*$/",$name))
+                        else if(!preg_match("/^[ 0-9 ]*$/",$phone))
                         {
                             $phonemsg='Your phone number contains invalid characters!';
                             $errors[5]=1;
@@ -197,14 +198,14 @@
 
                         <div class="field_text">Confirm Password</div>
                         <div>
-                        <input class="field" type="password" name="confirmpass" class="password" size="23" value=""/>
+                        <input class="field" type="password" name="password1" class="password" size="23" value=""/>
                         <div class="field_error"><?php echo $passwordmsg2; ?></div>
                         </div>
 
-                        <div class="field_text">Full adress</div>
+                        <div class="field_text">Full address</div>
                         <div>
-                        <input class="field" type="text" name="adress" size="23" value="<?php if($errors[4]==0){echo $adress;}?>"/>
-                        <div class="field_error"><?php echo $adressmsg; ?></div>
+                        <input class="field" type="text" name="address" size="23" value="<?php if($errors[4]==0){echo $address;}?>"/>
+                        <div class="field_error"><?php echo $addressmsg; ?></div>
                         </div>
 
                         <div class="field_text">Phone number</div>
