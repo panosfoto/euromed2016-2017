@@ -64,8 +64,68 @@
                     </ul>
                 </div>
                 <div class="page_content">
-                    <div><h1>Programme</h1></div>
-                    <p>Programme </p>
+                    <div><h1>Conference Programme</h1></div>
+                    <form>
+                     <p>*select dropdown here* </p>
+                     <select class="field" name="speaker">
+                        <option>Mustafa Erdik</option>
+                     </select>
+                    </form>
+                    <p>*Day X* </p>
+                    <p>*previous* *next </p>
+                    <table class="tbl">
+                       <tr>
+                         <th class="tbl-cell">Time</th>
+                         <th class="tbl-cell">Lecture hall A</th>
+                         <th class="tbl-cell">Lecture hall B</th>
+                         <th class="tbl-cell">Lecture hall C</th>
+                       </tr>
+                       <tr>
+                         <td class="tbl-cell">9:00-11:00</td>
+                         <td class="tbl-cell">Speaker (...)
+                         <p>Lecture (...)</p>
+                         <p>Other Info (...)</p>
+                         </td>
+                         <td class="tbl-cell"></td>
+                         <td class="tbl-cell"></td>
+                       </tr>
+                       <tr>
+                         <td class="tbl-cell">11:00-11:15</td>
+                         <td class="tbl-cell">Break</td>
+                         <td class="tbl-cell">Break</td>
+                         <td class="tbl-cell">Break</td>
+                       </tr>
+                       <tr>
+                         <td class="tbl-cell">11:15-13:00</td>
+                         <td class="tbl-cell"></td>
+                         <td class="tbl-cell"></td>
+                         <td class="tbl-cell"></td>
+                       </tr>
+                       <tr>
+                         <td class="tbl-cell">13:00-14:00</td>
+                         <td class="tbl-cell">Lunch</td>
+                         <td class="tbl-cell">Lunch</td>
+                         <td class="tbl-cell">Lunch</td>
+                       </tr>
+                       <tr>
+                         <td class="tbl-cell">14:00-17:00</td>
+                         <td class="tbl-cell"></td>
+                         <td class="tbl-cell"></td>
+                         <td class="tbl-cell"></td>
+                       </tr>
+                       <tr>
+                         <td class="tbl-cell">17:00-17:15</td>
+                         <td class="tbl-cell">Break</td>
+                         <td class="tbl-cell">Break</td>
+                         <td class="tbl-cell">Break</td>
+                       </tr>
+                       <tr>
+                         <td class="tbl-cell">17:15-20:00</td>
+                         <td class="tbl-cell"></td>
+                         <td class="tbl-cell"></td>
+                         <td class="tbl-cell"></td>
+                       </tr>
+                     </table>
                 </div>
                 <div class="ads_panel">
                         <a href="index.php">
