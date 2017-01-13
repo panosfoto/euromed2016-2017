@@ -12,7 +12,7 @@
     <link rel="stylesheet" href="styles.css">
     <?php include ('connect.php'); ?>
     <?php include ('home_transfer.php')?>
-    <title>Euromed 2016: Home</title>
+    <title>Euromed 2016: Register</title>
     <body>
         <div id="frame">
             <div id="page">

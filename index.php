@@ -15,8 +15,8 @@
                 <a name="top"></a>
                 <div id="header">
                     <div class="img">
-                        <a href="index.php">
-                            <img class="logo" src="logo.png"/>
+                        <a href="index.html">
+                            <img class="logo" src="images/logo.png"/>
                         </a>
                     </div>
                     <div class="search_bar">
@@ -65,7 +65,7 @@
                 </div>
                 <div class="page_content">
                     <div><h1>Welcome to Euromed 2016</h1></div>
-                    <img class="euromed_banner" src="euromed_banner_2016.png"/>
+                    <img class="euromed_banner" src="images/euromed_banner_2016.png"/>
                     <p>Protecting, preserving and presenting our Cultural Heritage are frequently interpreted as
                     change management and/or change the behavior of the society. Joint European and international
                     research produces a scientific background and support for such a change. We are living in a period
@@ -76,17 +76,17 @@
                     development and technology in the field of cultural heritage. </p>
                 </div>
                 <div class="ads_panel">
-                        <a href="index.php">
-                            <img class="logo" src="ad1.png"/>
+                        <a href="index.html">
+                            <img class="logo" src="images/ad1.png"/>
                         </a>
-                        <a href="index.php">
-                            <img class="logo" src="ad2.jpg"/>
+                        <a href="index.html">
+                            <img class="logo" src="images/ad2.jpg"/>
                         </a>
-                        <a href="index.php">
-                            <img class="logo" src="ad3.jpg"/>
+                        <a href="index.html">
+                            <img class="logo" src="images/ad3.jpg"/>
                         </a>
-                        <a href="index.php">
-                            <img class="logo" src="ad4.jpg"/>
+                        <a href="index.html">
+                            <img class="logo" src="images/ad4.jpg"/>
                         </a>
                 </div>
                 <div id="footer">
