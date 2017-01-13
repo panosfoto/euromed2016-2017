@@ -149,7 +149,7 @@ $name=$_POST['name'];
     }
     $res=1;
     if(!$error){
-        $addition="INSERT INTO `users` (`FirstName`, `LastName`, `Username`, `Password`, `Email`, `Address`, `PhoneNumber`, `Faculty`, `RegistrationType`) VALUES ('$name','$surname' , '$username', '$password', '$email', '$address', '$phone', '$faculty', '$reg');";
+        $addition="INSERT INTO `users` (`FirstName`, `LastName`, `Username`, `Password`, `Email`, `Address`, `PhoneNumber`, `Faculty`, `RegistrationType`) VALUES ('$name','$surname' , '$username', '$password1', '$email', '$address', '$phone', '$faculty', '$reg');";
         $res=$db->query($addition);
         $_SESSION['user']=$username;
         header("Location: signup_success.php");
