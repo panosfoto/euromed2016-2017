@@ -19,7 +19,7 @@
                 <a name="top"></a>
                 <div id="header">
                     <div class="img">
-                        <a href="index.html">
+                        <a href="index.php">
                             <img class="logo" src="logo.png"/>
                         </a>
                     </div>
@@ -44,26 +44,26 @@
                     </div>
                 </div>
                 <div id="navigation">
-                    <a href="index.html">Home</a> <font size="4">&#8594;</font> <a href="register.html">Sign up</a>
+                    <a href="index.php">Home</a> <font size="4">&#8594;</font> <a href="register.php">Sign up</a>
                 </div>
 
                 <div class=side_menu>
                      <ul>
-                      <li><a href="learn_more.html">Learn more about Euromed 2016</a></li>
-                      <li><a href="announcements.html">Announcements</a></li>
-                      <li><a href="programme.html">Programme</a></li>
-                      <li><a href="conference_registration.html">Conference Registration</a></li>
-                      <li><a href="speakers_and_researchers.html">Speakers & Researchers</a></li>
-                      <li><a href="submitted_papers.html">Submitted Papers</a></li>
-                      <li><a href="workshops.html">Workshops</a></li>
-                      <li><a href="exhibitions.html">Exhibitions</a></li>
-                      <li><a href="other_activities.html">Other activities</a></li>
-                      <li><a href="location_and_access.html">Location & Access</a></li>
-                      <li><a href="faq.html">FAQ</a></li>
-                      <li><a href="contact.html">Contact Info</a></li>
-                      <li><a href="sponsors.html">Sponsors</a></li>
-                      <li><a href="previous_conferences.html">Previous Conferences</a></li>
-                      <li><a href="downloads.html">Downloads</a></li>
+                      <li><a href="learn_more.php">Learn more about Euromed 2016</a></li>
+                      <li><a href="announcements.php">Announcements</a></li>
+                      <li><a href="programme.php">Programme</a></li>
+                      <li><a href="conference_registration.php">Conference Registration</a></li>
+                      <li><a href="speakers_and_researchers.php">Speakers & Researchers</a></li>
+                      <li><a href="submitted_papers.php">Submitted Papers</a></li>
+                      <li><a href="workshops.php">Workshops</a></li>
+                      <li><a href="exhibitions.php">Exhibitions</a></li>
+                      <li><a href="other_activities.php">Other activities</a></li>
+                      <li><a href="location_and_access.php">Location & Access</a></li>
+                      <li><a href="faq.php">FAQ</a></li>
+                      <li><a href="contact.php">Contact Info</a></li>
+                      <li><a href="sponsors.php">Sponsors</a></li>
+                      <li><a href="previous_conferences.php">Previous Conferences</a></li>
+                      <li><a href="downloads.php">Downloads</a></li>
                     </ul>
                 </div>
                 <div class="page_content">
@@ -141,23 +141,23 @@
                     </div>
                </div>
                 <div class="ads_panel">
-                        <a href="index.html">
+                        <a href="index.php">
                             <img class="logo" src="ad1.png"/>
                         </a>
-                        <a href="index.html">
+                        <a href="index.php">
                             <img class="logo" src="ad2.jpg"/>
                         </a>
-                        <a href="index.html">
+                        <a href="index.php">
                             <img class="logo" src="ad3.jpg"/>
                         </a>
-                        <a href="index.html">
+                        <a href="index.php">
                             <img class="logo" src="ad4.jpg"/>
                         </a>
                 </div>
                 <div id="footer">
                     <div style=" height=100%; margin-left:1%;">Copyright: Manos Pitsikalis, Panagiotis Fotopoulos
                         <a href="#top"><button>Back to top</button></a>
-                        <a href="404.html" style="float:right; margin-right:1%;">Sitemap</a>
+                        <a href="404.php" style="float:right; margin-right:1%;">Sitemap</a>
                     </div>
                 </div>
 
