@@ -43,7 +43,7 @@
                     </div>
                 </div>
                 <div id="navigation">
-                    <a href="index.php">Home</a> <font size="3">&#8594;</font> <a href="register.php">Sign up</a>
+                    <a href="index.php">Home</a> <font size="3">&#8594;</font> <a href="signup_success.php">Success</a>
                 </div>
 
                 <div class=side_menu>
@@ -66,8 +66,20 @@
                     </ul>
                 </div>
                 <div class="page_content">
-                    <div><h1>Site Registration</h1></div>
-                    <div id="success"><h1 style="color:green;">Registration successfull<?php $user_name = $_SESSION['user'];echo " $user_name";?></h1></div>
+                    <div ><h1 style="color:green;">Registration successfull</h1></div>
+                    <?php include('login_info.php')?>
+                    <div id="signup_info_head"><h3 style="padding:0;"> Account information</h3></div>
+                    <div>
+                        <div class="user_info"><h4>Name : <?php echo " $Name";?><h4></div>
+                        <div class="user_info"><h4>Last name : <?php echo " $Lastname";?><h4></div>
+                        <div class="user_info"><h4>Username : <?php $user_name = $_SESSION['user'];echo " $user_name";?><h4></div>
+                        <div class="user_info"><h4>Email : <?php echo " $Email";?><h4></div>
+                        <div class="user_info"><h4>Adress : <?php echo " $Adress";?><h4></div>
+                        <div class="user_info"><h4>Phone number : <?php echo "$Phone";?><h4></div>
+                        <div class="user_info"><h4>Faculty : <?php echo " $Faculty";?><h4></div>
+                        <div class="user_info"><h4>Registration type : <?php echo "$Regtype";?><h4></div>
+                    </div>
+
 
                     </div>
                </div>
