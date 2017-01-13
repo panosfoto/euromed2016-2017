@@ -1,4 +1,3 @@
-
 <?php
    session_start();
 ?>
@@ -7,9 +6,10 @@
    error_reporting(E_ALL);
    ini_set("display_errors", 1);
 ?>
+
 <html>
     <link rel="stylesheet" href="styles.css">
-    <title>Euromed 2016: Home</title>
+    <title>Euromed 2016: Location & Access</title>
     <body>
         <div id="frame">
             <div id="page">
@@ -27,7 +27,7 @@
                         </form>
                     </div>
                     <div class="login">
-                        <?php
+                          <?php
                            if(!isset($_SESSION['user']) ){
                               echo "<a href=\"login.php\"><button>Login</button></a>";
                               echo "<a href=\"register.php\"><button>Sign Up</button></a>";
@@ -38,12 +38,12 @@
                               echo "<a href=\"logout.php\"><button class=\"logged_in\">Logout</button></a>";
                             }
                         ?>
-
                     </div>
                 </div>
                 <div id="navigation">
-                    <a href="index.php">Home</a>
+                    <a href="index.php">Home</a> <font size="3">&#8594;</font> <a href="location_and_access.php">Location & Access</a>
                 </div>
+
                 <div class=side_menu>
                      <ul>
                       <li><a href="learn_more.php">Learn more about Euromed 2016</a></li>
@@ -55,7 +55,11 @@
                       <li><a href="workshops.php">Workshops</a></li>
                       <li><a href="exhibitions.php">Exhibitions</a></li>
                       <li><a href="other_activities.php">Other activities</a></li>
-                      <li><a href="location_and_access.php">Location & Access</a></li>
+                      <li class="active"><a href="location_and_access.php">Location & Access</a></li>
+                      <ul>
+                        <li><a href="location_and_access/access_from_abroad.php">Access from abroad</a></li>
+                        <li><a href="location_and_access/accomodation_transportation_in_city.php">Accomodation and transportation in the city</a></li>
+                      </ul>
                       <li><a href="faq.php">FAQ</a></li>
                       <li><a href="contact.php">Contact Info</a></li>
                       <li><a href="sponsors.php">Sponsors</a></li>
@@ -64,16 +68,10 @@
                     </ul>
                 </div>
                 <div class="page_content">
-                    <div><h1>Welcome to Euromed 2016</h1></div>
-                    <img class="euromed_banner" src="images/euromed_banner_2016.png"/>
-                    <p>Protecting, preserving and presenting our Cultural Heritage are frequently interpreted as
-                    change management and/or change the behavior of the society. Joint European and international
-                    research produces a scientific background and support for such a change. We are living in a period
-                    characterized by rapid and remarkable changes in the environment, in the society and in technology.
-                    Natural change, war conflicts and man-made changes, including climate, as well as technological and
-                    societal change, form an ever-moving and colorful stage and a challenge for the society. Close cooperation
-                    between professionals, the policy makers and authorities internationally, is necessary for research,
-                    development and technology in the field of cultural heritage. </p>
+                    <div><h2>Access from abroad:</h2></div>
+                    <div style="margin-left:2%;"> &#11044;  <a href="location_and_access/access_from_abroad.php" style="margin-left:1%;">Access from abroad</a></div>
+                    <div><h2>Accomodation and transportation in the city:</h2></div>
+                    <div style="margin-left:2%;"> &#11044;  <a href="location_and_access/accomodation_transportation_in_city.php" style="margin-left:1%;">Accomodation and transportation in the city</a></div>
                 </div>
                 <div class="ads_panel">
                         <a href="index.php">

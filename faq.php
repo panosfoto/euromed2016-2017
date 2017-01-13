@@ -1,4 +1,3 @@
-
 <?php
    session_start();
 ?>
@@ -7,9 +6,10 @@
    error_reporting(E_ALL);
    ini_set("display_errors", 1);
 ?>
+
 <html>
     <link rel="stylesheet" href="styles.css">
-    <title>Euromed 2016: Home</title>
+    <title>Euromed 2016: FAQ</title>
     <body>
         <div id="frame">
             <div id="page">
@@ -38,12 +38,12 @@
                               echo "<a href=\"logout.php\"><button class=\"logged_in\">Logout</button></a>";
                             }
                         ?>
-
                     </div>
                 </div>
                 <div id="navigation">
-                    <a href="index.php">Home</a>
+                    <a href="index.php">Home</a> <font size="3">&#8594;</font> <a href="faq.php">FAQ</a>
                 </div>
+
                 <div class=side_menu>
                      <ul>
                       <li><a href="learn_more.php">Learn more about Euromed 2016</a></li>
@@ -56,7 +56,7 @@
                       <li><a href="exhibitions.php">Exhibitions</a></li>
                       <li><a href="other_activities.php">Other activities</a></li>
                       <li><a href="location_and_access.php">Location & Access</a></li>
-                      <li><a href="faq.php">FAQ</a></li>
+                      <li class="active"><a href="faq.php">FAQ</a></li>
                       <li><a href="contact.php">Contact Info</a></li>
                       <li><a href="sponsors.php">Sponsors</a></li>
                       <li><a href="previous_conferences.php">Previous Conferences</a></li>
@@ -64,16 +64,8 @@
                     </ul>
                 </div>
                 <div class="page_content">
-                    <div><h1>Welcome to Euromed 2016</h1></div>
-                    <img class="euromed_banner" src="images/euromed_banner_2016.png"/>
-                    <p>Protecting, preserving and presenting our Cultural Heritage are frequently interpreted as
-                    change management and/or change the behavior of the society. Joint European and international
-                    research produces a scientific background and support for such a change. We are living in a period
-                    characterized by rapid and remarkable changes in the environment, in the society and in technology.
-                    Natural change, war conflicts and man-made changes, including climate, as well as technological and
-                    societal change, form an ever-moving and colorful stage and a challenge for the society. Close cooperation
-                    between professionals, the policy makers and authorities internationally, is necessary for research,
-                    development and technology in the field of cultural heritage. </p>
+                    <div><h1>FAQ</h1></div>
+                    <p>FAQ. It's euromed. </p>
                 </div>
                 <div class="ads_panel">
                         <a href="index.php">

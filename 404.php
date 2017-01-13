@@ -1,4 +1,3 @@
-
 <?php
    session_start();
 ?>
@@ -7,9 +6,10 @@
    error_reporting(E_ALL);
    ini_set("display_errors", 1);
 ?>
+
 <html>
     <link rel="stylesheet" href="styles.css">
-    <title>Euromed 2016: Home</title>
+    <title>Euromed 2016: Page not found</title>
     <body>
         <div id="frame">
             <div id="page">
@@ -27,7 +27,7 @@
                         </form>
                     </div>
                     <div class="login">
-                        <?php
+                      <?php
                            if(!isset($_SESSION['user']) ){
                               echo "<a href=\"login.php\"><button>Login</button></a>";
                               echo "<a href=\"register.php\"><button>Sign Up</button></a>";
@@ -38,12 +38,12 @@
                               echo "<a href=\"logout.php\"><button class=\"logged_in\">Logout</button></a>";
                             }
                         ?>
-
                     </div>
                 </div>
                 <div id="navigation">
-                    <a href="index.php">Home</a>
+                    <a href="index.php">Home </a>
                 </div>
+
                 <div class=side_menu>
                      <ul>
                       <li><a href="learn_more.php">Learn more about Euromed 2016</a></li>
@@ -64,16 +64,9 @@
                     </ul>
                 </div>
                 <div class="page_content">
-                    <div><h1>Welcome to Euromed 2016</h1></div>
-                    <img class="euromed_banner" src="images/euromed_banner_2016.png"/>
-                    <p>Protecting, preserving and presenting our Cultural Heritage are frequently interpreted as
-                    change management and/or change the behavior of the society. Joint European and international
-                    research produces a scientific background and support for such a change. We are living in a period
-                    characterized by rapid and remarkable changes in the environment, in the society and in technology.
-                    Natural change, war conflicts and man-made changes, including climate, as well as technological and
-                    societal change, form an ever-moving and colorful stage and a challenge for the society. Close cooperation
-                    between professionals, the policy makers and authorities internationally, is necessary for research,
-                    development and technology in the field of cultural heritage. </p>
+                    <div><h1>Oops! Page was not found</h1></div>
+                    <p>You have requested for something that we cannot find. Check your spelling, and try again.</p>
+                    <p/><p>(error 404)</p>
                 </div>
                 <div class="ads_panel">
                         <a href="index.php">

@@ -1,4 +1,3 @@
-
 <?php
    session_start();
 ?>
@@ -7,9 +6,10 @@
    error_reporting(E_ALL);
    ini_set("display_errors", 1);
 ?>
+
 <html>
     <link rel="stylesheet" href="styles.css">
-    <title>Euromed 2016: Home</title>
+    <title>Euromed 2016: Speakers & Researchers</title>
     <body>
         <div id="frame">
             <div id="page">
@@ -38,19 +38,23 @@
                               echo "<a href=\"logout.php\"><button class=\"logged_in\">Logout</button></a>";
                             }
                         ?>
-
-                    </div>
+                     </div>
                 </div>
                 <div id="navigation">
-                    <a href="index.php">Home</a>
+                    <a href="index.php">Home</a> <font size="3">&#8594;</font> <a href="speakers_and_researchers.php">Speakers & Researchers </a>
                 </div>
+
                 <div class=side_menu>
                      <ul>
                       <li><a href="learn_more.php">Learn more about Euromed 2016</a></li>
                       <li><a href="announcements.php">Announcements</a></li>
                       <li><a href="programme.php">Programme</a></li>
                       <li><a href="conference_registration.php">Conference Registration</a></li>
-                      <li><a href="speakers_and_researchers.php">Speakers & Researchers</a></li>
+                      <li class="active"><a href="speakers_and_researchers.php">Speakers & Researchers</a></li>
+                      <ul>
+                        <li><a href="speakers_and_researchers/conference_speakers.php">Conference Speakers</a></li>
+                        <li><a href="speakers_and_researchers/info_for_speakers.php">Info for Speakers & Researchers</a></li>
+                      </ul>
                       <li><a href="submitted_papers.php">Submitted Papers</a></li>
                       <li><a href="workshops.php">Workshops</a></li>
                       <li><a href="exhibitions.php">Exhibitions</a></li>
@@ -64,16 +68,33 @@
                     </ul>
                 </div>
                 <div class="page_content">
-                    <div><h1>Welcome to Euromed 2016</h1></div>
-                    <img class="euromed_banner" src="images/euromed_banner_2016.png"/>
-                    <p>Protecting, preserving and presenting our Cultural Heritage are frequently interpreted as
-                    change management and/or change the behavior of the society. Joint European and international
-                    research produces a scientific background and support for such a change. We are living in a period
-                    characterized by rapid and remarkable changes in the environment, in the society and in technology.
-                    Natural change, war conflicts and man-made changes, including climate, as well as technological and
-                    societal change, form an ever-moving and colorful stage and a challenge for the society. Close cooperation
-                    between professionals, the policy makers and authorities internationally, is necessary for research,
-                    development and technology in the field of cultural heritage. </p>
+                    <div><h1>Speakers and Researchers</h1></div>
+                    <div>
+                        <p>
+                            The ultimate aim of the 6th EuroMed conference will be to bring together as many stakeholders
+                            as possible from different backgrounds in order to achieve a high level of mutual understanding of the needs,
+                            the requirements and the technical means of meeting them. Therefore, our common goal is to focus on
+                            interdisciplinary and multi-disciplinary research on tangible and intangible Cultural Heritage,
+                            the use of cutting edge technologies for the protection, preservation, conservation,
+                            massive digitalisation and visualization/presentation of the Cultural Heritage content
+                            (archeological sites, artifacts, monuments, libraries, archives, museums, etc).
+                            At the same time, the event is intended to cover topics of research ready for exploitation,
+                            demonstrating the acceptability of new sustainable approaches
+                            and new technologies by the user community, SME's, owners, managers and conservators of
+                            cultural patrimony. Below there is a link to the list of all confernece speakers.
+                        </p>
+                    </div>
+                    <div style="margin-left:2%;"> &#11044;  <a href="speakers_and_researchers/conference_speakers.php" style="margin-left:1%;">Conference Speakers</a></div>
+                    <div>
+                        <p>
+                            The Conference is an entity in its own right representing the collective accredited members. Speakers or Researchers
+                            that meet the criteria set out in the Conferences rules and procedures can apply to be members. There are over 100
+                            monkeys and baboons accredited to the Conference with more joining each year. Certain baboons
+                            may also observe the closed session of the annual meeting.
+                            Find out more below about the Conference membership and how to become an accredited baboon or a monkey.
+                        </p>
+                    </div>
+                <div style="margin-left:2%;"> &#11044;  <a href="speakers_and_researchers/info_for_speakres.php" style="margin-left:1%;">Info for Speakers & Researchers</a></div>
                 </div>
                 <div class="ads_panel">
                         <a href="index.php">
