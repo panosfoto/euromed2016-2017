@@ -20,7 +20,7 @@
                 <div id="header">
                     <div class="img">
                         <a href="index.php">
-                            <img class="logo" src="logo.png"/>
+                            <img class="logo" src="images/logo.png"/>
                         </a>
                     </div>
                     <div class="search_bar">
@@ -84,16 +84,16 @@
                </div>
                 <div class="ads_panel">
                         <a href="index.php">
-                            <img class="logo" src="ad1.png"/>
+                            <img class="logo" src="images/ad1.png"/>
                         </a>
                         <a href="index.php">
-                            <img class="logo" src="ad2.jpg"/>
+                            <img class="logo" src="images/ad2.jpg"/>
                         </a>
                         <a href="index.php">
-                            <img class="logo" src="ad3.jpg"/>
+                            <img class="logo" src="images/ad3.jpg"/>
                         </a>
                         <a href="index.php">
-                            <img class="logo" src="ad4.jpg"/>
+                            <img class="logo" src="images/ad4.jpg"/>
                         </a>
                 </div>
                 <div id="footer">
