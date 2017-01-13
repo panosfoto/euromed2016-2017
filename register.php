@@ -10,6 +10,8 @@
 <!DOCTYPE html>
 <html>
     <link rel="stylesheet" href="styles.css">
+    <?php include ('connect.php'); ?>
+    <?php include ('home_transfer.php')?>
     <title>Euromed 2016: Home</title>
     <body>
         <div id="frame">
@@ -22,14 +24,23 @@
                         </a>
                     </div>
                     <div class="search_bar">
-                        <form action="action_page.php">
+                        <form action="search_results.php">
                             <input type="text" id="fname" name="firstname" placeholder="Search for papers, speakers, etc.">
                             <input type="submit" value="Search">
                         </form>
                     </div>
                     <div class="login">
-                        <button onclick="document.getElementById('id01').style.display='block'">Login</button>
-                        <button onclick="document.getElementById('id01').style.display='block'">Sign Up</button>
+                        <?php
+                           if(!isset($_SESSION['user']) ){
+                              $user_name=$_SESSION['user'];
+                              echo "<a href=\"login.php\"><button>Login</button></a>";
+                              echo "<a href=\"register.php\"><button>Sign Up</button></a>";
+                            }
+                            else {
+                              echo "<a href=\"profile.php\"><button>$user_name</button></a>";
+                              echo "<a href=\"logout.php\"><button>Logout</button></a>";
+                            }
+                        ?>
                     </div>
                 </div>
                 <div id="navigation">
@@ -58,7 +69,7 @@
                 <div class="page_content">
                     <div><h1>Site Registration</h1></div>
                     <div>
-                        <?php include ('field_check.php'); ?>
+                    <?php include ('field_check.php'); ?>
                         <form role="form" action = "<?php echo htmlspecialchars($_SERVER['PHP_SELF']);?>" method = "post">
 
                         <div class="field_text">Name</div>
@@ -99,17 +110,33 @@
 
                         <div class="field_text">Full address</div>
                         <div>
-                        <input class="field" type="text" name="address" size="23" value="<?php if($errors[4]==0){echo $address;}?>"/>
+                        <input class="field" type="text" name="address" size="23" value="<?php if($errors[5]==0){echo $address;}?>"/>
                         <div class="field_error"><?php echo $addressmsg; ?></div>
                         </div>
 
                         <div class="field_text">Phone number</div>
                         <div>
-                        <input class="field" type="text" name="phone" size="23" value="<?php if($errors[5]==0){echo $phone;}?>" />
+                        <input class="field" type="text" name="phone" size="23" value="<?php if($errors[6]==0){echo $phone;}?>" />
                         <div class="field_error"><?php echo $phonemsg; ?></div>
                         </div>
 
-                        <input type="submit" name="submit"value="Register" class="bt_register" />
+                        <div class="field_text">Faculty</div>
+                        <div>
+                        <input class="field" type="text" name="faculty" size="23" value="<?php if($errors[7]==0){echo $faculty;}?>" />
+                        <div class="field_error"><?php echo $facultymsg; ?></div>
+                        </div>
+                        <div class="field_text">Registration type</div>
+                        <div>
+                        <select class="field" name="signup_type">
+                            <option value="0"<?php if($errors[8]==1) echo "selected disabled";?>>Select...</option>
+                            <option value="1"<?php if($errors[8]== 0&& !strcmp($reg,"0")){echo "selected";}?>>Visitor</option>
+                            <option value="2"<?php if($errors[8]== 0&& !strcmp($reg,"1")){echo "selected";}?>>Visitor(Student)</option>
+                            <option value="3"<?php if($errors[8]== 0&& !strcmp($reg,"2")){echo "selected";}?>>Speaker</option>
+                            <option value="4"<?php if($errors[8]== 0&& !strcmp($reg,"3")){echo "selected";}?>>Exhibitor</option>
+                        </select>
+                        <div class="field_error"><?php echo $signupmsg; ?></div>
+                        </div>
+                        <input type="submit" name="submit"value="Register"/>
                     </form>
                     </div>
                </div>
@@ -138,4 +165,4 @@
         </div>
     </body>
 </html>
-
+<?php ob_end_flush(); ?>

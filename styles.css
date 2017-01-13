@@ -305,9 +305,14 @@ a:link {
     color:black;
 }
 
-p{
-
+.field_text_login{
+    margin-top:2%;
+    width:100%;
+    font-size: 150%;
+    text-align:center;
+    color:black;
 }
+
 .field {
     float:left;
     width: 50%;
@@ -319,6 +324,53 @@ p{
     box-sizing: border-box;
 }
 
+.field_login {
+    float:left;
+    width: 50%;
+    padding: 1% 1%;
+    margin: 0.5% 25% 2.7% 25%;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    box-sizing: border-box;
+}
+
+.login_field_error{
+    width:100%;
+    margin-top:1%;
+    text-align:center;
+    color:red;
+}
+.login_page_login_button {
+    width: 25%;
+    margin-left:37.5%;
+    float:left;
+    text-align:center;
+    background-color: var(--button-color);
+    margin-top: 2%;
+    color: white;
+    padding: 1% 0.5%;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 120%;
+}
+
+#content_login input[type=submit]{
+    width: 25%;
+    margin-left:37.5%;
+    float:left;
+    text-align:center;
+    background-color: var(--button-color);
+    margin-top: 2%;
+    color: white;
+    padding: 1% 0.5%;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 120%;
+
+}
 .page_content input[type=submit] {
     width: 15%;
     float:right;

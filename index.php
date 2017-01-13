@@ -1,3 +1,11 @@
+<?php
+   session_start();
+?>
+
+<?
+   error_reporting(E_ALL);
+   ini_set("display_errors", 1);
+?>
 <html>
     <link rel="stylesheet" href="styles.css">
     <title>Euromed 2016: Home</title>
@@ -18,12 +26,22 @@
                         </form>
                     </div>
                     <div class="login">
-                        <button onclick="document.getElementById('id01').style.display='block'">Login</button>
-                        <a href="register.php"><button >Sign Up</button></a>
+                        <?php
+                           if(!isset($_SESSION['user']) ){
+                              echo "<a href=\"login.php\"><button>Login</button></a>";
+                              echo "<a href=\"register.php\"><button>Sign Up</button></a>";
+                            }
+                            else {
+                              $user_name=$_SESSION['user'];
+                              echo "<a href=\"profile.php\"><button class=\"logged_in\">$user_name</button></a>";
+                              echo "<a href=\"logout.php\"><button class=\"logged_in\">Logout</button></a>";
+                            }
+                        ?>
+
                     </div>
                 </div>
                 <div id="navigation">
-                    <a href="index.php">Home</a> <font size="3">&#8594;</font> <a href="exhibitions.html">Exhibitions</a>
+                    <a href="index.php">Home</a>
                 </div>
 
                 <div class=side_menu>
@@ -35,11 +53,7 @@
                       <li><a href="speakers_and_researchers.html">Speakers & Researchers</a></li>
                       <li><a href="submitted_papers.html">Submitted Papers</a></li>
                       <li><a href="workshops.html">Workshops</a></li>
-                      <li class="active"><a href="exhibitions.html">Exhibitions</a></li>
-                      <ul>
-                        <li><a href="exhibitions/participating_exhibitors.html">Participating Exhibitors</a></li>
-                        <li><a href="exhibitions/info_for_exhibitors.html">Info for Exhibitors</a></li>
-                      </ul>
+                      <li><a href="exhibitions.html">Exhibitions</a></li>
                       <li><a href="other_activities.html">Other activities</a></li>
                       <li><a href="location_and_access.html">Location & Access</a></li>
                       <li><a href="faq.html">FAQ</a></li>
@@ -50,8 +64,16 @@
                     </ul>
                 </div>
                 <div class="page_content">
-                    <div><h1>Exhibitions</h1></div>
-                    <p>Awesome exhibitions TBA </p>
+                    <div><h1>Welcome to Euromed 2016</h1></div>
+                    <img class="euromed_banner" src="euromed_banner_2016.png"/>
+                    <p>Protecting, preserving and presenting our Cultural Heritage are frequently interpreted as
+                    change management and/or change the behavior of the society. Joint European and international
+                    research produces a scientific background and support for such a change. We are living in a period
+                    characterized by rapid and remarkable changes in the environment, in the society and in technology.
+                    Natural change, war conflicts and man-made changes, including climate, as well as technological and
+                    societal change, form an ever-moving and colorful stage and a challenge for the society. Close cooperation
+                    between professionals, the policy makers and authorities internationally, is necessary for research,
+                    development and technology in the field of cultural heritage. </p>
                 </div>
                 <div class="ads_panel">
                         <a href="index.php">

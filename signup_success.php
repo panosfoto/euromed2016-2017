@@ -1,29 +1,49 @@
+<?php
+   ob_start();
+   session_start();
+?>
+
+<?
+   error_reporting(E_ALL);
+   ini_set("display_errors", 1);
+?>
+<!DOCTYPE html>
 <html>
     <link rel="stylesheet" href="styles.css">
-    <title>Euromed 2016: Home</title>
+    <?php include ('connect.php'); ?>
+    <title>Euromed 2016: Signup success</title>
     <body>
         <div id="frame">
             <div id="page">
                 <a name="top"></a>
                 <div id="header">
                     <div class="img">
-                        <a href="index.php">
+                        <a href="index.html">
                             <img class="logo" src="logo.png"/>
                         </a>
                     </div>
                     <div class="search_bar">
-                        <form action="search_results.html">
+                        <form action="search_results.php">
                             <input type="text" id="fname" name="firstname" placeholder="Search for papers, speakers, etc.">
                             <input type="submit" value="Search">
                         </form>
                     </div>
                     <div class="login">
-                        <button onclick="document.getElementById('id01').style.display='block'">Login</button>
-                        <a href="register.php"><button >Sign Up</button></a>
+                        <?php
+                        if(isset($_SESSION['user'])!="" ){
+                           $user_name=$_SESSION['user'];
+                            echo "<a href=\"profile.php\"><button>$user_name</button></a>";
+                            echo "<a href=\"logout.php\"><button>Logout</button></a>";
+                        }
+                        else {
+                            echo "<a href=\"login.php\"><button>Login</button></a>";
+                            echo "<a href=\"register.php\"><button>Sign Up</button></a>";
+                        }
+                        ?>
                     </div>
                 </div>
                 <div id="navigation">
-                    <a href="index.php">Home</a> <font size="3">&#8594;</font> <a href="exhibitions.html">Exhibitions</a>
+                    <a href="index.html">Home</a> <font size="4">&#8594;</font> <a href="register.html">Sign up</a>
                 </div>
 
                 <div class=side_menu>
@@ -35,11 +55,7 @@
                       <li><a href="speakers_and_researchers.html">Speakers & Researchers</a></li>
                       <li><a href="submitted_papers.html">Submitted Papers</a></li>
                       <li><a href="workshops.html">Workshops</a></li>
-                      <li class="active"><a href="exhibitions.html">Exhibitions</a></li>
-                      <ul>
-                        <li><a href="exhibitions/participating_exhibitors.html">Participating Exhibitors</a></li>
-                        <li><a href="exhibitions/info_for_exhibitors.html">Info for Exhibitors</a></li>
-                      </ul>
+                      <li><a href="exhibitions.html">Exhibitions</a></li>
                       <li><a href="other_activities.html">Other activities</a></li>
                       <li><a href="location_and_access.html">Location & Access</a></li>
                       <li><a href="faq.html">FAQ</a></li>
@@ -50,20 +66,22 @@
                     </ul>
                 </div>
                 <div class="page_content">
-                    <div><h1>Exhibitions</h1></div>
-                    <p>Awesome exhibitions TBA </p>
-                </div>
+                    <div><h1>Site Registration</h1></div>
+                    <div id="success"><h1 style="color:green;">Registration successfull<?php $user_name = $_SESSION['user'];echo " $user_name";?></h1></div>
+
+                    </div>
+               </div>
                 <div class="ads_panel">
-                        <a href="index.php">
+                        <a href="index.html">
                             <img class="logo" src="ad1.png"/>
                         </a>
-                        <a href="index.php">
+                        <a href="index.html">
                             <img class="logo" src="ad2.jpg"/>
                         </a>
-                        <a href="index.php">
+                        <a href="index.html">
                             <img class="logo" src="ad3.jpg"/>
                         </a>
-                        <a href="index.php">
+                        <a href="index.html">
                             <img class="logo" src="ad4.jpg"/>
                         </a>
                 </div>
