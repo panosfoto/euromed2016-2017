@@ -1,18 +1,31 @@
 <?php
-    if(!$error){
-        $addition="INSERT INTO `users` (`FirstName`, `LastName`, `Username`, `Password`, `Email`, `Address`, `PhoneNumber`, `Faculty`, `RegistrationType`) VALUES ('$name','$surname' , '$username', '$password1', '$email', '$address', '$phone', '$faculty', '$reg');";
-        $res=$db->query($addition);
-        $_SESSION['user']=$username;
-        header("Location: signup_success.php");
-    }
-    if(!$res){
-        echo "<font color=\"red\">Something went wrong try again later or Contact euromed if problem persists</font>";
-        $error=1;
-    }
-    $Username=
-    $query="SELECT * FROM users WHERE Username='$username'";
+    $Username=$_SESSION['user'];
+    $query="SELECT * FROM users WHERE Username='$Username'";
     $res=$db->query($query);
     $row=$res->fetch_assoc();
-
+    $Name=$row["FirstName"];
+    $Lastname=$row["LastName"];
+    $Email=$row["Email"];
+    $Address=$row["Address"];
+    $Phone=$row["PhoneNumber"];
+    $Faculty=$row["Faculty"];
+    switch ($row["RegistrationType"]) {
+        case 1:
+            $Regtype="Visitor";
+            break;
+        case 2:
+            $Regtype="Visitor(Speaker)";
+            break;
+        case 3:
+            $Regtype="Speaker";
+            break;
+        case 4:
+            $Regtype="Exhibitor";
+            break;
+        default:
+            $Regtype="";
+            break;
+    }
+    $Name=$row["FirstName"];
 ?>
 

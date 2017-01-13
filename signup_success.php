@@ -11,6 +11,7 @@
 <html>
     <link rel="stylesheet" href="styles.css">
     <?php include ('connect.php'); ?>
+    <?php include ('home_transfer.php'); ?>
     <title>Euromed 2016: Signup success</title>
     <body>
         <div id="frame">
@@ -31,11 +32,11 @@
                     <div class="login">
                         <?php
                         if(isset($_SESSION['user'])!="" ){
-                           $user_name=$_SESSION['user'];
                             echo "<a href=\"profile.php\"><button>$user_name</button></a>";
                             echo "<a href=\"logout.php\"><button>Logout</button></a>";
                         }
                         else {
+                              $user_name=$_SESSION['user'];
                               echo "<a href=\"profile.php\"><button class=\"logged_in\">$user_name</button></a>";
                               echo "<a href=\"logout.php\"><button class=\"logged_in\">Logout</button></a>";
                         }
@@ -70,11 +71,11 @@
                     <?php include('login_info.php')?>
                     <div id="signup_info_head"><h3 style="padding:0;"> Account information</h3></div>
                     <div>
-                        <div class="user_info"><h4>Name : <?php echo " $Name";?><h4></div>
-                        <div class="user_info"><h4>Last name : <?php echo " $Lastname";?><h4></div>
+                        <div class="user_info"><h4>Name : <?php echo "$Name";?><h4></div>
+                        <div class="user_info"><h4>Last name : <?php echo "$Lastname";?><h4></div>
                         <div class="user_info"><h4>Username : <?php $user_name = $_SESSION['user'];echo " $user_name";?><h4></div>
                         <div class="user_info"><h4>Email : <?php echo " $Email";?><h4></div>
-                        <div class="user_info"><h4>Adress : <?php echo " $Adress";?><h4></div>
+                        <div class="user_info"><h4>Adress : <?php echo " $Address";?><h4></div>
                         <div class="user_info"><h4>Phone number : <?php echo "$Phone";?><h4></div>
                         <div class="user_info"><h4>Faculty : <?php echo " $Faculty";?><h4></div>
                         <div class="user_info"><h4>Registration type : <?php echo "$Regtype";?><h4></div>

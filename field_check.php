@@ -126,9 +126,12 @@ $name=$_POST['name'];
     if(!empty($faculty)){
         if(strlen($faculty)<3 || strlen($faculty)>20)
         {
-            $phonemsg='Faculty name too short/long';
+            $facultymsg='Faculty name too short/long';
             $errors[7]=1;
         }
+    }
+    else{
+        $faculty="None";
     }
     $signupmsg = '';
     $reg=$_POST['signup_type'];
