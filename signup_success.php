@@ -11,6 +11,7 @@
 <html>
     <link rel="stylesheet" href="styles.css">
     <?php include ('connect.php'); ?>
+    <?php include ('home_transfer.php'); ?>
     <title>Euromed 2016: Signup success</title>
     <body>
         <div id="frame">
@@ -31,11 +32,11 @@
                     <div class="login">
                         <?php
                         if(isset($_SESSION['user'])!="" ){
-                           $user_name=$_SESSION['user'];
                             echo "<a href=\"profile.php\"><button>$user_name</button></a>";
                             echo "<a href=\"logout.php\"><button>Logout</button></a>";
                         }
                         else {
+                              $user_name=$_SESSION['user'];
                               echo "<a href=\"profile.php\"><button class=\"logged_in\">$user_name</button></a>";
                               echo "<a href=\"logout.php\"><button class=\"logged_in\">Logout</button></a>";
                         }

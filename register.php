@@ -11,7 +11,7 @@
 <html>
     <link rel="stylesheet" href="styles.css">
     <?php include ('connect.php'); ?>
-    <?php include ('home_transfer.php')?>
+    <?php include ('home_transfer_logged_in.php'); ?>
     <title>Euromed 2016: Register</title>
     <body>
         <div id="frame">

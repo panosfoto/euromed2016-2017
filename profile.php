@@ -11,8 +11,8 @@
 <html>
     <link rel="stylesheet" href="styles.css">
     <?php include ('connect.php'); ?>
-    <?php include ('home_transfer_logged_in.php'); ?>
-    <title>Euromed 2016: Login</title>
+    <?php include ('home_transfer.php'); ?>
+    <title>Euromed 2016: Profile</title>
     <body>
         <div id="frame">
             <div id="page">
@@ -31,22 +31,20 @@
                     </div>
                     <div class="login">
                         <?php
-                           if(!isset($_SESSION['user']) ){
-                              $user_name=$_SESSION['user'];
-                              echo "<a href=\"login.php\"><button>Login</button></a>";
-                              echo "<a href=\"register.php\"><button>Sign Up</button></a>";
-                            }
-                            else {
-                              echo "<a href=\"profile.php\"><button>$user_name</button></a>";
-                              echo "<a href=\"logout.php\"><button>Logout</button></a>";
-                            }
-
-
+                        if(isset($_SESSION['user'])!="" ){
+                           $user_name=$_SESSION['user'];
+                            echo "<a href=\"profile.php\"><button>$user_name</button></a>";
+                            echo "<a href=\"logout.php\"><button>Logout</button></a>";
+                        }
+                        else {
+                              echo "<a href=\"profile.php\"><button class=\"logged_in\">$user_name</button></a>";
+                              echo "<a href=\"logout.php\"><button class=\"logged_in\">Logout</button></a>";
+                        }
                         ?>
                     </div>
                 </div>
                 <div id="navigation">
-                    <a href="index.php">Home</a> <font size="3">&#8594;</font> <a href="login.php">Login</a>
+                    <a href="index.php">Home</a> <font size="3">&#8594;</font> <a href="profile.php">Profile</a>
                 </div>
 
                 <div class=side_menu>
@@ -69,17 +67,21 @@
                     </ul>
                 </div>
                 <div class="page_content">
-                    <div><h1>Site Registration</h1></div>
-                    <div id="content_login">
-                        <?php include ('field_check_login.php');?>
-                            <form role="form" action = "<?php echo htmlspecialchars($_SERVER['PHP_SELF']);?>" method = "post">
-                                    <div class="field_text_login">Username</div>
-                                    <input class="field_login" type="text" name="username" value="" size="23" />
-                                    <div class="field_text_login">Password</div>
-                                    <input class="field_login" type="password" name="password" class="password" size="23"  value=""/>
-                                    <div class="login_field_error"><?php echo $errormsg;?></div>
-                                    <input type="submit" class="login_page_login_button" name="submit"value="Login"/>
-                            </form>
+                    <div ><h1 style="color:green;">Registration successfull</h1></div>
+                    <?php include('login_info.php')?>
+                    <div id="signup_info_head"><h3 style="padding:0;"> Account information</h3></div>
+                    <div>
+                        <div class="user_info"><h4>Name : <?php echo "$Name";?><h4></div>
+                        <div class="user_info"><h4>Last name : <?php echo "$Lastname";?><h4></div>
+                        <div class="user_info"><h4>Username : <?php $user_name = $_SESSION['user'];echo " $user_name";?><h4></div>
+                        <div class="user_info"><h4>Email : <?php echo " $Email";?><h4></div>
+                        <div class="user_info"><h4>Adress : <?php echo " $Address";?><h4></div>
+                        <div class="user_info"><h4>Phone number : <?php echo "$Phone";?><h4></div>
+                        <div class="user_info"><h4>Faculty : <?php echo " $Faculty";?><h4></div>
+                        <div class="user_info"><h4>Registration type : <?php echo "$Regtype";?><h4></div>
+                    </div>
+
+
                     </div>
                </div>
                 <div class="ads_panel">
@@ -107,4 +109,4 @@
         </div>
     </body>
 </html>
-<?php ob_end_flush(); ?>
+
