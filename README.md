@@ -1,2 +1,2 @@
 # euromed2016-2017
-Redesign for the site of euromed2016 conference
+Redesign of "Euromed 2016" conference site
