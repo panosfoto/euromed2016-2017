@@ -34,9 +34,9 @@
                             }
                             else {
                               $user_name=$_SESSION['user'];
-                              echo "<a href=\"profile.php\"><button>$user_name</button></a>";
-                              echo "<a href=\"logout.php\"><button>Logout</button></a>";
-                            }
+                              echo "<a href=\"profile.php\"><button class=\"logged_in\">$user_name</button></a>";
+                              echo "<a href=\"logout.php\"><button class=\"logged_in\">Logout</button></a>";
+                             }
 
 
                         ?>
