@@ -255,7 +255,8 @@ if(!$_SESSION['first_changeinfo']){
         }
         if(!$error)
             $_SESSION['user']=$username;
-            header("Location: changeinfo_success.php");
+            $_SESSION['infochange']=1;
+            header("Location: ../profile.php");
     }
     if(!$res){
         echo "<font color=\"red\">Something went wrong try again later or Contact euromed if problem persists</font>";

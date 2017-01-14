@@ -69,7 +69,7 @@
                     </ul>
                 </div>
                 <div class="page_content">
-                    <div><h1>Site Registration</h1></div>
+                    <div><h1>Login</h1></div>
                     <div id="content_login">
                         <?php include ('field_check_login.php');?>
                             <form role="form" action = "<?php echo htmlspecialchars($_SERVER['PHP_SELF']);?>" method = "post">
