@@ -395,7 +395,7 @@ a:link {
     width: 15%;
     float:right;
     background-color: var(--button-color);
-    margin-top: 8%;
+    margin-top: 0%;
     color: white;
     padding: 1% 0.5%;
     border: none;
@@ -464,3 +464,4 @@ a:link {
 .tbl .tbl-cell{
   vertical-align:top;
 }
+

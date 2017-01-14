@@ -86,6 +86,7 @@
                         <div class="user_info_profile">Faculty : <?php echo " $Faculty";?></div>
                         <div class="user_info_profile">Registration type : <?php echo "$Regtype";?></div>
                     </div>
+                    <?php include('speaker_options.php')?>
                     <div id="signup_info_head">Euromed Participation</div>
                     <div id="signup_info_head">Account options </div>
                     <?php $_SESSION['first_changeinfo']=1;?>
