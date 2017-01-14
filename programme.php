@@ -82,8 +82,16 @@
                          <p>Lecture (...)</p>
                          <p>Other Info (...)</p>
                          </td>
-                         <td class="tbl-cell"></td>
-                         <td class="tbl-cell"></td>
+                         <td class="tbl-cell">
+                            <div class="speaker3">
+                                Speaker3
+                            </div>
+                        </td>
+                         <td class="tbl-cell">
+                            <div class="speaker1">
+                                Speaker1
+                            </div>
+                        </td>
                        </tr>
                        <tr>
                          <td class="tbl-cell">11:00-11:15</td>
@@ -93,9 +101,17 @@
                        </tr>
                        <tr>
                          <td class="tbl-cell">11:15-13:00</td>
+                         <td class="tbl-cell">
+                            <div class="speaker1">
+                                Speaker1
+                            </div>
+                        </td>
                          <td class="tbl-cell"></td>
-                         <td class="tbl-cell"></td>
-                         <td class="tbl-cell"></td>
+                         <td class="tbl-cell">
+                            <div class="speaker2">
+                                Speaker2
+                            </div>
+                        </td>
                        </tr>
                        <tr>
                          <td class="tbl-cell">13:00-14:00</td>
@@ -105,8 +121,16 @@
                        </tr>
                        <tr>
                          <td class="tbl-cell">14:00-17:00</td>
-                         <td class="tbl-cell"></td>
-                         <td class="tbl-cell"></td>
+                         <td class="tbl-cell">
+                            <div class="speaker3">
+                                Speaker3
+                            </div>
+                        </td>
+                         <td class="tbl-cell">
+                            <div class="speaker2">
+                                Speaker2
+                            </div>
+                        </td>
                          <td class="tbl-cell"></td>
                        </tr>
                        <tr>
@@ -117,9 +141,21 @@
                        </tr>
                        <tr>
                          <td class="tbl-cell">17:15-20:00</td>
-                         <td class="tbl-cell"></td>
-                         <td class="tbl-cell"></td>
-                         <td class="tbl-cell"></td>
+                         <td class="tbl-cell">
+                            <div class="speaker2">
+                                Speaker2
+                            </div>
+                        </td>
+                         <td class="tbl-cell">
+                            <div class="speaker1">
+                                Speaker1
+                            </div>
+                        </td>
+                         <td class="tbl-cell">
+                            <div class="speaker3">
+                                Speaker3
+                            </div>
+                        </td>
                        </tr>
                      </table>
                 </div>
