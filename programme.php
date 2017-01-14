@@ -68,8 +68,7 @@
                             <?php include('printspeakersfilter.php');?>
                         </select>
                     </form>
-                    <p><br/><br/><br/>*Day X* </p>
-                    <p>*previous*         *next </p>
+                    <p><br/><br/><br/><h3 style="text-align:center">November 2, Wednesday</h3></p>
                     <a href="programme.php" style="float:left;">Previous day</a>
                     <a href="programme.php" style="float:right; margin-right:5%">Next day</a>
                     <table class="tbl">
