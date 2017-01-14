@@ -41,7 +41,7 @@
                     </div>
                 </div>
                 <div id="navigation">
-                    <a href="index.php">Home</a> <font size="3" class="arrow">&#8594;</font> <a href="programme.php">Conference programme</a>
+                    <a href="index.php">Home</a> <font size="3" class="arrow">&#8594;</font> <a href="programme.php">Conference Programme</a>
                 </div>
                 <div class=side_menu>
                      <ul>
@@ -59,13 +59,14 @@
                 <div class="page_content">
                     <div><h1>Conference Programme</h1></div>
                     <form>
-                     <p>*select dropdown here* </p>
-                     <select class="field" name="speaker">
-                        <option>Mustafa Erdik</option>
-                     </select>
+                        <p>Filter by Speaker</p>
+                        <select class="field" name="speaker">
+                            <option>All speakers</option>
+                            <option>Mustafa Erdik</option>
+                        </select>
                     </form>
-                    <p>*Day X* </p>
-                    <p>*previous* *next </p>
+                    <p><br/><br/><br/>*Day X* </p>
+                    <p>*previous*         *next </p>
                     <table class="tbl">
                        <tr>
                          <th class="tbl-cell">Time</th>
