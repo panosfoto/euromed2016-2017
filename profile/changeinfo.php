@@ -44,7 +44,7 @@
                     </div>
                 </div>
                 <div id="navigation">
-                    <a href="../index.php">Home</a> <font size="3">&#8594;</font> <a href="register.php">Sign up</a>
+                    <a href="../index.php">Home</a> <font size="3">&#8594;</font> <a href="../profile.php">Profile</a> <font size="3">&#8594;</font> <a href="changeinfo.php">Change Information</a>
                 </div>
 
                 <div class=side_menu>
@@ -67,7 +67,7 @@
                     </ul>
                 </div>
                 <div class="page_content">
-                    <div><h1>Site Registration</h1></div>
+                    <div><h1>Change information</h1></div>
                     <div>
                     <?php include ('../login_info.php'); ?>
                     <?php include ('field_check_change_info.php'); ?>
@@ -123,7 +123,10 @@
                         </select>
                         <div class="field_error"><?php echo $signupmsg; ?></div>
                         </div>
-                        <input type="submit" name="submit"value="Register"/>
+                        <div style="height:5%;width:100%; margin-top:10%;">
+                        <input type="submit"Class = "change_info_button" style="margin-top:0%;" name="submit"value="Confirm"/>
+                        <a href="../profile.php">Cancel</a>
+                        </div>
                     </form>
                     </div>
                </div>

@@ -169,7 +169,7 @@ if(!$_SESSION['first_changeinfo']){
         }
         else{
             $signupmsg='Changed';
-            $checked[8]=1;
+            $changed[8]=1;
         }
     }
     $error=0;
@@ -254,7 +254,7 @@ if(!$_SESSION['first_changeinfo']){
             }
         }
         if(!$error)
-            $_SERVER['user']=$username;
+            $_SESSION['user']=$username;
             header("Location: changeinfo_success.php");
     }
     if(!$res){

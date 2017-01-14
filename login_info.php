@@ -15,7 +15,7 @@
             $Regtype="Visitor";
             break;
         case 2:
-            $Regtype="Visitor(Speaker)";
+            $Regtype="Visitor(Student)";
             break;
         case 3:
             $Regtype="Speaker";
