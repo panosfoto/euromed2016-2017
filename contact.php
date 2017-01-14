@@ -46,29 +46,22 @@
 
                 <div class=side_menu>
                      <ul>
-                      <li><a href="learn_more.php">Learn more about Euromed 2016</a></li>
-                      <li><a href="announcements.php">Announcements</a></li>
+                      <li><a href="learn_more.php">More about Euromed 2016</a></li>
                       <li><a href="programme.php">Programme</a></li>
                       <li><a href="conference_registration.php">Conference Registration</a></li>
                       <li><a href="speakers_and_researchers.php">Speakers & Researchers</a></li>
                       <li><a href="submitted_papers.php">Submitted Papers</a></li>
-                      <li><a href="workshops.php">Workshops</a></li>
                       <li><a href="exhibitions.php">Exhibitions</a></li>
-                      <li><a href="other_activities.php">Other activities</a></li>
                       <li><a href="location_and_access.php">Location & Access</a></li>
-                      <li><a href="faq.php">FAQ</a></li>
-                      <li class="active"><a href="contact.php">Contact Info</a></li>
                       <li><a href="sponsors.php">Sponsors</a></li>
                       <li><a href="previous_conferences.php">Previous Conferences</a></li>
-                      <li><a href="downloads.php">Downloads</a></li>
                     </ul>
                 </div>
                 <div class="page_content">
-                    <div><h1>Contact</h1></div>
-                    <p>Hey, I just met you, and this is crazy, so leave this site, immediately.
-                    Like, seriously, this is crazy.
-                    It's euromed.
-                    Why are you doing this to yourself?</p>
+                    <div><h1>Contact Information</h1></div>
+                    <p>Telephone: +301234567890</p>
+                    <p>Address: Street 123, City 12345, Country</p>
+                    <p>Email: info@euromed2016.eu</p>
                 </div>
                 <div class="ads_panel">
                         <a href="index.php">
@@ -84,13 +77,13 @@
                             <img class="logo" src="images/ad4.jpg"/>
                         </a>
                 </div>
-                <div id="footer">
-                    <div style=" height=100%; margin-left:1%;">Copyright: Manos Pitsikalis, Panagiotis Fotopoulos
-                        <a href="#top"><button>Back to top</button></a>
-                        <a href="404.php" style="float:right; margin-right:1%;">Sitemap</a>
-                    </div>
+            </div>
+            <div id="footer">
+                <div style=" height=100%; margin-left:1%;">Copyright: Manos Pitsikalis, Panagiotis Fotopoulos
+                    <a href="#top"><button>Back to top</button></a>
+                    <a href="404.php" style="float:right; margin-right:1%;">Sitemap</a>
+                    <a href="contact.php" style="float:right; margin-right:1%;">Contact Info</a>
                 </div>
-
             </div>
         </div>
     </body>

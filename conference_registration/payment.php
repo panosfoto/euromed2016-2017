@@ -29,13 +29,13 @@
                     <div class="login">
                      <?php
                            if(!isset($_SESSION['user']) ){
-                              echo "<a href=\"login.php\"><button>Login</button></a>";
-                              echo "<a href=\"register.php\"><button>Sign Up</button></a>";
+                              echo "<a href=\"../login.php\"><button>Login</button></a>";
+                              echo "<a href=\"../register.php\"><button>Sign Up</button></a>";
                             }
                             else {
                               $user_name=$_SESSION['user'];
-                              echo "<a href=\"profile.php\"><button class=\"logged_in\">$user_name</button></a>";
-                              echo "<a href=\"logout.php\"><button class=\"logged_in\">Logout</button></a>";
+                              echo "<a href=\"../profile.php\"><button class=\"logged_in\">$user_name</button></a>";
+                              echo "<a href=\"../logout.php\"><button class=\"logged_in\">Logout</button></a>";
                             }
                         ?>
 
@@ -85,13 +85,13 @@
                             <img class="logo" src="../images/ad4.jpg"/>
                         </a>
                 </div>
-                <div id="footer">
-                    <div style=" height=100%; margin-left:1%;">Copyright: Manos Pitsikalis, Panagiotis Fotopoulos
-                        <a href="#top"><button>Back to top</button></a>
-                        <a href="404.php" style="float:right; margin-right:1%;">Sitemap</a>
-                    </div>
+            </div>
+            <div id="footer">
+                <div style=" height=100%; margin-left:1%;">Copyright: Manos Pitsikalis, Panagiotis Fotopoulos
+                    <a href="#top"><button>Back to top</button></a>
+                    <a href="404.php" style="float:right; margin-right:1%;">Sitemap</a>
+                    <a href="contact.php" style="float:right; margin-right:1%;">Contact Info</a>
                 </div>
-
             </div>
         </div>
     </body>

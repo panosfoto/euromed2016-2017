@@ -9,7 +9,7 @@
 
 <html>
     <link rel="stylesheet" href="../styles.css">
-    <title>Euromed 2016: Access from abroad</title>
+    <title>Euromed 2016: FAQ</title>
     <body>
         <div id="frame">
             <div id="page">
@@ -27,7 +27,7 @@
                         </form>
                     </div>
                     <div class="login">
-                       <?php
+                        <?php
                            if(!isset($_SESSION['user']) ){
                               echo "<a href=\"../login.php\"><button>Login</button></a>";
                               echo "<a href=\"../register.php\"><button>Sign Up</button></a>";
@@ -41,30 +41,31 @@
                     </div>
                 </div>
                 <div id="navigation">
-                    <a href="../index.php">Home</a> <font size="3" class="arrow">&#8594;</font> <a href="../location_and_access.php">Location & Access</a> <font size="3" class="arrow">&#8594;</font> <a href="access_from_abroad.php">Access from abroad</a>
-
+                    <a href="../index.php">Home</a> <font size="3" class="arrow">&#8594;</font> <a href="../learn_more.php">Learn more about Euromed 2016</a> <font size="3" class="arrow">&#8594;</font> <a href="faq.php">FAQ</a>
                 </div>
 
                 <div class=side_menu>
                      <ul>
-                      <li><a href="../learn_more.php">Learn more about Euromed 2016</a></li>
+                      <li class="lower_active"><a href="../learn_more.php">More about Euromed 2016</a></li>
+                      <ul>
+                        <li><a href="../programme.php">Programme</a></li>
+                        <li><a href="workshops.php">Workshops</a></li>
+                        <li><a href="other_activities.php">Other activities</a></li>
+                        <li class="active"><a href="faq.php">FAQ</a></li>
+                      </ul>
                       <li><a href="../programme.php">Programme</a></li>
                       <li><a href="../conference_registration.php">Conference Registration</a></li>
                       <li><a href="../speakers_and_researchers.php">Speakers & Researchers</a></li>
                       <li><a href="../submitted_papers.php">Submitted Papers</a></li>
                       <li><a href="../exhibitions.php">Exhibitions</a></li>
-                      <li class="lower_active"><a href="../location_and_access.php">Location & Access</a></li>
-                      <ul>
-                        <li class="active"><a href="access_from_abroad.php">Access from abroad</a></li>
-                        <li><a href="accomodation_transportation_in_city.php">Accomodation and transportation in the city</a></li>
-                      </ul>
+                      <li><a href="../location_and_access.php">Location & Access</a></li>
                       <li><a href="../sponsors.php">Sponsors</a></li>
                       <li><a href="../previous_conferences.php">Previous Conferences</a></li>
                     </ul>
                 </div>
                 <div class="page_content">
-                    <div><h1>Access from abroad</h1></div>
-                    <p> Lorem ipsum </p>
+                    <div><h1>FAQ</h1></div>
+                    <p>FAQ. It's euromed. </p>
                 </div>
                 <div class="ads_panel">
                         <a href="../index.php">
@@ -91,5 +92,4 @@
         </div>
     </body>
 </html>
-
 
