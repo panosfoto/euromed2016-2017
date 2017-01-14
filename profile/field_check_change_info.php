@@ -31,7 +31,7 @@ if(!$_SESSION['first_changeinfo']){
             $surnamemsg='Cannot be left empty!';
             $errors[1]=1;
         }
-        else if(strlen($surname)<4 || strlen($surname)>32)
+        else if(strlen($surname)<3 || strlen($surname)>32)
         {
             $surnamemsg='Your Surname must be between 3 and 32 characters!';
             $errors[1]=1;
@@ -53,7 +53,7 @@ if(!$_SESSION['first_changeinfo']){
             $usermsg='Cannot be left empty';
             $errors[2]=1;
         }
-        else if(strlen($username)<4 || strlen($username)>32)
+        else if(strlen($username)<3 || strlen($username)>32)
         {
             $errors[2]=1;
             $usermsg='Your username must be between 3 and 32 characters!';

@@ -6,7 +6,7 @@ $name=$_POST['name'];
         $namemsg='*';
         $errors[0]=1;
     }
-    else if(strlen($name)<=3 || strlen($name)>=32)
+    else if(strlen($name)<3 || strlen($name)>32)
     {
         $namemsg='Your Name must be between 3 and 32 characters!';
         $errors[0]=1;
@@ -22,7 +22,7 @@ $name=$_POST['name'];
         $surnamemsg='*';
         $errors[1]=1;
     }
-    else if(strlen($surname)<4 || strlen($surname)>=32)
+    else if(strlen($surname)<3 || strlen($surname)>32)
     {
         $surnamemsg='Your Surname must be between 3 and 32 characters!';
         $errors[1]=1;
@@ -38,7 +38,7 @@ $name=$_POST['name'];
         $usermsg='*';
         $errors[2]=1;
     }
-    else if(strlen($username)<4 || strlen($username)>=32)
+    else if(strlen($username)<3 || strlen($username)>32)
     {
         $errors[2]=1;
         $usermsg='Your username must be between 3 and 32 characters!';
@@ -95,7 +95,7 @@ $name=$_POST['name'];
         $addressmsg='*';
         $errors[5]=1;
     }
-    else if(strlen($address)<4 || strlen($address)>=32)
+    else if(strlen($address)<4 || strlen($address)>32)
     {
         $addressmsg='Address too short/long';
         $errors[5]=1;
@@ -111,7 +111,7 @@ $name=$_POST['name'];
         $phonemsg='*';
         $errors[6]=1;
     }
-    else if(strlen($phone)<=3 || strlen($phone)>20)
+    else if(strlen($phone)<6 || strlen($phone)>20)
     {
         $phonemsg='Your phone number is not supported , contact Euromed!';
         $errors[6]=1;
@@ -124,9 +124,9 @@ $name=$_POST['name'];
     $facultymsg = '';
     $faculty=$_POST['faculty'];
     if(!empty($faculty)){
-        if(strlen($faculty)<4 || strlen($faculty)>33)
+        if(strlen($faculty)<3 || strlen($faculty)>20)
         {
-            $facultymsg='Faculty name too short/long';
+            $phonemsg='Faculty name too short/long';
             $errors[7]=1;
         }
     }
