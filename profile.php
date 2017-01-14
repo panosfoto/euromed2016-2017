@@ -83,9 +83,10 @@
                     <div id="signup_info_head">Euromed Participation</div>
                         todo
                     <div id="signup_info_head">Account options </div>
-                    <div><a style="color:blue;"href="changeinfo.php">Change personal information</a></div>
-                    <div><a style="color:blue;"href="changepassword.php">Change password</a></div>
-                    <div><a style="color:blue;"href="deleteaccount.php">Delete account</a></div>
+                    <?php $_SESSION['first_changeinfo']=1;?>
+                    <div><a style="color:blue;"href="profile/changeinfo.php">Change personal information</a></div>
+                    <div><a style="color:blue;"href="profile/changepassword.php">Change password</a></div>
+                    <div><a style="color:blue;"href="profile/deleteaccount.php">Delete account</a></div>
 
 
                     </div>
