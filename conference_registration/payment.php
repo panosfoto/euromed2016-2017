@@ -47,7 +47,7 @@
 
                 <div class=side_menu>
                      <ul>
-                      <li><a href="../learn_more.php">Learn more about Euromed 2016</a></li>
+                      <li><a href="../learn_more.php">More about Euromed 2016</a></li>
                       <li><a href="../announcements.php">Announcements</a></li>
                       <li><a href="../programme.php">Programme</a></li>
                       <li class="lower_active"><a href="../conference_registration.php">Conference Registration</a></li>

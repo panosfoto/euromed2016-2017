@@ -9,7 +9,7 @@
 
 <html>
     <link rel="stylesheet" href="styles.css">
-    <title>Euromed 2016: Learn more about Euromed 2016</title>
+    <title>Euromed 2016: More about Euromed 2016</title>
     <body>
         <div id="frame">
             <div id="page">
@@ -41,12 +41,12 @@
                     </div>
                 </div>
                 <div id="navigation">
-                    <a href="index.php">Home</a> <font size="3" class="arrow">&#8594;</font> <a href="learn_more.php">Learn more about Euromed 2016</a>
+                    <a href="index.php">Home</a> <font size="3" class="arrow">&#8594;</font> <a href="learn_more.php">More about Euromed 2016</a>
                 </div>
 
                 <div class=side_menu>
                      <ul>
-                      <li class="active"><a href="learn_more.php">Learn more about Euromed 2016</a></li>
+                      <li class="active"><a href="learn_more.php">More about Euromed 2016</a></li>
                       <ul>
                         <li><a href="programme.php">Programme</a></li>
                         <li><a href="more_about_euromed/workshops.php">Workshops</a></li>

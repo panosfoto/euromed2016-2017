@@ -43,7 +43,7 @@
                     </div>
                 </div>
                 <div id="navigation">
-                    <a href="../index.php">Home</a> <font size="3" class="arrow">&#8594;</font> <a href="../learn_more.php">Learn more about Euromed 2016</a> <font size="3" class="arrow">&#8594;</font> <a href="workshops.php">Workshops</a>
+                    <a href="../index.php">Home</a> <font size="3" class="arrow">&#8594;</font> <a href="../learn_more.php">More about Euromed 2016</a> <font size="3" class="arrow">&#8594;</font> <a href="workshops.php">Workshops</a>
                 </div>
 
                 <div class=side_menu>
