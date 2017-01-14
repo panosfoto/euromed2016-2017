@@ -24,6 +24,11 @@ body {
 html{
     min-width:850px;
 }
+
+#page{
+    height:100%;
+}
+
     #header{
         padding:0;
         height:93px;
