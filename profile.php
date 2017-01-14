@@ -31,15 +31,15 @@
                     </div>
                     <div class="login">
                         <?php
-                        if(isset($_SESSION['user'])!="" ){
-                           $user_name=$_SESSION['user'];
-                            echo "<a href=\"profile.php\"><button>$user_name</button></a>";
-                            echo "<a href=\"logout.php\"><button>Logout</button></a>";
-                        }
-                        else {
+                           if(!isset($_SESSION['user']) ){
+                              echo "<a href=\"login.php\"><button>Login</button></a>";
+                              echo "<a href=\"register.php\"><button>Sign Up</button></a>";
+                            }
+                            else {
+                              $user_name=$_SESSION['user'];
                               echo "<a href=\"profile.php\"><button class=\"logged_in\">$user_name</button></a>";
                               echo "<a href=\"logout.php\"><button class=\"logged_in\">Logout</button></a>";
-                        }
+                            }
                         ?>
                     </div>
                 </div>
@@ -67,6 +67,18 @@
                     </ul>
                 </div>
                 <div class="page_content">
+                    <?php
+                        if($_SESSION['passchange']==1){
+                            echo "<h1 style=\"color:green;\">Password change successfull</h1>";
+                            $_SESSION['passchange']=0;
+                        }
+                        if($_SESSION['infochange']==1){
+                            echo "<h1 style=\"color:green;\">Information change(s) successfull</h1>";
+                            $_SESSION['infochange']=0;
+                        }
+
+                    ?>
+
                     <div ><h1>My Account</h1></div>
                     <?php include('login_info.php')?>
                     <div id="signup_info_head"> Personal info</div>

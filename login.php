@@ -48,28 +48,21 @@
                 <div id="navigation">
                     <a href="index.php">Home</a> <font size="3" class="arrow">&#8594;</font> <a href="login.php">Login</a>
                 </div>
-
                 <div class=side_menu>
                      <ul>
                       <li><a href="learn_more.php">Learn more about Euromed 2016</a></li>
-                      <li><a href="announcements.php">Announcements</a></li>
                       <li><a href="programme.php">Programme</a></li>
                       <li><a href="conference_registration.php">Conference Registration</a></li>
                       <li><a href="speakers_and_researchers.php">Speakers & Researchers</a></li>
                       <li><a href="submitted_papers.php">Submitted Papers</a></li>
-                      <li><a href="workshops.php">Workshops</a></li>
                       <li><a href="exhibitions.php">Exhibitions</a></li>
-                      <li><a href="other_activities.php">Other activities</a></li>
                       <li><a href="location_and_access.php">Location & Access</a></li>
-                      <li><a href="faq.php">FAQ</a></li>
-                      <li><a href="contact.php">Contact Info</a></li>
                       <li><a href="sponsors.php">Sponsors</a></li>
                       <li><a href="previous_conferences.php">Previous Conferences</a></li>
-                      <li><a href="downloads.php">Downloads</a></li>
                     </ul>
                 </div>
                 <div class="page_content">
-                    <div><h1>Site Registration</h1></div>
+                    <div><h1>Login</h1></div>
                     <div id="content_login">
                         <?php include ('field_check_login.php');?>
                             <form role="form" action = "<?php echo htmlspecialchars($_SERVER['PHP_SELF']);?>" method = "post">
