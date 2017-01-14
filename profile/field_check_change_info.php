@@ -1,7 +1,6 @@
 <?php
 $errors=array(0,0,0,0,0,0,0,0,0);
 $changed=array(0,0,0,0,0,0,0,0,0);
-echo $_SESSION['first_changeinfo'];
 if(!$_SESSION['first_changeinfo']){
     $namemsg = '';
     $name=$_POST['name'];
@@ -174,23 +173,94 @@ if(!$_SESSION['first_changeinfo']){
         }
     }
     $error=0;
-    //for($i=0;$i<9;$i++){
-        //if($errors[$i]==1){
-            //$error=1;
-            //break;
-        //}
-    //}
-    //$res=1;
-    //if(!$error){
-        //$addition="INSERT INTO `users` (`FirstName`, `LastName`, `Username`, `Password`, `Email`, `Address`, `PhoneNumber`, `Faculty`, `RegistrationType`) VALUES ('$name','$surname' , '$username', '$password1', '$email', '$address', '$phone', '$faculty', '$reg');";
-        //$res=$db->query($addition);
-        //$_SESSION['user']=$username;
-        //header("Location: signup_success.php");
-    //}
-    //if(!$res){
-        //echo "<font color=\"red\">Something went wrong try again later or Contact euromed if problem persists</font>";
-        //$error=1;
-    //}
+    for($i=0;$i<9;$i++){
+        if($errors[$i]==1){
+            $error=1;
+            break;
+        }
+    }
+    $res=1;
+    if(!$error){
+        for($i=0;$i<9;$i++){
+            if($changed[$i]==1){
+                switch ($i) {
+                    case 0:
+                        $up="UPDATE `users` SET `FirstName` = '$name' WHERE `users`.`Username` = '$Username';";
+                        $res=$db->query($up);
+                        if(!$res){
+                            echo "<font color=\"red\">Something went wrong try again later or Contact euromed if problem persists</font>";
+                            $error=1;
+                        }
+                        break;
+                    case 1:
+                        $up="UPDATE `users` SET `LastName` = '$surname' WHERE `users`.`Username` = '$Username';";
+                        $res=$db->query($up);
+                        if(!$res){
+                            echo "<font color=\"red\">Something went wrong try again later or Contact euromed if problem persists</font>";
+                            $error=1;
+                        }
+                        break;
+                    case 3:
+                        $up="UPDATE `users` SET `Email` = '$email' WHERE `users`.`Username` = '$Username';";
+                        $res=$db->query($up);
+                        if(!$res){
+                            echo "<font color=\"red\">Something went wrong try again later or Contact euromed if problem persists</font>";
+                            $error=1;
+                        }
+                        break;
+                    case 5:
+                        $up="UPDATE `users` SET `Address` = '$address' WHERE `users`.`Username` = '$Username';";
+                        $res=$db->query($up);
+                        if(!$res){
+                            echo "<font color=\"red\">Something went wrong try again later or Contact euromed if problem persists</font>";
+                            $error=1;
+                        }
+                        break;
+                    case 6:
+                        $up="UPDATE `users` SET `PhoneNumber` = '$phone' WHERE `users`.`Username` = '$Username';";
+                        $res=$db->query($up);
+                        if(!$res){
+                            echo "<font color=\"red\">Something went wrong try again later or Contact euromed if problem persists</font>";
+                            $error=1;
+                        }
+                        break;
+                    case 7:
+                        $up="UPDATE `users` SET `Faculty` = '$faculty' WHERE `users`.`Username` = '$Username';";
+                        $res=$db->query($up);
+                        if(!$res){
+                            echo "<font color=\"red\">Something went wrong try again later or Contact euromed if problem persists</font>";
+                            $error=1;
+                        }
+                        break;
+                    case 8:
+                        $up="UPDATE `users` SET `RegistrationType` = '$reg' WHERE `users`.`Username` = '$Username';";
+                        $res=$db->query($up);
+                        if(!$res){
+                            echo "<font color=\"red\">Something went wrong try again later or Contact euromed if problem persists</font>";
+                            $error=1;
+                        }
+                        break;
+                    default:
+                        break;
+                }
+            }
+            if($changed[2]){
+                $up="UPDATE `users` SET `RegistrationType` = '$reg' WHERE `users`.`Username` = '$username';";
+                $res=$db->query($up);
+                if(!$res){
+                    echo "<font color=\"red\">Something went wrong try again later or Contact euromed if problem persists</font>";
+                    $error=1;
+                }
+            }
+        }
+        if(!$error)
+            $_SERVER['user']=$username;
+            header("Location: changeinfo_success.php");
+    }
+    if(!$res){
+        echo "<font color=\"red\">Something went wrong try again later or Contact euromed if problem persists</font>";
+        $error=1;
+    }
 }
 else{
     $namemsg = '';

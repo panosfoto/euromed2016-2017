@@ -67,66 +67,20 @@
                     </ul>
                 </div>
                 <div class="page_content">
-                    <div><h1>Site Registration</h1></div>
+                    <div ><h1 style="color:green;">Information change successfull</h1></div>
+                    <?php include('login_info.php')?>
+                    <div id="signup_info_head">Account information</div>
                     <div>
-                    <?php include ('../login_info.php'); ?>
-                    <?php include ('field_check_change_info.php'); ?>
-                        <form role="form" action = "<?php echo htmlspecialchars($_SERVER['PHP_SELF']);?>" method = "post">
-                        <div class="field_text">Name</div>
-                        <div>
-                        <input class="field" type="text" name="name" value="<?php if($changed[0]==0){echo $Name;}else{ echo $name; }?>" size="23"/>
-                        <div class="field_error"><?php echo $namemsg; ?></div>
-                        </div>
-
-                        <div class="field_text">Surname</div>
-                        <div>
-                        <input class="field" type="text" name="surname" value="<?php if($changed[1]==0){echo $Lastname;}else{echo $surname;}?>" size="23"/>
-                        <div class="field_error"><?php echo $surnamemsg; ?></div>
-                        </div>
-
-                        <div class="field_text">Username</div>
-                        <div>
-                        <input class="field" type="text" name="username" value="<?php if($changed[2]==0){echo $Username;}else{echo $username;}?>" size="23" />
-                        <div class="field_error"><?php echo $usermsg; ?></div>
-                        </div>
-
-                        <div class="field_text">Email</div>
-                        <div>
-                        <input class="field" type="text" name="email" size="23" value="<?php if($changed[3]==0){echo $Email;}else{echo $email;}?>" />
-                        <div class="field_error"><?php echo $emailmsg; ?></div>
-                        </div>
-
-                        <div class="field_text">Full address</div>
-                        <div>
-                        <input class="field" type="text" name="address" size="23" value="<?php if($changed[5]==0){echo $Address;}else{echo $address;}?>"/>
-                        <div class="field_error"><?php echo $addressmsg; ?></div>
-                        </div>
-
-                        <div class="field_text">Phone number</div>
-                        <div>
-                        <input class="field" type="text" name="phone" size="23" value="<?php if($changed[6]==0){echo $Phone;}else{echo $phone;}?>" />
-                        <div class="field_error"><?php echo $phonemsg; ?></div>
-                        </div>
-
-                        <div class="field_text">Faculty</div>
-                        <div>
-                        <input class="field" type="text" name="faculty" size="23" value="<?php if($changed[7]==0){echo $Faculty;}else{echo $faculty;}?>" />
-                        <div class="field_error"><?php echo $facultymsg; ?></div>
-                        </div>
-                        <div class="field_text">Registration type</div>
-                        <div>
-                        <select class="field" name="signup_type">
-                            <option value="1"<?php if(($changed[8]== 0&& !strcmp($Reg,"1"))||($changed[8]== 1&& !strcmp($reg,"1"))){echo "selected";}?>>Visitor</option>
-                            <option value="2"<?php if(($changed[8]== 0&& !strcmp($Reg,"2"))||($changed[8]== 1&& !strcmp($reg,"2"))){echo "selected";}?>>Visitor(Student)</option>
-                            <option value="3"<?php if(($changed[8]== 0&& !strcmp($Reg,"3"))||($changed[8]== 1&& !strcmp($reg,"3"))){echo "selected";}?>>Speaker</option>
-                            <option value="4"<?php if(($changed[8]== 0&& !strcmp($Reg,"4"))||($changed[8]== 1&& !strcmp($reg,"4"))){echo "selected";}?>>Exhibitor</option>
-                        </select>
-                        <div class="field_error"><?php echo $signupmsg; ?></div>
-                        </div>
-                        <input type="submit" name="submit"value="Register"/>
-                    </form>
+                        <div class="user_info">Name : </div>
+                        <div class="user_info">Last name : <?php echo "$Lastname";?></div>
+                        <div class="user_info">Username : <?php $user_name = $_SESSION['user'];echo " $user_name";?></div>
+                        <div class="user_info">Email : <?php echo " $Email";?></div>
+                        <div class="user_info">Adress : <?php echo " $Address";?></div>
+                        <div class="user_info">Phone number : <?php echo "$Phone";?></div>
+                        <div class="user_info">Faculty : <?php echo " $Faculty";?></div>
+                        <div class="user_info">Registration type : <?php echo "$Regtype";?></div>
                     </div>
-               </div>
+                </div>
                 <div class="ads_panel">
                         <a href="../index.php">
                             <img class="logo" src="../images/ad1.png"/>
