@@ -18,7 +18,7 @@ if(isset($_FILES['image'])){
       }
 
       if(empty($errors)==true){
-          if(move_uploaded_file($file_tmp,"images/",$file_name))
+          if(move_uploaded_file($file_tmp,"images/".$file_name))
               echo "Success $.file_name";
           else
               echo "error";
