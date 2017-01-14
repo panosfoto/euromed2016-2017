@@ -44,7 +44,7 @@
                     </div>
                 </div>
                 <div id="navigation">
-                    <a href="../index.php">Home</a> <font size="3">&#8594;</font> <a href="register.php">Sign up</a>
+                    <a href="../index.php">Home</a> <font size="3">&#8594;</font> <a href="../profile.php">Profile</a><font size="3">&#8594;</font><a href="changeinfo_success.php">Success</a>
                 </div>
 
                 <div class=side_menu>
@@ -71,7 +71,7 @@
                     <?php include('../login_info.php')?>
                     <div id="signup_info_head">Account information</div>
                     <div>
-                        <div class="user_info">Name : </div>
+                        <div class="user_info">Name : <?php echo "$Name";?></div>
                         <div class="user_info">Last name : <?php echo "$Lastname";?></div>
                         <div class="user_info">Username : <?php $user_name = $_SESSION['user'];echo " $user_name";?></div>
                         <div class="user_info">Email : <?php echo " $Email";?></div>
@@ -79,6 +79,12 @@
                         <div class="user_info">Phone number : <?php echo "$Phone";?></div>
                         <div class="user_info">Faculty : <?php echo " $Faculty";?></div>
                         <div class="user_info">Registration type : <?php echo "$Regtype";?></div>
+                        <div id="signup_info_head">Links</div>
+                        <ul>
+                           <li> <a href="../profile.php">Profile</a></li>
+                           <li> <a href="../index.php">Home</a></li>
+                        </ul>
+                        </div>
                     </div>
                 </div>
                 <div class="ads_panel">
