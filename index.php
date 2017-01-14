@@ -1,8 +1,6 @@
-
 <?php
    session_start();
 ?>
-
 <?
    error_reporting(E_ALL);
    ini_set("display_errors", 1);
@@ -38,7 +36,6 @@
                               echo "<a href=\"logout.php\"><button class=\"logged_in\">Logout</button></a>";
                             }
                         ?>
-
                     </div>
                 </div>
                 <div id="navigation">
@@ -47,20 +44,14 @@
                 <div class=side_menu>
                      <ul>
                       <li><a href="learn_more.php">Learn more about Euromed 2016</a></li>
-                      <li><a href="announcements.php">Announcements</a></li>
                       <li><a href="programme.php">Programme</a></li>
                       <li><a href="conference_registration.php">Conference Registration</a></li>
                       <li><a href="speakers_and_researchers.php">Speakers & Researchers</a></li>
                       <li><a href="submitted_papers.php">Submitted Papers</a></li>
-                      <li><a href="workshops.php">Workshops</a></li>
                       <li><a href="exhibitions.php">Exhibitions</a></li>
-                      <li><a href="other_activities.php">Other activities</a></li>
                       <li><a href="location_and_access.php">Location & Access</a></li>
-                      <li><a href="faq.php">FAQ</a></li>
-                      <li><a href="contact.php">Contact Info</a></li>
                       <li><a href="sponsors.php">Sponsors</a></li>
                       <li><a href="previous_conferences.php">Previous Conferences</a></li>
-                      <li><a href="downloads.php">Downloads</a></li>
                     </ul>
                 </div>
                 <div class="page_content">
@@ -74,6 +65,14 @@
                     societal change, form an ever-moving and colorful stage and a challenge for the society. Close cooperation
                     between professionals, the policy makers and authorities internationally, is necessary for research,
                     development and technology in the field of cultural heritage. </p>
+                    <div>
+                        <h2>Latest Announcements</h2>
+	                    <ul>
+	                        <li> New major Speaker: Mustafa Erdik </li>
+	                        <li> New paper submission deadline: 15/9 </li>
+	                    </ul>
+                    </div>
+                    <a href="announcements.php">See all announcements</a>
                 </div>
                 <div class="ads_panel">
                         <a href="index.php">
@@ -93,11 +92,10 @@
                     <div style=" height=100%; margin-left:1%;">Copyright: Manos Pitsikalis, Panagiotis Fotopoulos
                         <a href="#top"><button>Back to top</button></a>
                         <a href="404.php" style="float:right; margin-right:1%;">Sitemap</a>
+                        <a href="contact.php" style="float:right; margin-right:1%;">Contact Info</a>
                     </div>
                 </div>
-
             </div>
         </div>
     </body>
 </html>
-
