@@ -67,19 +67,25 @@
                     </ul>
                 </div>
                 <div class="page_content">
-                    <div ><h1 style="color:green;">Registration successfull</h1></div>
+                    <div ><h1>My Account</h1></div>
                     <?php include('login_info.php')?>
-                    <div id="signup_info_head"><h3 style="padding:0;"> Account information</h3></div>
+                    <div id="signup_info_head"> Personal info</div>
                     <div>
-                        <div class="user_info"><h4>Name : <?php echo "$Name";?><h4></div>
-                        <div class="user_info"><h4>Last name : <?php echo "$Lastname";?><h4></div>
-                        <div class="user_info"><h4>Username : <?php $user_name = $_SESSION['user'];echo " $user_name";?><h4></div>
-                        <div class="user_info"><h4>Email : <?php echo " $Email";?><h4></div>
-                        <div class="user_info"><h4>Adress : <?php echo " $Address";?><h4></div>
-                        <div class="user_info"><h4>Phone number : <?php echo "$Phone";?><h4></div>
-                        <div class="user_info"><h4>Faculty : <?php echo " $Faculty";?><h4></div>
-                        <div class="user_info"><h4>Registration type : <?php echo "$Regtype";?><h4></div>
+                        <div class="user_info_profile">Name : <?php echo "$Name";?></div>
+                        <div class="user_info_profile">Last name : <?php echo "$Lastname";?></div>
+                        <div class="user_info_profile">Username : <?php $user_name = $_SESSION['user'];echo " $user_name";?></div>
+                        <div class="user_info_profile">Email : <?php echo " $Email";?></div>
+                        <div class="user_info_profile">Adress : <?php echo " $Address";?></div>
+                        <div class="user_info_profile">Phone number : <?php echo "$Phone";?></div>
+                        <div class="user_info_profile">Faculty : <?php echo " $Faculty";?></div>
+                        <div class="user_info_profile">Registration type : <?php echo "$Regtype";?></div>
                     </div>
+                    <div id="signup_info_head">Euromed Participation</div>
+                        todo
+                    <div id="signup_info_head">Account options </div>
+                    <div><a style="color:blue;"href="changeinfo.php">Change personal information</a></div>
+                    <div><a style="color:blue;"href="changepassword.php">Change password</a></div>
+                    <div><a style="color:blue;"href="deleteaccount.php">Delete account</a></div>
 
 
                     </div>
