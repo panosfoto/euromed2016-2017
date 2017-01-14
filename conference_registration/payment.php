@@ -48,7 +48,6 @@
                 <div class=side_menu>
                      <ul>
                       <li><a href="../learn_more.php">More about Euromed 2016</a></li>
-                      <li><a href="../announcements.php">Announcements</a></li>
                       <li><a href="../programme.php">Programme</a></li>
                       <li class="lower_active"><a href="../conference_registration.php">Conference Registration</a></li>
                       <ul>
@@ -56,15 +55,10 @@
                       </ul>
                       <li><a href="../speakers_and_researchers.php">Speakers & Researchers</a></li>
                       <li><a href="../submitted_papers.php">Submitted Papers</a></li>
-                      <li><a href="../workshops.php">Workshops</a></li>
                       <li><a href="../exhibitions.php">Exhibitions</a></li>
-                      <li><a href="../other_activities.php">Other activities</a></li>
                       <li><a href="../location_and_access.php">Location & Access</a></li>
-                      <li><a href="../faq.php">FAQ</a></li>
-                      <li><a href="../contact.php">Contact Info</a></li>
                       <li><a href="../sponsors.php">Sponsors</a></li>
                       <li><a href="../previous_conferences.php">Previous Conferences</a></li>
-                      <li><a href="../downloads.php">Downloads</a></li>
                     </ul>
                 </div>
                 <div class="page_content">
@@ -96,5 +90,4 @@
         </div>
     </body>
 </html>
-
 
