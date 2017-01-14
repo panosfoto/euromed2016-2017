@@ -69,16 +69,16 @@
                 <div class="page_content">
                     <div ><h1 style="color:green;">Registration successfull</h1></div>
                     <?php include('login_info.php')?>
-                    <div id="signup_info_head"><h3 style="padding:0;"> Account information</h3></div>
+                    <div id="signup_info_head">Account information</div>
                     <div>
-                        <div class="user_info"><h4>Name : <?php echo "$Name";?><h4></div>
-                        <div class="user_info"><h4>Last name : <?php echo "$Lastname";?><h4></div>
-                        <div class="user_info"><h4>Username : <?php $user_name = $_SESSION['user'];echo " $user_name";?><h4></div>
-                        <div class="user_info"><h4>Email : <?php echo " $Email";?><h4></div>
-                        <div class="user_info"><h4>Adress : <?php echo " $Address";?><h4></div>
-                        <div class="user_info"><h4>Phone number : <?php echo "$Phone";?><h4></div>
-                        <div class="user_info"><h4>Faculty : <?php echo " $Faculty";?><h4></div>
-                        <div class="user_info"><h4>Registration type : <?php echo "$Regtype";?><h4></div>
+                        <div class="user_info">Name : </div>
+                        <div class="user_info">Last name : <?php echo "$Lastname";?></div>
+                        <div class="user_info">Username : <?php $user_name = $_SESSION['user'];echo " $user_name";?></div>
+                        <div class="user_info">Email : <?php echo " $Email";?></div>
+                        <div class="user_info">Adress : <?php echo " $Address";?></div>
+                        <div class="user_info">Phone number : <?php echo "$Phone";?></div>
+                        <div class="user_info">Faculty : <?php echo " $Faculty";?></div>
+                        <div class="user_info">Registration type : <?php echo "$Regtype";?></div>
                     </div>
 
 

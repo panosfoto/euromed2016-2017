@@ -392,19 +392,26 @@ a:link {
     border-color:black;
     text-align: bottom;
     margin-bottom:0%;
+    margin-top:2%;
     border-bottom-style:solid;
     color:black;
     height: auto;
     width:100%;
     font-size:100%;
+    font-weight:bold;
 }
 
 .user_info{
-    margin-top:2%;
+    margin-top:0%;
     width:100%;
     height:auto;
 }
 
+.user_info_profile{
+    margin-top:1%;
+    width:100%;
+    height:auto;
+}
 .tbl {
   border-collapse:collapse;
   border-spacing:0;
