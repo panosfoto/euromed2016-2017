@@ -68,7 +68,7 @@
                 </div>
                 <div class="page_content">
                     <div ><h1 style="color:green;">Information change successfull</h1></div>
-                    <?php include('login_info.php')?>
+                    <?php include('../login_info.php')?>
                     <div id="signup_info_head">Account information</div>
                     <div>
                         <div class="user_info">Name : </div>

@@ -169,7 +169,7 @@ if(!$_SESSION['first_changeinfo']){
         }
         else{
             $signupmsg='Changed';
-            $checked[8]=1;
+            $changed[8]=1;
         }
     }
     $error=0;
