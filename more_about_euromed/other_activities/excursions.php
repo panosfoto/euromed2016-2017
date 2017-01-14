@@ -9,7 +9,7 @@
 
 <html>
     <link rel="stylesheet" href="../../styles.css">
-    <title>Euromed 2016: Contact with the organization</title>
+    <title>Euromed 2016: Excursions</title>
     <body>
         <div id="frame">
             <div id="page">
@@ -27,7 +27,7 @@
                         </form>
                     </div>
                     <div class="login">
-                        <?php
+                         <?php
                            if(!isset($_SESSION['user']) ){
                               echo "<a href=\"../../login.php\"><button>Login</button></a>";
                               echo "<a href=\"../../register.php\"><button>Sign Up</button></a>";
@@ -41,34 +41,33 @@
                     </div>
                 </div>
                 <div id="navigation">
-                    <a href="../../index.php">Home</a> <font size="3" class="arrow">&#8594;</font> <a href="../../exhibitions.php">Exhibitions</a> <font size="3" class="arrow">&#8594;</font> <a href="../info_for_exhibitors.php">Information for Exhibitors</a> <font size="3" class="arrow">&#8594;</font> <a href="contact_with_organization.php">Contact with organization</a>
-
+                    <a href="../../index.php">Home</a> <font size="3" class="arrow">&#8594;</font> <a href="../../learn_more.php">Learn more about Euromed 2016</a> <font size="3" class="arrow">&#8594;</font> <a href="../other_activities.php">Other activities</a> <font size="3" class="arrow">&#8594;</font> <a href="excursions.php">Excursions</a>
                 </div>
-
                 <div class=side_menu>
                      <ul>
-                      <li><a href="../../learn_more.php">Learn more about Euromed 2016</a></li>
+                      <li class="lower_active"><a href="../../learn_more.php">More about Euromed 2016</a></li>
+                      <ul>
+                        <li><a href="../../programme.php">Programme</a></li>
+                        <li><a href="../workshops.php">Workshops</a></li>
+                        <li class="lower_active"><a href="../other_activities.php">Other activities</a></li>
+                        <ul>
+                            <li class="active"><a href="excursions.php">Excursions</a></li>
+                        </ul>
+                        <li><a href="../faq.php">FAQ</a></li>
+                      </ul>
                       <li><a href="../../programme.php">Programme</a></li>
                       <li><a href="../../conference_registration.php">Conference Registration</a></li>
                       <li><a href="../../speakers_and_researchers.php">Speakers & Researchers</a></li>
                       <li><a href="../../submitted_papers.php">Submitted Papers</a></li>
-                      <li class="lower_active"><a href="../../exhibitions.php">Exhibitions</a></li>
-                      <ul>
-                        <li><a href="../participating_exhibitors.php">Participating Exhibitors</a></li>
-                        <li class="lower_active"><a href="../info_for_exhibitors.php">Info for Exhibitors</a></li>
-                        <ul>
-                          <li><a href="exhibition_area.php">Exhibition area</a></li>
-                          <li class="active"><a href="contact_with_organization.php">Contact with the organization</a></li>
-                        </ul>
-                      </ul>
+                      <li><a href="../../exhibitions.php">Exhibitions</a></li>
                       <li><a href="../../location_and_access.php">Location & Access</a></li>
                       <li><a href="../../sponsors.php">Sponsors</a></li>
                       <li><a href="../../previous_conferences.php">Previous Conferences</a></li>
                     </ul>
                 </div>
                 <div class="page_content">
-                    <div><h1>Contact with organization</h1></div>
-                    <p> Blablabla </p>
+                    <div><h1>Excursions</h1></div>
+                    <p> Lorem ipsum </p>
                 </div>
                 <div class="ads_panel">
                         <a href="../../index.php">
