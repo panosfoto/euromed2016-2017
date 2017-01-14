@@ -244,8 +244,8 @@ if(!$_SESSION['first_changeinfo']){
                         break;
                 }
             }
-            if($changed[2]){
-                $up="UPDATE `users` SET `RegistrationType` = '$reg' WHERE `users`.`Username` = '$username';";
+            if($changed[2]==1){
+                $up="UPDATE `users` SET `Username` = '$username' WHERE `users`.`UserName` = '$Username';";
                 $res=$db->query($up);
                 if(!$res){
                     echo "<font color=\"red\">Something went wrong try again later or Contact euromed if problem persists</font>";
