@@ -8,6 +8,7 @@
 ?>
 
 <html>
+    <?php include ('connect.php'); ?>
     <link rel="stylesheet" href="styles.css">
     <title>Euromed 2016: Programme</title>
     <body>
@@ -62,6 +63,7 @@
                         <p>Filter by Speaker</p>
                         <select class="field" name="speaker">
                             <option>All speakers</option>
+                            <?php include('printspeakersfilter.php');?>
                             <option>Mustafa Erdik</option>
                         </select>
                     </form>
