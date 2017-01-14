@@ -254,7 +254,7 @@ if(!$_SESSION['first_changeinfo']){
             }
         }
         if(!$error)
-            $_SERVER['user']=$username;
+            $_SESSION['user']=$username;
             header("Location: changeinfo_success.php");
     }
     if(!$res){
