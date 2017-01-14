@@ -9,6 +9,7 @@
     $Address=$row["Address"];
     $Phone=$row["PhoneNumber"];
     $Faculty=$row["Faculty"];
+    $Reg=$row["RegistrationType"];
     switch ($row["RegistrationType"]) {
         case 1:
             $Regtype="Visitor";
