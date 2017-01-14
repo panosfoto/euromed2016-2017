@@ -87,7 +87,6 @@
                         <div class="user_info_profile">Registration type : <?php echo "$Regtype";?></div>
                     </div>
                     <div id="signup_info_head">Euromed Participation</div>
-                        todo
                     <div id="signup_info_head">Account options </div>
                     <?php $_SESSION['first_changeinfo']=1;?>
                     <div><a style="color:blue;"href="profile/changeinfo.php">Change personal information</a></div>
