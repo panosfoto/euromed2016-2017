@@ -43,7 +43,7 @@
                     </div>
                 </div>
                 <div id="navigation">
-                    <a href="../index.php">Home</a> <font size="4">&#8594;</font> <a href="../speakers_and_researchers.php">Speakers & Researchers </a> <font size="4">&#8594;</font> <a href="conference_speakers.php">Conference Speakers </a>
+                    <a href="../index.php">Home</a> <font size="3" class="arrow">&#8594;</font> <a href="../speakers_and_researchers.php">Speakers & Researchers </a> <font size="3" class="arrow">&#8594;</font> <a href="conference_speakers.php">Conference Speakers </a>
 
                 </div>
 

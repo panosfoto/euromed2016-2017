@@ -41,7 +41,7 @@
                     </div>
                 </div>
                 <div id="navigation">
-                    <a href="../index.php">Home</a> <font size="4">&#8594;</font> <a href="../speakers_and_researchers.php">Speakers & Researchers </a> <font size="4">&#8594;</font> <a href="info_for_speakers.php">Information for Speakers</a>
+                    <a href="../index.php">Home</a> <font size="3" class="arrow">&#8594;</font> <a href="../speakers_and_researchers.php">Speakers & Researchers </a> <font size="3" class="arrow">&#8594;</font> <a href="info_for_speakers.php">Information for Speakers & Researchers</a>
 
                 </div>
 
@@ -73,7 +73,7 @@
                     </ul>
                 </div>
                 <div class="page_content">
-                    <div><h1>Information for Speakers</h1></div>
+                    <div><h1>Information for Speakers & Researchers</h1></div>
                     <p> Blablabla </p>
                     <div style="margin-left:2%;"> &#11044;  <a href="info_for_speakers/information.php" style="margin-left:1%;">General Information</a></div>
                     <p> Blablabla </p>

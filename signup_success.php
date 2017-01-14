@@ -44,7 +44,7 @@
                     </div>
                 </div>
                 <div id="navigation">
-                    <a href="index.php">Home</a> <font size="3">&#8594;</font> <a href="signup_success.php">Success</a>
+                    <a href="index.php">Home</a> <font size="3" class="arrow">&#8594;</font> <a href="signup_success.php">Success</a>
                 </div>
 
                 <div class=side_menu>

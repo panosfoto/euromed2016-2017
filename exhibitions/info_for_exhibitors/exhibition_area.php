@@ -41,7 +41,7 @@
                     </div>
                 </div>
                 <div id="navigation">
-                    <a href="../../index.php">Home</a> <font size="4">&#8594;</font> <a href="../../exhibitions.php">Exhibitions</a> <font size="4">&#8594;</font> <a href="../info_for_exhibitors.php">Information for Exhibitors</a> <font size="4">&#8594;</font> <a href="exhibition_area.php">Exhibition area</a>
+                    <a href="../../index.php">Home</a> <font size="3" class="arrow">&#8594;</font> <a href="../../exhibitions.php">Exhibitions</a> <font size="3" class="arrow">&#8594;</font> <a href="../info_for_exhibitors.php">Information for Exhibitors</a> <font size="3" class="arrow">&#8594;</font> <a href="exhibition_area.php">Exhibition area</a>
 
                 </div>
 
