@@ -50,8 +50,8 @@
                       <li><a href="../../learn_more.php">Learn more about Euromed 2016</a></li>
                       <li><a href="../../announcements.php">Announcements</a></li>
                       <li><a href="../../programme.php">Programme</a></li>
-                      <li><a href="../conference_registration.php">Conference Registration</a></li>
-                      <li class="lower_active"><a href="../speakers_and_researchers.php">Speakers & Researchers</a></li>
+                      <li><a href="../../conference_registration.php">Conference Registration</a></li>
+                      <li class="lower_active"><a href="../../speakers_and_researchers.php">Speakers & Researchers</a></li>
                       <ul>
                         <li><a href="../conference_speakers.php">Conference Speakers</a></li>
                         <li class="lower_active"><a href="../info_for_speakers.php">Info for Speakers & Researchers</a></li>
