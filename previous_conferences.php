@@ -67,24 +67,30 @@
                 </div>
                 <div class="page_content">
                     <div><h1>Previous Euromed conferences</h1></div>
-                    <div><h3><a target="_blank" href="http://www.euromed2015.eu">Euromed 2015</a></h3></div>
+                    <div><h3><a target="_blank" href="http://www.euromed2015.eu">
+                        Euromed 2015
                     <!---image here--->
-                    image
-                    <div><h3><a target="_blank" href="http://www.culturalheritage2014.eu">CIPA/EuroMed2014</a></h3></div>
-                    <!---image here--->
-                    image
-                    <div><h3><a target="_blank" href="http://www.euromed2012.eu">CIPA/EuroMed2012</a></h3></div>
-                    <!---image here--->
-                    image
-                    <div><h3><a target="_blank" href="http://www.euromed2010.euromed2012.eu">CIPA/EuroMed2010</a></h3></div>
-                    <!---image here--->
-                    image
-                    <div><h3><a target="_blank" href="http://vsmm2008.org">CIPA/VSMM/EuroMed2008</a></h3></div>
-                    <!---image here--->
-                    image
-                    <div><h3><a target="_blank" href="http://www.cipavast2006.org">CIPA/VAST/EG/EuroMed2006</a></h3></div>
-                    <!---image here--->
-                    image
+                    </a></h3></div>
+                    <div><h3><a target="_blank" href="http://www.culturalheritage2014.eu">
+                        CIPA/EuroMed2014
+                        <img class="euromed_banner" src="images/euromed2014.jpg"/>
+                    </a></h3></div>
+                    <div><h3><a target="_blank" href="http://www.euromed2012.eu">
+                        CIPA/EuroMed2012
+                        <img class="euromed_banner" src="images/euromed2012.jpg"/>
+                    </a></h3></div>
+                    <div><h3><a target="_blank" href="http://www.euromed2010.euromed2012.eu">
+                        CIPA/EuroMed2010
+                        <img class="euromed_banner" src="images/euromed2010.jpg"/>
+                    </a></h3></div>
+                    <div><h3><a target="_blank" href="http://vsmm2008.org">
+                        CIPA/VSMM/EuroMed2008
+                        <img class="euromed_banner" src="images/vsmm2008.jpg"/>
+                    </a></h3></div>
+                    <div><h3><a target="_blank" href="http://www.cipavast2006.org">
+                        CIPA/VAST/EG/EuroMed2006
+                        <img class="euromed_banner" src="images/cipavast2006.png"/>
+                    </a></h3></div>
                 </div>
                 <div class="ads_panel">
                         <a href="index.php">
