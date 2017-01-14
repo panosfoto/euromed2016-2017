@@ -11,6 +11,8 @@
     <?php include ('connect.php'); ?>
     <link rel="stylesheet" href="styles.css">
     <title>Euromed 2016: Programme</title>
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
+    <script type="text/javascript" src="programfilter.js"></script>
     <body>
         <div id="frame">
             <div id="page">
@@ -61,10 +63,9 @@
                     <div><h1>Conference Programme</h1></div>
                     <form>
                         <p>Filter by Speaker</p>
-                        <select class="field" name="speaker">
+                        <select class="field" name="speaker" onchange="getval(this);">
                             <option>All speakers</option>
                             <?php include('printspeakersfilter.php');?>
-                            <option>Mustafa Erdik</option>
                         </select>
                     </form>
                     <p><br/><br/><br/>*Day X* </p>

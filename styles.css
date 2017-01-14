@@ -465,3 +465,7 @@ a:link {
   vertical-align:top;
 }
 
+.selected{
+    background:var(--main-darker-color);
+}
+

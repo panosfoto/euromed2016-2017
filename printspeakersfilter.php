@@ -5,7 +5,8 @@
         $row=$result->fetch_assoc();
         $name=$row["FirstName"];
         $surname=$row["LastName"];
-        echo  "<option>$name $surname</option>";
+        $sv=$i+1;
+        echo  "<option value=\"speaker$sv\">$name $surname</option>";
     }
 ?>
 
