@@ -94,13 +94,13 @@
                             <img class="logo" src="images/ad4.jpg"/>
                         </a>
                 </div>
-                <div id="footer">
-                    <div style=" height=100%; margin-left:1%;">Copyright: Manos Pitsikalis, Panagiotis Fotopoulos
-                        <a href="#top"><button>Back to top</button></a>
-                        <a href="404.php" style="float:right; margin-right:1%;">Sitemap</a>
-                    </div>
+            </div>
+            <div id="footer">
+                <div style=" height=100%; margin-left:1%;">Copyright: Manos Pitsikalis, Panagiotis Fotopoulos
+                    <a href="#top"><button>Back to top</button></a>
+                    <a href="404.php" style="float:right; margin-right:1%;">Sitemap</a>
+                    <a href="contact.php" style="float:right; margin-right:1%;">Contact Info</a>
                 </div>
-
             </div>
         </div>
     </body>
