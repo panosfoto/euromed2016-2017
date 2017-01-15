@@ -72,31 +72,14 @@
                     Natural change, war conflicts and man-made changes, including climate, as well as technological and
                     societal change, form an ever-moving and colorful stage and a challenge for the society. Close cooperation
                     between professionals, the policy makers and authorities internationally, is necessary for research,
-                    development and technology in the field of cultural heritage. </p>
-                    <p>Protecting, preserving and presenting our Cultural Heritage are frequently interpreted as
-                    change management and/or change the behavior of the society. Joint European and international
-                    research produces a scientific background and support for such a change. We are living in a period
-                    characterized by rapid and remarkable changes in the environment, in the society and in technology.
-                    Natural change, war conflicts and man-made changes, including climate, as well as technological and
-                    societal change, form an ever-moving and colorful stage and a challenge for the society. Close cooperation
-                    between professionals, the policy makers and authorities internationally, is necessary for research,
-                    development and technology in the field of cultural heritage. </p>
-                    <p>Protecting, preserving and presenting our Cultural Heritage are frequently interpreted as
-                    change management and/or change the behavior of the society. Joint European and international
-                    research produces a scientific background and support for such a change. We are living in a period
-                    characterized by rapid and remarkable changes in the environment, in the society and in technology.
-                    Natural change, war conflicts and man-made changes, including climate, as well as technological and
-                    societal change, form an ever-moving and colorful stage and a challenge for the society. Close cooperation
-                    between professionals, the policy makers and authorities internationally, is necessary for research,
-                    development and technology in the field of cultural heritage. </p>
-                    <p>Protecting, preserving and presenting our Cultural Heritage are frequently interpreted as
-                    change management and/or change the behavior of the society. Joint European and international
-                    research produces a scientific background and support for such a change. We are living in a period
-                    characterized by rapid and remarkable changes in the environment, in the society and in technology.
-                    Natural change, war conflicts and man-made changes, including climate, as well as technological and
-                    societal change, form an ever-moving and colorful stage and a challenge for the society. Close cooperation
-                    between professionals, the policy makers and authorities internationally, is necessary for research,
-                    development and technology in the field of cultural heritage. </p>
+                    development and technology in the field of cultural heritage.<br><br>
+                    <p>Various workshops will take place as part of the conference. Click below for further details about them!<br>
+                    &#11044;  <a href="more_about_euromed/workshops.php">Workshops</a> </p><br>
+                    <p>Part of the conference are other activities as well, e.g. excursions with cultural interest.
+                    Click the following link for more details.<br>
+                    &#11044;  <a href="more_about_euromed/other_activities.php">Other activities</a> </p><br>
+                    <p>Got any other question? Check our FAQ following the link below, or <a href="contact.php">Contact us</a>!<br>
+                    &#11044;  <a href="more_about_euromed/faq.php">FAQ</a> </p><br>
                 </div>
                 <div class="ads_panel">
                         <a href="index.php">
