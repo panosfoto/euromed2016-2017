@@ -100,7 +100,7 @@ $name=$_POST['name'];
         $addressmsg='Address too short/long';
         $errors[5]=1;
     }
-    else if(!preg_match("/^[a-zA-Z\-0-9 ]*$/",$address))
+    else if(!preg_match("/^[a-zA-Z\-0-9, ]*$/",$address))
     {
         $addressmsg='Your address contains invalid characters!';
         $errors[5]=1;
