@@ -68,10 +68,40 @@
                 </div>
                 <div class="page_content">
                     <div><h1>Information for Exhibitors</h1></div>
-                    <p> Blablabla </p>
-                    <div style="margin-left:2%;"> &#11044;  <a href="info_for_exhibitors/exhibition_area.php" style="margin-left:1%;">Exhibition area</a></div>
-                    <p> Blablabla </p>
-                    <div style="margin-left:2%;"> &#11044;  <a href="info_for_exhibitors/contact_with_organization.php" style="margin-left:1%;">Contact woth the organization</a></div>
+                    <p>The exhibition area and coffee buffets will be located in the same area to attract the flow of the participants.</p>
+                    <p><h3>Important Dates</h3>
+                        <ul>
+                            <li>
+                                19/10: Lorem ipsum
+                            </li>
+                            <li>
+                                28/9: Lor emipsum
+                            </li>
+                            <li>
+                                15/9: Loremip sum
+                            </li>
+                        </ul>
+                    </p>
+                    <p><h3>Requirements</h3>
+                        <ul>
+                            <li>
+                                Paperwork A<br>Details: . . . .
+                            </li>
+                            <li>
+                                Paperwork B<br>Details: . . . .
+                            </li>
+                            <li>
+                                Paperwork C<br>Details: . . . .
+                            </li>
+                        </ul>
+                    </p>
+                    <p><h3>Further Info</h3>
+                        <ul>
+                            <li> <a href="info_for_exhibitors/exhibition_area.php" style="margin-left:1%;">Exhibition area</a></li>
+                            <li> <a href="info_for_exhibitors/contact_with_organization.php" style="margin-left:1%;">Contact with the organization</a></li>
+                        </ul>
+                    </p>
+                    <br><br>
                 </div>
                 <div class="ads_panel">
                         <a href="../index.php">

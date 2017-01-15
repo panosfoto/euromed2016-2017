@@ -63,7 +63,25 @@
                 </div>
                 <div class="page_content">
                     <div><h1>Exhibitions</h1></div>
-                    <p>Awesome exhibitions TBA </p>
+                    <p>A commercial and professional exhibition in the general field of 
+                        e-Documentation of Cultural Heritage will be organised.
+                    </p>
+                    <p>The exhibition will provide a close look at the latest products and
+                         services, inventions, developments, in all fields described in the
+                         call for participation.
+                    </p>
+                    <p>Below you can see a map of the exhibition area:</p>
+                    <div style="text-align:center; font-style: italic;">
+                        <img style="border: 2px solid black; height:350px; width:auto;" src="images/exhibition_area.jpg"/>
+                        <br>1-5: Exhibition kisks
+                    </div>
+                    <br>
+                    <h3>List of our exhibitors:</h3>
+                    <ul><li><a href="exhibitions/participating_exhibitors.php">Participating Exhibitors</a></li></ul>
+                    <br>
+                    <h3>I am an exhibitor</h3>
+                    <ul><li><a href="exhibitions/info_for_exhibitors.php">Info for Exhibitors</a></li></ul>
+                    <br><br>
                 </div>
                 <div class="ads_panel">
                         <a href="index.php">
