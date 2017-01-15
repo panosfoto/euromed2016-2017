@@ -61,6 +61,10 @@
                 </div>
                 <div class="page_content">
                     <div><h1>Sponsors</h1></div>
+                    <p><a target="_blank" href="http://www.cyprus-digitalchampion.gov.cy/">Digital Champion</a></p>
+                    <p><a target="_blank" href="http://www.dsahellas.gr/">Interlease DSA</a></p>
+                    <p><a target="_blank" href="https://www.research.org.cy/el/home">Research Promotion Foundation</a></p>
+                    <p><a target="_blank" href="http://www.agisoft.com/">PhotoScan - Agisoft</a></p>
                     <p><a target="_blank" href="https://www.4chan.org/">4chan</a></p>
                 </div>
                 <div class="ads_panel">

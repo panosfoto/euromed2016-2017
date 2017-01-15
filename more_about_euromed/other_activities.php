@@ -71,12 +71,13 @@
                 <div class="page_content">
                     <div><h1>Other activities in Euromed</h1></div>
                     <div><h2>Activity 1</h2></div>
-                    <p>Blablabla 1. </p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </p>
                     <div><h2>Activity 2</h2></div>
-                    <p>Blablabla 2. </p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </p>
                     <div><h2>Activity 2</h2></div>
-                    <p>Blablabla 3. </p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </p>
                     <div><h2>Excursions:</h2></div>
+                    <p>Various excursions will take place alongside the conference. You can click below to see the list of scheduled excursions: </p>
                     <div style="margin-left:2%;"> &#11044;  <a href="other_activities/excursions.php" style="margin-left:1%;">Excursions</a></div>
                 </div>
                 <div class="ads_panel">
