@@ -13,7 +13,7 @@ if($Reg==3){
     include("uptxt.php");
     echo <<<END
         <div style="width:100%;height:auto;">
-        <input class="field" type="text" name="faculty"size="23" style="height:15%;float:left;"value="" placeholder="Short Info"/>
+        <textarea name="Text1" cols="40" rows="5" style="width:50%;height:25%"placeholder="Paper Summary (abstract)..."></textarea>
         <select class="field" style="width:25%;float:right;" name="signup_type">
             <option value="0"selected disabled>Select field</option>
             <option value="1">Earthquake</option>
@@ -22,10 +22,10 @@ if($Reg==3){
             <option value="4">Yadayada</option>
         </select>
         </div>
-        <div style="width:100%;margin-top:20%;text-align:middle;">
+        <div style="width:100%;margin-top:10%;text-align:middle;">
         <form action="" method="POST" enctype="multipart/form-data"/>
             <input type="submit" style="float:right;"value="Upload"/>
-            <input type="file" style="margin-right:3%;float:right;"name="image" />
+            <input type="file" style="float:left;"name="image" />
         </form>
         </div>
 END;
