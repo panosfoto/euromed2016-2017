@@ -432,31 +432,33 @@ a:link {
     width:100%;
     height:auto;
 }
+
 .tbl {
   border-collapse:collapse;
   border-spacing:0;
   border-width:4px;
+  border-color: var(--navigation-color);
   width:95%;
 
 }
 
 .tbl td{
-  font-family:Arial, sans-serif;
   font-size:14px;
   padding:10px 5px;
   border-style:solid;
   border-width:4px;
+  border-color: var(--navigation-color);
   overflow:hidden;
   word-break:normal;
 }
 
 .tbl th{
-  font-family:Arial, sans-serif;
   font-size:14px;
   font-weight:normal;
   padding:10px 5px;
   border-style:solid;
   border-width:4px;
+  border-color: var(--navigation-color);
   overflow:hidden;
   word-break:normal;
 }
