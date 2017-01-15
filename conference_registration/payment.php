@@ -9,8 +9,8 @@
 
 <html>
     <link rel="stylesheet" href="../styles.css">
-    <?php include ('connect.php'); ?>
-    <?php include ('home_transfer.php'); ?>
+    <?php include ('../connect.php'); ?>
+    <?php include ('../home_transfer.php'); ?>
     <title>Euromed 2016: Payment</title>
     <body>
         <div id="frame">
@@ -67,16 +67,34 @@
                     <div><h1>Payments</h1></div>
                     <p>Gimme dem greens</p>
                     <?php include('../login_info.php')?>
-                    <div id="signup_info_head"> Personal info</div>
+                    <div id="signup_info_head"style="width:50%;"> Personal info</div>
                     <div>
-                        <div class="user_info_profile">Name : <?php echo "$Name";?></div>
-                        <div class="user_info_profile">Last name : <?php echo "$Lastname";?></div>
-                        <div class="user_info_profile">Username : <?php $user_name = $_SESSION['user'];echo " $user_name";?></div>
-                        <div class="user_info_profile">Email : <?php echo " $Email";?></div>
-                        <div class="user_info_profile">Adress : <?php echo " $Address";?></div>
-                        <div class="user_info_profile">Phone number : <?php echo "$Phone";?></div>
-                        <div class="user_info_profile">Faculty : <?php echo " $Faculty";?></div>
-                        <div class="user_info_profile">Registration type : <?php echo "$Regtype";?></div>
+                        <div class="user_info_profile"style="margin-top:0%;">Name : <?php echo "$Name";?></div>
+                        <div class="user_info_profile"style="margin-top:0%;">Last name : <?php echo "$Lastname";?></div>
+                        <div class="user_info_profile"style="margin-top:0%;">Username : <?php $user_name = $_SESSION['user'];echo " $user_name";?></div>
+                        <div class="user_info_profile"style="margin-top:0%;">Email : <?php echo " $Email";?></div>
+                        <div class="user_info_profile"style="margin-top:0%;">Adress : <?php echo " $Address";?></div>
+                        <div class="user_info_profile"style="margin-top:0%;">Phone number : <?php echo "$Phone";?></div>
+                        <div class="user_info_profile"style="margin-top:0%;">Faculty : <?php echo " $Faculty";?></div>
+                        <div class="user_info_profile"style="margin-top:0%;">Registration type : <?php echo "$Regtype";?></div>
+                    </div>
+                    <div id="signup_info_head" style="width:50%;"> Cost</div>
+                    <div>
+                        <div class="user_info_profile" style="margin-top:0%;">Number of Days : 3</div>
+                        <div class="user_info_profile" style="margin-top:0%;">Extras : 140</div>
+                        <div class="user_info_profile" style="margin-top:0%;">Type : Student</div>
+                        <div id="signup_info_head" style="width:30%;margin-top:1%"></div>
+                        <div class="user_info_profile" style="margin-top:0%;">Total : 605</div>
+                    </div>
+                    <div style="width:100%;">
+                    Payment Method :
+                      <input type="radio" name="gender" > CreditCard
+                      <input type="radio" name="gender" > Paypal
+                    </div>
+                    <div style="margin-top:3%;">
+                    <a href="../index.php">Cancel</a>
+                    <input type="submit" style="float:right;width:auto;"value="Confirm & Pay!"/>
+                    </div>
                 </div>
                 <div class="ads_panel">
                         <a href="../index.php">
