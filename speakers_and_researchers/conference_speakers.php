@@ -11,6 +11,7 @@
     <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
     <script type="text/javascript" src="../speakers.js"></script>
     <link rel="stylesheet" href="../styles.css">
+    <?php include("../connect.php");?>
     <title>Euromed 2016: Conference Speakers</title>
     <body>
         <div id="frame">
@@ -72,11 +73,7 @@
 
                     </div>
                     <div id="speakers">
-                        <div class="conf_speaker" data-name="a" data-famous="e">Speaker A</div>
-                        <div class="conf_speaker" data-name="b" data-famous="d">Speaker B</div>
-                        <div class="conf_speaker" data-name="c" data-famous="b">Speaker C</div>
-                        <div class="conf_speaker" data-name="d" data-famous='c'>Speaker D</div>
-                        <div class="conf_speaker" data-name="e" data-famous="a">Speaker E</div>
+                        <?php include("printspeakers.php")?>
                     </div>
                 </div>
                 <div class="ads_panel">
