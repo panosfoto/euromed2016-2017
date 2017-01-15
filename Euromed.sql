@@ -3,9 +3,9 @@
 -- http://www.phpmyadmin.net
 --
 -- Host: localhost
--- Generation Time: Jan 12, 2017 at 07:54 PM
+-- Generation Time: Jan 15, 2017 at 01:59 PM
 -- Server version: 5.7.16-0ubuntu0.16.04.1
--- PHP Version: 7.0.8-0ubuntu0.16.04.3
+-- PHP Version: 7.0.13-0ubuntu0.16.04.1
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 SET time_zone = "+00:00";
@@ -19,6 +19,27 @@ SET time_zone = "+00:00";
 --
 -- Database: `Euromed`
 --
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `Papers`
+--
+
+CREATE TABLE `Papers` (
+  `paper_id` int(11) NOT NULL,
+  `Username` varchar(32) CHARACTER SET ascii COLLATE ascii_bin NOT NULL,
+  `Filename` varchar(32) CHARACTER SET ascii COLLATE ascii_bin NOT NULL,
+  `ShortInfo` text CHARACTER SET ascii COLLATE ascii_bin NOT NULL,
+  `Type` int(11) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+--
+-- Dumping data for table `Papers`
+--
+
+INSERT INTO `Papers` (`paper_id`, `Username`, `Filename`, `ShortInfo`, `Type`) VALUES
+(1, 'Aris', 'paper.pdf', 'Ut massa felis, placerat non pellentesque ac, rhoncus nec tellus. Duis at auctor ex. Donec vel libero ornare, cursus libero eu, congue nulla. In in quam mi. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nulla aliquam eros in quam accumsan, at imperdiet dui sagittis. Aliquam vitae nulla non ante fringilla imperdiet. Nam congue eget tortor vel feugiat. In volutpat nulla purus, vitae pulvinar tellus pellentesque eu. Vestibulum fringilla, libero egestas imperdiet dignissim, velit metus rhoncus magna, vitae sodales libero ipsum rutrum sem. Sed vestibulum eu felis sagittis consequat. Maecenas tortor tellus, placerat at tempus non, dictum id elit. ', 1);
 
 -- --------------------------------------------------------
 
@@ -39,8 +60,23 @@ CREATE TABLE `users` (
 ) ENGINE=InnoDB DEFAULT CHARSET=ascii COLLATE=ascii_bin;
 
 --
+-- Dumping data for table `users`
+--
+
+INSERT INTO `users` (`FirstName`, `LastName`, `Username`, `Password`, `Email`, `Address`, `PhoneNumber`, `Faculty`, `RegistrationType`) VALUES
+('Aris', 'Papas', 'Aris', '12345', 'aris@mail.com', 'somewhere', '123456789', 'uoa', 3),
+('Euterpi', 'Sitrou', 'eusitr', '12345', 'eusitr@mmail.com', 'Quisquis 24,Athens', '698884484', 'UOA', 1);
+
+--
 -- Indexes for dumped tables
 --
+
+--
+-- Indexes for table `Papers`
+--
+ALTER TABLE `Papers`
+  ADD PRIMARY KEY (`paper_id`),
+  ADD KEY `Username` (`Username`);
 
 --
 -- Indexes for table `users`
@@ -48,6 +84,25 @@ CREATE TABLE `users` (
 ALTER TABLE `users`
   ADD PRIMARY KEY (`Username`),
   ADD UNIQUE KEY `Username` (`Username`);
+
+--
+-- AUTO_INCREMENT for dumped tables
+--
+
+--
+-- AUTO_INCREMENT for table `Papers`
+--
+ALTER TABLE `Papers`
+  MODIFY `paper_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
+--
+-- Constraints for dumped tables
+--
+
+--
+-- Constraints for table `Papers`
+--
+ALTER TABLE `Papers`
+  ADD CONSTRAINT `name_relation` FOREIGN KEY (`Username`) REFERENCES `users` (`Username`) ON DELETE CASCADE ON UPDATE CASCADE;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
