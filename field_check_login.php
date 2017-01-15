@@ -25,8 +25,13 @@
             }
             else{
                 $_SESSION['user']=$username;
-                header("Location: index.php");
+                if($_SESSION['FROM_PAPERSUBM']){
+                    $_SESSION['FROM_PAPERSUBM']=0;
+                    header("Location: speakers_and_researchers/info_for_speakers/paper_submission.php ");
+                }else{
+                    header("Location: index.php");
                 }
+            }
         }
     }
    ?>

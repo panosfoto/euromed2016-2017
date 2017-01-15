@@ -1,4 +1,4 @@
-<?php include('imageupload.php');
+<?php
 
 if(!isset($_SESSION['user']) ){
 
@@ -8,13 +8,16 @@ if(!isset($_SESSION['user']) ){
             <a href=../../login.php> <input type="submit" style="float:right;"value="Submit Paper*"/></a>
             </div>
 END;
+    $_SESSION['FROM_PAPERSUBM']=1;
 }
-if($Reg==3){
-    include("uptxt.php");
-    echo <<<END
+else{
+    if($Reg==3){
+        include("uptxt.php");
+        echo <<<END
+        <form action="" method="POST" enctype="multipart/form-data"/>
         <div style="width:100%;height:auto;">
-        <textarea name="Text1" cols="40" rows="5" style="width:50%;height:25%"placeholder="Paper Summary (abstract)..."></textarea>
-        <select class="field" style="width:25%;float:right;" name="signup_type">
+        <textarea name="Abstract" cols="40" rows="5" style="width:50%;height:25%"placeholder="Paper Summary (abstract)..."value=""></textarea>
+        <select class="field" style="width:25%;float:right;" name="type">
             <option value="0"selected disabled>Select field</option>
             <option value="1">Earthquake</option>
             <option value="2">3D Mapping</option>
@@ -23,11 +26,10 @@ if($Reg==3){
         </select>
         </div>
         <div style="width:100%;margin-top:10%;text-align:middle;">
-        <form action="" method="POST" enctype="multipart/form-data"/>
             <input type="submit" style="float:right;"value="Upload"/>
             <input type="file" style="float:left;"name="image" />
-        </form>
         </div>
+        </form>
 END;
     }
     else{
@@ -37,5 +39,6 @@ END;
             <a href=../../login.php> <input type="submit" style="float:right;"value="Submit Paper*" disabled/></a>
             </div>
 END;
+}
 }
 ?>
