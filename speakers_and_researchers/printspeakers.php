@@ -10,7 +10,8 @@
         $shortinfo=$row["ShortInfo"];
         $site=$roe["site"];
         $sv=$i+1;
-        $sumbittedpapers="submitted_papers.php"."#".$username;
+        $sumbittedpapers="../submitted_papers.php"."#".$username;
+        $programme="../programme.php";
         echo <<<END
                 <div class="conf_speaker" data-name="$name" data-famous="$sv">
                     <a name="$username"></a>
@@ -21,7 +22,7 @@
                         $shortinfo;
                     </p>
                         <div style="width:100%;"> <a href="$site">Personal Page</a></div>
-                        <div style="width:100%;"><a href="todo">See in Programme</a></div>
+                        <div style="width:100%;"><a href="$programme">See in Programme</a></div>
                         <div style="width:100%;"><a href="$sumbittedpapers">Submitted Papers</a></div>
                     </div>
                 </div>
