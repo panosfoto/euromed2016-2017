@@ -9,6 +9,8 @@
 
 <html>
     <link rel="stylesheet" href="../styles.css">
+    <?php include ('connect.php'); ?>
+    <?php include ('home_transfer.php'); ?>
     <title>Euromed 2016: Payment</title>
     <body>
         <div id="frame">
@@ -64,6 +66,17 @@
                 <div class="page_content">
                     <div><h1>Payments</h1></div>
                     <p>Gimme dem greens</p>
+                    <?php include('../login_info.php')?>
+                    <div id="signup_info_head"> Personal info</div>
+                    <div>
+                        <div class="user_info_profile">Name : <?php echo "$Name";?></div>
+                        <div class="user_info_profile">Last name : <?php echo "$Lastname";?></div>
+                        <div class="user_info_profile">Username : <?php $user_name = $_SESSION['user'];echo " $user_name";?></div>
+                        <div class="user_info_profile">Email : <?php echo " $Email";?></div>
+                        <div class="user_info_profile">Adress : <?php echo " $Address";?></div>
+                        <div class="user_info_profile">Phone number : <?php echo "$Phone";?></div>
+                        <div class="user_info_profile">Faculty : <?php echo " $Faculty";?></div>
+                        <div class="user_info_profile">Registration type : <?php echo "$Regtype";?></div>
                 </div>
                 <div class="ads_panel">
                         <a href="../index.php">
