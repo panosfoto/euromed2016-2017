@@ -82,16 +82,17 @@
                          <td class="tbl-cell">9:00-11:00</td>
                          <td class="tbl-cell">Speaker (...)
                          <p>Lecture (...)</p>
-                         <p>Other Info (...)</p>
                          </td>
                          <td class="tbl-cell">
                             <div class="speaker3">
-                                Speaker3
+                                Speaker3<br>
+                                The old man and the sea
                             </div>
                         </td>
                          <td class="tbl-cell">
                             <div class="speaker1">
-                                Speaker1
+                                Speaker1<br>
+                                Firecrackers: from China to Europe
                             </div>
                         </td>
                        </tr>
@@ -105,13 +106,15 @@
                          <td class="tbl-cell">11:15-13:00</td>
                          <td class="tbl-cell">
                             <div class="speaker1">
-                                Speaker1
+                                Speaker1<br>
+                                Kalymnos' sponge tradition
                             </div>
                         </td>
                          <td class="tbl-cell"></td>
                          <td class="tbl-cell">
                             <div class="speaker2">
-                                Speaker2
+                                Speaker2<br>
+                                Active mediterranean volcanoes and their impact in Humanity
                             </div>
                         </td>
                        </tr>
@@ -125,12 +128,14 @@
                          <td class="tbl-cell">14:00-17:00</td>
                          <td class="tbl-cell">
                             <div class="speaker3">
-                                Speaker3
+                                Speaker3<br>
+                                Who are we? A cultural identity.
                             </div>
                         </td>
                          <td class="tbl-cell">
                             <div class="speaker2">
-                                Speaker2
+                                Speaker2<br>
+                                Building VR software to explore archaelogical sites
                             </div>
                         </td>
                          <td class="tbl-cell"></td>
@@ -145,17 +150,20 @@
                          <td class="tbl-cell">17:15-20:00</td>
                          <td class="tbl-cell">
                             <div class="speaker2">
-                                Speaker2
+                                Speaker2<br>
+                                Expanding our culture: An everyday guide
                             </div>
                         </td>
                          <td class="tbl-cell">
                             <div class="speaker1">
-                                Speaker1
+                                Speaker1<br>
+                                Back to back: A never-ending mystery
                             </div>
                         </td>
                          <td class="tbl-cell">
                             <div class="speaker3">
-                                Speaker3
+                                Speaker3<br>
+                                What goes around comes around: A miserable repetition (?)
                             </div>
                         </td>
                        </tr>

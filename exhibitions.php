@@ -73,7 +73,7 @@
                     <p>Below you can see a map of the exhibition area:</p>
                     <div style="text-align:center; font-style: italic;">
                         <img style="border: 2px solid black; height:350px; width:auto;" src="images/exhibition_area.jpg"/>
-                        <br>1-5: Exhibition kisks
+                        <br>1-5: Exhibition kiosks
                     </div>
                     <br>
                     <h3>List of our exhibitors:</h3>

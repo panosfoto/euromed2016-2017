@@ -120,7 +120,7 @@
                             <option value="3">3</option>
                             <option value="4">4</option>
                             <option value="5">5</option>
-                        </select><br><br>
+                        </select><br><br><br>
                         Short description of your exhibition's field of interest &nbsp;<span style="color:red;">*</span><br>
                         <textarea id="description" name="Description" cols="40" rows="5" style="width:75%;height:15%"placeholder="Type your description here"value=""></textarea><br><br>
                         (Fields with &nbsp;<span style="color:red;">*</span> are required)
