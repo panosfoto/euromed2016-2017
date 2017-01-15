@@ -19,7 +19,3 @@ U:
 P:
 (normal visitor)
 
-U:
-P:
-(exhibitor)
-
