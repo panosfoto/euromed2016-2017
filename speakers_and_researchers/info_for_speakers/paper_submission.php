@@ -17,7 +17,7 @@
                 <a name="top"></a>
                 <div id="header">
                     <div class="img">
-                        <a href="../index.php">
+                        <a href="../../index.php">
                             <img class="logo" src="../../images/logo.png"/>
                         </a>
                     </div>
