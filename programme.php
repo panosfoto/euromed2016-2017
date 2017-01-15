@@ -69,8 +69,8 @@
                         </select>
                     </form>
                     <p><br/><br/><br/><h3 style="text-align:center">November 2, Wednesday</h3></p>
-                    <a href="programme.php" style="float:left;">&#8592; Previous day</a>
-                    <a href="programme.php" style="float:right; margin-right:5%">Next day &#8594;</a>
+                    <a href="programme.php" style="float:left;color:black;">&#8592; Previous day</a>
+                    <a href="programme.php" style="float:right;color:black; margin-right:5%">Next day &#8594;</a>
                     <table class="tbl">
                        <tr>
                          <th class="tbl-cell">Time</th>

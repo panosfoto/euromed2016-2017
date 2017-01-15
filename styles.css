@@ -5,7 +5,7 @@
   --button-hover-color: #AD452E;
   --main-darker-color: #EA9380;
   --main-darker-darker-color: #AC6857;
-  --visited-color: #85E5F8;
+  --visited-color: var(--main-color);/*#85E5F8; (light sky blue)*/
   --custom-font: palanquin;
 }
 
