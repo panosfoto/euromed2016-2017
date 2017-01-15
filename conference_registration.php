@@ -50,9 +50,6 @@ if(!isset($_SESSION['user']) ){
                       <li><a href="learn_more.php">More about Euromed 2016</a></li>
                       <li><a href="programme.php">Programme</a></li>
                       <li class="active"><a href="conference_registration.php">Conference Registration</a></li>
-                      <ul>
-                        <li><a href="conference_registration/payment.php">Payment</a></li>
-                      </ul>
                       <li><a href="speakers_and_researchers.php">Speakers & Researchers</a></li>
                       <li><a href="submitted_papers.php">Submitted Papers</a></li>
                       <li><a href="exhibitions.php">Exhibitions</a></li>
