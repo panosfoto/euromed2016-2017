@@ -63,16 +63,19 @@
                 </div>
                 <div class="page_content">
                     <div><h1>Location of the conference:</h1></div>
-                    <div><h2>Conference Venue: Filoxenia Conference Centre:</h2></div>
-                    <p>"Filoxenia" is a cherished concept in Cyprus, one that has deep roots and a rich cultural heritage.
-                    Hospitality, the official English translation of 'Filoxenia', doesn't do justice to the concept as it does not encompass its main element, which is generosity of spirit. What is certain is that it is one of the attributes of the Cypriot character and culture that we take pride in.
-                    True to its name, the Filoxenia Conference Centrewas completely renovated to welcome guests from all over Europe during the Cypriot Presidency of the EU in 2012. Now it's a modern conference facility, which hosts a wide range of events and honor the timeless tradition of Cypriot hospitality.
+                    <div><h2>Conference Venue: Filoxenia Conference Centre</h2></div>
+                    <p>"Filoxenia" is a cherished concept in Cyprus, one that has deep roots and a 
+                        rich cultural heritage.
+                        Hospitality, the official English translation of 'Filoxenia', doesn't do justice 
+                        to the concept as it does not encompass its main element, which is generosity of 
+                        spirit. What is certain is that it is one of the attributes of the Cypriot 
+                        character and culture that we take pride in.
+                        True to its name, the Filoxenia Conference Centrewas completely renovated to 
+                        welcome guests from all over Europe during the Cypriot Presidency of the EU in 
+                        2012. Now it's a modern conference facility, which hosts a wide range of events 
+                        and honor the timeless tradition of Cypriot hospitality.
                     </p>
-                    <p><a target="_blank" href="http://www.fcc.com.cy/">http://www.fcc.com.cy/</a></p>
-                    <p>
-                    The Filoxenia Conference Centre is conveniently located, with easy access to the highway and central roads of Nicosia. If you are located in Nicosia, you can reach the center via bus. Filoxenia Conference Centre is completely wheelchair accessible and is fully equipped to accommodate people with special access needs.
-                    If you are traveling via car, a large parking space outside the Centre provides easy access to the venue. A parking space for approximately 70 vehicles is also available within the Centre’s premises. 
-                    </p>
+                    <p><a target="_blank" href="http://www.fcc.com.cy/">Filoxenia CC website</a></p>
                     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3262.0775131299147!2d33.37728665120074!3d35.154687566178474!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14de19d8fc1e4653%3A0xf05682dab61e0173!2zzqPPhc69zrXOtM-BzrnOsc66z4wgzprOrc69z4TPgc6_IM6mzrnOu86_zr7Otc69zq_OsQ!5e0!3m2!1sel!2sgr!4v1484476152585" width="100%" height="400" frameborder="0" style="border:0;" allowfullscreen></iframe>
                     <br><br><h2>Travelling as a foreigner:</h2>
                     Visiting us from another country? Click below for further instructions/help!

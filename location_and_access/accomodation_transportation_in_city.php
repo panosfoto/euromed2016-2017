@@ -64,7 +64,27 @@
                 </div>
                 <div class="page_content">
                     <div><h1>Accomodation and transportation in the city</h1></div>
-                    <p> Lorem ipsum </p>
+                    <p> <h3>Accomodation</h3> 
+                        There are many hotels in and around Nicosia, for every taste and every 
+                        budget. Whether business or pleasure, or a bit of both, you'll find the 
+                        right combination of convenience and comfort. Go to 
+                        <a target="_blank" href="http://www.visitcyprus.com">www.visitcyprus.com</a> 
+                        for a complete list of hotels in the area.
+                    </p>
+                    <p> <h3>Tranportation</h3> 
+                        The Filoxenia Conference Centre is conveniently located, with easy access to the 
+                        highway and central roads of Nicosia. If you are located in Nicosia, you can 
+                        reach the center via bus. Filoxenia Conference Centre is completely wheelchair 
+                        accessible and is fully equipped to accommodate people with special access needs.
+                        If you are traveling via car, a large parking space outside the Centre provides 
+                        easy access to the venue. A parking space for approximately 70 vehicles is also 
+                        available within the Centre's premises.
+                    </p>
+                    Useful links:<br>
+                    <ul>
+                        <li>*link for bus schedules*</li>
+                        <li>*link for taxi call center*</li>
+                    </ul>
                 </div>
                 <div class="ads_panel">
                         <a href="../index.php">

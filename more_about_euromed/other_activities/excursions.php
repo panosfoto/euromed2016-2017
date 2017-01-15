@@ -67,7 +67,7 @@
                 </div>
                 <div class="page_content">
                     <div><h1>Excursions</h1></div>
-                    <p> Lorem ipsum </p>
+                    <p> *content from Euromed's<a href="http://www.euromed2016.eu/index.php/conference-excursions">excursion page</a>* </p>
                 </div>
                 <div class="ads_panel">
                         <a href="../../index.php">

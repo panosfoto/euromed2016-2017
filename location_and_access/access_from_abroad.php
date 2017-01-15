@@ -84,6 +84,31 @@
                         <li><a target="_blank" href="http://www.pafosbuses.com/cyprus/buses/42">Paphos Buses</a></li>
                     </ul>
                     <br>
+                    <p><h3>Practical information for foreigners</h3>
+                        Passport Visa, Money and Weather:
+                        <p>Citizens of the European Union countries as well as of Switzerland, 
+                            Iceland, Lichtenstein and Norway do not require an entry visa may 
+                            enter Cyprus either with a Passport or their national identity card 
+                            provided there is a photo.
+                        </p>
+                        <p>The full list other countries whose citizens do not need an entry visa, 
+                            other than a valid passport, as well as of those that entry visas are 
+                            required, as well the application for a visa form are found in the 
+                            Ministry of Foreign Affairs of the Republic of Cyprus web page: 
+                            <a href="www.mfa.gov.cy">www.mfa.gov.cy</a>.
+                        </p>
+                        <p>The currency of the Republic of Cyprus is the Euro since 1st of Jan 
+                            2008 which is sub-divided into 100cents. For information concerning 
+                            exchange of currency, please visit the following webpage: 
+                            <a href="http://www.centralbank.gov.cy">http://www.centralbank.gov.cy</a> 
+                            go to Tools and activate the currency exchange. Credit cards (Visa, 
+                            MasterCard, American Express, etc) are widely accepted.
+                        </p>
+                        <p>Cyprus enjoys an intense Mediterranean climate. The average temperature 
+                            in October-November during the day is around 25C degrees and drops to 
+                            13C degrees during the evening (<a href="http://www.euronews.com/weather/europe/cyprus/">http://www.euronews.com/weather/europe/cyprus/</a>).
+                        </p>
+                    <br>
                     <p><h3>Accomodation in the city & more</h3>
                         Go to the <a href="accomodation_transportation_in_city.php">Accomodation and transportation in the city</a> page.
                     </p>
