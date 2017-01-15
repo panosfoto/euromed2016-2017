@@ -7,7 +7,6 @@
    error_reporting(E_ALL);
    ini_set("display_errors", 1);
 ?>
-<!DOCTYPE html>
 <html>
     <link rel="stylesheet" href="../styles.css">
     <?php include ('../connect.php'); ?>
