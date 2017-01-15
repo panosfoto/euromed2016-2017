@@ -124,9 +124,9 @@ $name=$_POST['name'];
     $facultymsg = '';
     $faculty=$_POST['faculty'];
     if(!empty($faculty)){
-        if(strlen($faculty)<3 || strlen($faculty)>20)
+        if(strlen($faculty)<3 || strlen($faculty)>32)
         {
-            $phonemsg='Faculty name too short/long';
+            $facultymsg='Faculty name too short/long';
             $errors[7]=1;
         }
     }

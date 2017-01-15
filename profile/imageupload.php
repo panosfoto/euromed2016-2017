@@ -1,5 +1,6 @@
 <?php
 if(isset($_FILES['image'])){
+    include('../connect.php');
     $username=$_SESSION['user'];
     $text=$_POST['short_info'];
     $site=$_POST['site'];
