@@ -2,7 +2,6 @@
    ob_start();
    session_start();
 ?>
-
 <?
    error_reporting(E_ALL);
    ini_set("display_errors", 1);
@@ -87,6 +86,10 @@
                     </div>
                     <?php include('speaker_options.php')?>
                     <div id="signup_info_head">Euromed Participation</div>
+                        <div class="user_info_profile">Type (Normal/Student) : </div>
+                        <div class="user_info_profile">Number of Days : </div>
+                        <div class="user_info_profile">Number of Persons: </div>
+                        <div class="user_info_profile">Extras : </div>
                     <div id="signup_info_head">Account options </div>
                     <?php $_SESSION['first_changeinfo']=1;?>
                     <div><a style="color:blue;"href="profile/changeinfo.php">Change personal information</a></div>

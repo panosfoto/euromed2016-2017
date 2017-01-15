@@ -63,6 +63,7 @@
                 <div class="page_content">
                     <div><h1>Conference Registration</h1></div>
                     <p>Register now!</p>
+
                 </div>
                 <div class="ads_panel">
                         <a href="index.php">
