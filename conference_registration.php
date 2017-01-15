@@ -801,14 +801,8 @@ if(!isset($_SESSION['user']) ){
 
 
     });
-
 </script>
-
-
             </div>
-        </div>
-    </div>
-                </div>
                 <div class="ads_panel">
                         <a href="index.php">
                             <img class="logo" src="images/ad1.png"/>
