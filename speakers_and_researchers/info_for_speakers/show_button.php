@@ -17,13 +17,7 @@ else{
         <form action="" method="POST" enctype="multipart/form-data"/>
         <div style="width:100%;height:auto;">
         <textarea name="Abstract" cols="40" rows="5" style="width:50%;height:25%"placeholder="Paper Summary (abstract)..."value=""></textarea>
-        <select class="field" style="width:25%;float:right;" name="type">
-            <option value="0"selected disabled>Select field</option>
-            <option value="1">Earthquake</option>
-            <option value="2">3D Mapping</option>
-            <option value="3">Museum</option>
-            <option value="4">Yadayada</option>
-        </select>
+        <input class="field" style="width:40%;float:right;" name="type" placeholder="Title">
         </div>
         <div style="width:100%;margin-top:10%;text-align:middle;">
             <input type="submit" style="float:right;"value="Upload"/>

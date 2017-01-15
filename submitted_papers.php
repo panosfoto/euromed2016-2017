@@ -9,6 +9,7 @@
 
 <html>
     <link rel="stylesheet" href="styles.css">
+    <?php include("connect.php");?>
     <title>Euromed 2016: Submitted Papers</title>
     <body>
         <div id="frame">
@@ -61,10 +62,7 @@
                 </div>
                 <div class="page_content">
                     <div><h1>Submitted Papers</h1></div>
-                    <p>Paper 1 </p>
-                    <p>Paper 2 </p>
-                    <p>Paper 3 </p>
-                    <p>Paper 4 </p>
+                    <?php include("printpapers.php");?>
                 </div>
                 <div class="ads_panel">
                         <a href="index.php">

@@ -8,7 +8,7 @@
         $surname=$row["LastName"];
         $image=$row["Image"];
         $shortinfo=$row["ShortInfo"];
-        $site=$roe["site"];
+        $site=$row["PersonalSite"];
         $sv=$i+1;
         $sumbittedpapers="../submitted_papers.php"."#".$username;
         $programme="../programme.php";

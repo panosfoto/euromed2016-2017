@@ -3,7 +3,7 @@
 -- http://www.phpmyadmin.net
 --
 -- Host: localhost
--- Generation Time: Jan 15, 2017 at 03:16 PM
+-- Generation Time: Jan 15, 2017 at 05:46 PM
 -- Server version: 5.7.16-0ubuntu0.16.04.1
 -- PHP Version: 7.0.13-0ubuntu0.16.04.1
 
@@ -31,7 +31,7 @@ CREATE TABLE `Papers` (
   `Username` varchar(32) CHARACTER SET ascii COLLATE ascii_bin NOT NULL,
   `Filename` varchar(32) CHARACTER SET ascii COLLATE ascii_bin NOT NULL,
   `ShortInfo` text CHARACTER SET ascii COLLATE ascii_bin NOT NULL,
-  `Type` int(11) NOT NULL
+  `Type` varchar(32) CHARACTER SET ascii COLLATE ascii_bin NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 --
@@ -39,7 +39,7 @@ CREATE TABLE `Papers` (
 --
 
 INSERT INTO `Papers` (`paper_id`, `Username`, `Filename`, `ShortInfo`, `Type`) VALUES
-(1, 'Aris', 'paper.pdf', 'Ut massa felis, placerat non pellentesque ac, rhoncus nec tellus. Duis at auctor ex. Donec vel libero ornare, cursus libero eu, congue nulla. In in quam mi. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nulla aliquam eros in quam accumsan, at imperdiet dui sagittis. Aliquam vitae nulla non ante fringilla imperdiet. Nam congue eget tortor vel feugiat. In volutpat nulla purus, vitae pulvinar tellus pellentesque eu. Vestibulum fringilla, libero egestas imperdiet dignissim, velit metus rhoncus magna, vitae sodales libero ipsum rutrum sem. Sed vestibulum eu felis sagittis consequat. Maecenas tortor tellus, placerat at tempus non, dictum id elit. ', 1);
+(1, 'Aris', 'paper.pdf', 'Ut massa felis, placerat non pellentesque ac, rhoncus nec tellus. Duis at auctor ex. Donec vel libero ornare, cursus libero eu, congue nulla. In in quam mi. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nulla aliquam eros in quam accumsan, at imperdiet dui sagittis. Aliquam vitae nulla non ante fringilla imperdiet. Nam congue eget tortor vel feugiat. In volutpat nulla purus, vitae pulvinar tellus pellentesque eu. Vestibulum fringilla, libero egestas imperdiet dignissim, velit metus rhoncus magna, vitae sodales libero ipsum rutrum sem. Sed vestibulum eu felis sagittis consequat. Maecenas tortor tellus, placerat at tempus non, dictum id elit. ', '1');
 
 -- --------------------------------------------------------
 
@@ -59,7 +59,7 @@ CREATE TABLE `Speakers` (
 --
 
 INSERT INTO `Speakers` (`Username`, `ShortInfo`, `PersonalSite`, `Image`) VALUES
-('Aris', ' Aliquam sed nisi magna. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Quisque ullamcorper libero sit amet nisi facilisis, scelerisque fermentum ante facilisis. Proin aliquet sollicitudin libero et suscipit. Pellentesque augue quam, porta ac leo vitae, dignissim feugiat leo. Fusce in massa eget velit dictum vehicula. Aliquam non elit dui. Interdum et malesuada fames ac ante ipsum primis in faucibus. Ut ultricies sed nulla pretium porta. Fusce maximus libero ornare, lobortis mi sit amet, varius magna. Donec ut volutpat diam. Suspendisse elit lorem, sollicitudin at turpis in, scelerisque tincidunt velit. ', 'somewhere.com', 'bla1.jpg');
+('Aris', ' Aliquam sed nisi magna. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Quisque ullamcorper libero sit amet nisi facilisis, scelerisque fermentum ante facilisis. Proin aliquet sollicitudin libero et suscipit. Pellentesque augue quam, porta ac leo vitae, dignissim feugiat leo. Fusce in massa eget velit dictum vehicula. Aliquam non elit dui. Interdum et malesuada fames ac ante ipsum primis in faucibus. Ut ultricies sed nulla pretium porta. Fusce maximus libero ornare, lobortis mi sit amet, varius magna. Donec ut volutpat diam. Suspendisse elit lorem, sollicitudin at turpis in, scelerisque tincidunt velit. ', 'aasasas', '59206561.jpg');
 
 -- --------------------------------------------------------
 
