@@ -88,7 +88,7 @@
                             Find out more below about the Conference membership and how to become an accredited baboon or a monkey.
                         </p>
                     </div>
-                <div style="margin-left:2%;"> &#11044;  <a href="speakers_and_researchers/info_for_speakres.php" style="margin-left:1%;">Info for Speakers & Researchers</a></div>
+                <div style="margin-left:2%;"> &#11044;  <a href="speakers_and_researchers/info_for_speakers.php" style="margin-left:1%;">Info for Speakers & Researchers</a></div>
                 </div>
                 <div class="ads_panel">
                         <a href="index.php">
