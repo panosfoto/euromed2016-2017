@@ -60,7 +60,6 @@ if(!isset($_SESSION['user']) ){
                 </div>
                 <div class="page_content">
                     <div><h1>Conference Registration</h1></div>
-                    <p>Register now!</p>
 
 <!-- <form method="post"> -->
 
@@ -218,10 +217,9 @@ if(!isset($_SESSION['user']) ){
             </tr>
         </table>
     </div>
-
     <input type="hidden" name="save" value="savemode">
-
-        </form>
+    </form>
+    <?php include("registerbutton.php")?>
 
 <link rel="stylesheet" href="http://code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css">
   <script src="http://code.jquery.com/jquery-1.10.2.js"></script>
@@ -799,6 +797,7 @@ if(!isset($_SESSION['user']) ){
 
     });
 </script>
+
             </div>
                 <div class="ads_panel">
                         <a href="index.php">

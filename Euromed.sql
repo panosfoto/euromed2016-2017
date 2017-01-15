@@ -3,7 +3,7 @@
 -- http://www.phpmyadmin.net
 --
 -- Host: localhost
--- Generation Time: Jan 15, 2017 at 10:16 PM
+-- Generation Time: Jan 15, 2017 at 10:44 PM
 -- Server version: 5.7.16-0ubuntu0.16.04.1
 -- PHP Version: 7.0.13-0ubuntu0.16.04.1
 
@@ -62,10 +62,10 @@ CREATE TABLE `Speakers` (
 --
 
 INSERT INTO `Speakers` (`Username`, `ShortInfo`, `PersonalSite`, `Image`) VALUES
-('Aris', ' Aliquam sed nisi magna. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Quisque ullamcorper libero sit amet nisi facilisis, scelerisque fermentum ante facilisis. Proin aliquet sollicitudin libero et suscipit. Pellentesque augue quam, porta ac leo vitae, dignissim feugiat leo. Fusce in massa eget velit dictum vehicula. Aliquam non elit dui. Interdum et malesuada fames ac ante ipsum primis in faucibus. Ut ultricies sed nulla pretium porta. Fusce maximus libero ornare, lobortis mi sit amet, varius magna. Donec ut volutpat diam. Suspendisse elit lorem, sollicitudin at turpis in, scelerisque tincidunt velit. ', 'aasasas', '59206561.jpg'),
+('Aris', ' Aliquam sed nisi magna. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Quisque ullamcorper libero sit amet nisi facilisis, scelerisque fermentum ante facilisis. Proin aliquet sollicitudin libero et suscipit. Pellentesque augue quam, porta ac leo vitae, dignissim feugiat leo. Fusce in massa eget velit dictum vehicula. Aliquam non elit dui. Interdum et malesuada fames ac ante ipsum primis in faucibus. Ut ultricies sed nulla pretium porta. Fusce maximus libero ornare, lobortis mi sit amet, varius magna. Donec ut volutpat diam. Suspendisse elit lorem, sollicitudin at turpis in, scelerisque tincidunt velit. ', 'http://www.allaboutaris.com/', '59206561.jpg'),
 ('Kippes', 'Mauris commodo magna fringilla tortor elementum vestibulum. Quisque ac accumsan ipsum, vitae facilisis purus. Praesent faucibus accumsan turpis iaculis tempor. Phasellus faucibus efficitur quam suscipit aliquam. Praesent nec dolor vehicula, interdum massa at, tempor est. Fusce vel dapibus dui. Maecenas imperdiet sagittis posuere. Pellentesque sagittis et nunc et hendrerit. Suspendisse potenti. Vivamus sapien tellus, sagittis cursus egestas sit amet, posuere et ligula. ', 'http://www.physik.uni-wuerzburg.de/?id=2229', 'wolfgang.jpg'),
 ('dieter', 'ince Oct 2006 Dieter Fellner is Professor of Computer Science at TU Darmstadt, Germany, and Director of the Fraunhofer Institute for Computer Graphics Research (IGD) at the same location. Previously he has held academic positions at the Graz University of Technology, Austria, the University of Technology in Braunschweig, Germany, the University of Bonn, Germany, the Memorial University of Newfoundland, Canada, and the University of Denver, Colorado. ', 'https://www.igd.fraunhofer.de/institut/ueber-uns/ansprechpartner/dieter-w-fellner', 'fellner.jpg'),
-('mustafa', 'Professor of Earthquake Engineering\r\nBogazici Univ Kandilli Observatory and Earthquake Research Institute, Department of Earthquake Engineering, 81220, Cengelkoy, Istanbul, Turkey', 'bllalasas.com', 'image.jpg');
+('mustafa', 'Professor of Earthquake Engineering\r\nBogazici Univ Kandilli Observatory and Earthquake Research Institute, Department of Earthquake Engineering, 81220, Cengelkoy, Istanbul, Turkey', 'www.euromed2016.com', 'image.jpg');
 
 -- --------------------------------------------------------
 
