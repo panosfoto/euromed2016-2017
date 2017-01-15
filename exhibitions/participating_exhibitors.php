@@ -8,6 +8,8 @@
 ?>
 
 <html>
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
+    <script type="text/javascript" src="../speakers.js"></script>
     <link rel="stylesheet" href="../styles.css">
     <title>Euromed 2016: Participating Exhibitors</title>
     <body>
@@ -64,10 +66,18 @@
                 </div>
                 <div class="page_content">
                     <div><h1>Participating Exhibitors</h1></div>
-                    <p> Exhibitor 1 </p>
-                    <p> Exhibitor 2 </p>
-                    <p> Exhibitor 3 </p>
-                    <p> Exhibitor 4 </p>
+                    <div class=order_bar>
+                        <button id="nameorderbutton" onClick="$(this).order_speakers();">Name &darr;</button>
+                        <button id="famousorderbutton" onClick="$(this).order_speakers_famous();" style="float:right;">Category</button>
+
+                    </div>
+                    <div id="speakers">
+                        <div class="conf_speaker" data-name="a" data-famous="e">Exhibitor A <div style="float:right;">Category E</div></div>
+                        <div class="conf_speaker" data-name="b" data-famous="d">Exhibitor B <div style="float:right;">Category D</div></div>
+                        <div class="conf_speaker" data-name="c" data-famous="b">Exhibitor C <div style="float:right;">Category B</div></div>
+                        <div class="conf_speaker" data-name="d" data-famous='c'>Exhibitor D <div style="float:right;">Category C</div></div>
+                        <div class="conf_speaker" data-name="e" data-famous="a">Exhibitor E <div style="float:right;">Category A</div></div>
+                    </div>
                 </div>
                 <div class="ads_panel">
                         <a href="../index.php">
