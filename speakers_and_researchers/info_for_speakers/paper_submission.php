@@ -9,6 +9,7 @@
 
 <html>
     <link rel="stylesheet" href="../../styles.css">
+    <?php include('../../connect.php')?>
     <title>Euromed 2016: Paper Submission</title>
     <body>
         <div id="frame">
@@ -68,7 +69,13 @@
                 </div>
                 <div class="page_content">
                     <div><h1>Paper Submission</h1></div>
-                    <p> Blablabla </p>
+                    <p> The Symposium accepts only original, unpublished work written in English. All the papers will be published by Springer
+                    Verlag in LNCS. We are soliciting three types of contributions: The FULL (Research), PROJECT (on-going projects)
+                    and SHORT Papers (Posters). However, the 15 best submitted papers will be published on a special issue of the
+                    International Journal Heritage in the Digital Era, published by SAGE Publisher, UK For your convenience, we have summarized in the Author
+                    Guidelines document how a proceeding paper should be structured, how elements </p>
+                    <?php include("../../login_info.php");?>
+                    <?php include("show_button.php");?>
                 </div>
                 <div class="ads_panel">
                         <a href="../../index.php">
