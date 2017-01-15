@@ -10,11 +10,9 @@ END;
 }
 else{
     echo <<<END
-    <form action="" method="POST" enctype="multipart/form-data"/>
     <div style="width:100%;margin-top:10%;text-align:middle;">
         <a href="conference_registration/payment.php"><input type="submit" style="float:right;"value="Pay now!"/></a>
     </div>
-    </form>
 END;
 
 }
