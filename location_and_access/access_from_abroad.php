@@ -64,7 +64,30 @@
                 </div>
                 <div class="page_content">
                     <div><h1>Access from abroad</h1></div>
-                    <p> Lorem ipsum </p>
+                    <p> <h3>Airports</h3> 
+                        There are direct flights to Cyprus from most of the biggest European and Middle Eastern airports.<br>
+                        You can find further details in the <a target="_blank" href="http://www.cyprusairports.com.cy/">official webpage of the two airports in Cyprus</a>
+                        <br><br>
+                    </p>
+                    <p><h3>Bus transfer from the airports</h3>
+                        There is a possibility to take advantage of the bus transfer service available 
+                        by private companies just outside of the two airports (Larnaca and Paphos). 
+                        This service is offered everyday mostly between 05:00am and 24:00 (mid night) 
+                        and current costs run at approximately max. 9&euro; (one way).<br> 
+                        The hotels in Limassol are approx. 35-45 minutes drive from Larnaca International 
+                        Airport and approx. 40 minutes from Paphos International Airport.<br>
+                        For more information: 
+                    </p>
+                    <ul>
+                        <li><a target="_blank" href="http://www.cyprusbybus.com/default.aspx">Bus Timetable from/to Larnaca</a></li>
+                        <li><a target="_blank" href="http://www.kapnosairportshuttle.com/">Kapnos Airport Shuttle Bus</a></li>
+                        <li><a target="_blank" href="http://www.pafosbuses.com/cyprus/buses/42">Paphos Buses</a></li>
+                    </ul>
+                    <br>
+                    <p><h3>Accomodation in the city & more</h3>
+                        Go to the <a href="accomodation_transportation_in_city.php">Accomodation and transportation in the city</a> page.
+                    </p>
+                    <br><br>
                 </div>
                 <div class="ads_panel">
                         <a href="../index.php">

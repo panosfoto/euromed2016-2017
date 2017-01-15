@@ -73,12 +73,12 @@
                     The Filoxenia Conference Centre is conveniently located, with easy access to the highway and central roads of Nicosia. If you are located in Nicosia, you can reach the center via bus. Filoxenia Conference Centre is completely wheelchair accessible and is fully equipped to accommodate people with special access needs.
                     If you are traveling via car, a large parking space outside the Centre provides easy access to the venue. A parking space for approximately 70 vehicles is also available within the Centre’s premises. 
                     </p>
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3262.0775131299147!2d33.37728665120074!3d35.154687566178474!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14de19d8fc1e4653%3A0xf05682dab61e0173!2zzqPPhc69zrXOtM-BzrnOsc66z4wgzprOrc69z4TPgc6_IM6mzrnOu86_zr7Otc69zq_OsQ!5e0!3m2!1sel!2sgr!4v1484476152585" width="900" height="400" frameborder="0" style="border:0; margin-left:5%;" allowfullscreen></iframe>
-                    <br><br><h2>Access from abroad:</h2>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3262.0775131299147!2d33.37728665120074!3d35.154687566178474!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14de19d8fc1e4653%3A0xf05682dab61e0173!2zzqPPhc69zrXOtM-BzrnOsc66z4wgzprOrc69z4TPgc6_IM6mzrnOu86_zr7Otc69zq_OsQ!5e0!3m2!1sel!2sgr!4v1484476152585" width="100%" height="400" frameborder="0" style="border:0;" allowfullscreen></iframe>
+                    <br><br><h2>Travelling as a foreigner:</h2>
                     Visiting us from another country? Click below for further instructions/help!
                     <div style="margin-left:2%;"> &#11044;  <a href="location_and_access/access_from_abroad.php" style="margin-left:1%;">Access from abroad</a></div>
                     <br>
-                    <div><h2>Accomodation and transportation in the city:</h2></div>
+                    <div><h2>Nicosia:</h2></div>
                     Need help about staying in Nicosia or moving around? Click below!
                     <div style="margin-left:2%;"> &#11044;  <a href="location_and_access/accomodation_transportation_in_city.php" style="margin-left:1%;">Accomodation and transportation in the city</a></div>
                     <br><br>
