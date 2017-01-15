@@ -10,6 +10,42 @@
 <html>
     <link rel="stylesheet" href="../../styles.css">
     <title>Euromed 2016: Contact with the organization</title>
+    <script language="JavaScript">
+        function sendmessage()
+        {
+            var fname = document.getElementById('fname').value;
+            if(!fname.match(/\S/)) {
+                alert('Missing first name');
+                return false;
+            }
+            var sname = document.getElementById('sname').value;
+            if(!sname.match(/\S/)) {
+                alert('Missing last name');
+                return false;
+            }
+            var company = document.getElementById('company').value;
+            if(!company.match(/\S/)) {
+                alert('Missing company name');
+                return false;
+            }
+            var email = document.getElementById('email').value;
+            if(!email.match(/\S/)) {
+                alert('Missing email');
+                return false;
+            }
+            var kisknum = document.getElementById('kisknum').value;
+            if(kisknum.match(0)) {
+                alert('No kisk selected');
+                return false;
+            }
+            var description = document.getElementById('description').value;
+            if(!description.match(/\S/)) {
+                alert('No description provided');
+                return false;
+            }
+            document.getElementById('success').style.display='block';
+        }
+    </script>
     <body>
         <div id="frame">
             <div id="page">
@@ -22,7 +58,7 @@
                     </div>
                     <div class="search_bar">
                         <form action="../../search_results.php">
-                            <input type="text" id="fname" name="firstname" placeholder="Search for papers, speakers, etc.">
+                            <input type="text" id="search" name="search" placeholder="Search for papers, speakers, etc.">
                             <input type="submit" value="Search">
                         </form>
                     </div>
@@ -67,28 +103,29 @@
                     </ul>
                 </div>
                 <div class="page_content">
-                    <div><h1>Contact management</h1></div>
-                    Name &nbsp;<span style="color:red;">*</span><br>
-                    <input type="text" id="fname" name="firstname"><br><br>
-                    Surname &nbsp;<span style="color:red;">*</span><br>
-                    <input type="text" id="sname" name="surname"><br><br>
-                    Company &nbsp;<span style="color:red;">*</span><br>
-                    <input type="text" id="company" name="company"><br><br>
-                    E-mail &nbsp;<span style="color:red;">*</span><br>
-                    <input type="text" id="email" name="email"><br><br>
-                    Interested in exhibition kisk # &nbsp;<span style="color:red;">*</span><br>
-                    <select class="field" style="width:35%;" name="kisknum">
-                        <option value="0"selected disabled>Select number</option>
-                        <option value="1">1</option>
-                        <option value="2">2</option>
-                        <option value="3">3</option>
-                        <option value="4">4</option>
-                        <option value="5">5</option>
-                    </select><br><br>
-                    Short description of your exhibition's field of interest &nbsp;<span style="color:red;">*</span><br>
-                    <textarea name="Description" cols="40" rows="5" style="width:75%;height:15%"placeholder="Type your description here"value=""></textarea><br><br>
-                    (Fields with &nbsp;<span style="color:red;">*</span> are required)
-                    <input type="submit" style="margin-top: 2%; padding:0; width:20%; height:4%" value="Send">
+                        <div><h1>Contact management</h1></div>
+                        Name &nbsp;<span style="color:red;">*</span><br>
+                        <input type="text" id="fname" name="firstname"><br><br>
+                        Surname &nbsp;<span style="color:red;">*</span><br>
+                        <input type="text" id="sname" name="surname"><br><br>
+                        Company &nbsp;<span style="color:red;">*</span><br>
+                        <input type="text" id="company" name="company"><br><br>
+                        E-mail &nbsp;<span style="color:red;">*</span><br>
+                        <input type="text" id="email" name="email"><br><br>
+                        Interested in exhibition kisk # &nbsp;<span style="color:red;">*</span><br>
+                        <select class="field" style="width:35%;" id="kisknum" name="kisknum">
+                            <option value="0"selected disabled>Select number</option>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                        </select><br><br>
+                        Short description of your exhibition's field of interest &nbsp;<span style="color:red;">*</span><br>
+                        <textarea id="description" name="Description" cols="40" rows="5" style="width:75%;height:15%"placeholder="Type your description here"value=""></textarea><br><br>
+                        (Fields with &nbsp;<span style="color:red;">*</span> are required)
+                        <input type="submit" onclick="javascript:sendmessage()" style="margin-top: 2%; padding:0; width:20%; height:4%" value="Send"><br><br>
+                        <div id="success" style="DISPLAY:none; color:green; font-size:18;">Message successfully sent!</div>
                 </div>
                 <div class="ads_panel">
                         <a href="../../index.php">
