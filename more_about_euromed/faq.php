@@ -65,7 +65,32 @@
                 </div>
                 <div class="page_content">
                     <div><h1>FAQ</h1></div>
-                    <p>FAQ. It's euromed. </p>
+                    <ul>
+                        <li><h3>Who can be involved into Euromed?</h3>
+                            <ul>
+                                <li>Scientists from universities, organizations and institutes, at all levels, specializing in Archaeology, History, Geology, Biology, Anthropology, Chemistry, Computer Science, Physics, Mathematics, Cultural Informatics, Polytechnic (Mechanical Engineers, Civil Engineers, Architects etc. ) Labor excavations and Art, Graphic Arts etc, specializations involved in any way in the major issue of Digitization of Cultural Heritage.
+                                </li>
+                                <li>Executives of the Ministry of Education, Culture and Religious Affairs, the Ministry of Economy, Infrastructure, Marine and Tourism, Antiquities, ICOMOS, Museums, General Archives of the State, public and private libraries, Holy Metropolis of the Greek Church and other Churches Federation, Associations scientists, Conservators Association of Greek, Greek Archaeometry, Association of Archaeologists, Architects, ICOM Greece and Cyprus, collectivity of Consulting Companies, Institutions implementation of national and European programs, etc. Non Governmental Organisations like their counterparts in Cyprus.
+                                </li>
+                                <li>Executives of other Ministries and Municipalities First and Second Grade
+                                </li>
+                                <li>Greeks and Cypriots working in Greek and Foreign Universities, Research Centres on Culture
+                                </li>
+                                <li>Greeks and Cypriots students at Greek and Foreign Universities, Research Centres on Culture
+                                </li>
+                                <li>Independent Scientists and Researchers in Greece, Cyprus as well as worldwide
+                                </li>
+                                <li>In general, anyone interested in digitization of cultural heritage.
+                                </li>
+                            </ul>
+                            For these reasons we urge you to promptly register your participation, either as Rapporteurs, either as listeners, in the "National Conference Heritage 2016 Digitization", which is the great rendezvous of the Greek and Cypriot scientists from around the world with Culture!
+                        </li>
+                        <li>
+                            <h3>Certification procedures of student status of the student participants</h3>
+                            For undergraduate student enrollments as participants with symbolic registration fee, the relevant certificate from the University where the student attends should be sent to the Secretariat of the Conference (secretary@euromed2016.eu), not later than one (1) week after the date of registration as a delegate, for certification of his/her student status.
+                        </li>
+                    </ul>
+                    <br>
                 </div>
                 <div class="ads_panel">
                         <a href="../index.php">
