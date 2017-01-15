@@ -3,7 +3,7 @@
 -- http://www.phpmyadmin.net
 --
 -- Host: localhost
--- Generation Time: Jan 15, 2017 at 01:59 PM
+-- Generation Time: Jan 15, 2017 at 03:16 PM
 -- Server version: 5.7.16-0ubuntu0.16.04.1
 -- PHP Version: 7.0.13-0ubuntu0.16.04.1
 
@@ -44,6 +44,26 @@ INSERT INTO `Papers` (`paper_id`, `Username`, `Filename`, `ShortInfo`, `Type`) V
 -- --------------------------------------------------------
 
 --
+-- Table structure for table `Speakers`
+--
+
+CREATE TABLE `Speakers` (
+  `Username` varchar(32) CHARACTER SET ascii COLLATE ascii_bin NOT NULL,
+  `ShortInfo` text NOT NULL,
+  `PersonalSite` varchar(32) CHARACTER SET ascii COLLATE ascii_bin NOT NULL,
+  `Image` varchar(32) CHARACTER SET ascii COLLATE ascii_bin NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+--
+-- Dumping data for table `Speakers`
+--
+
+INSERT INTO `Speakers` (`Username`, `ShortInfo`, `PersonalSite`, `Image`) VALUES
+('Aris', ' Aliquam sed nisi magna. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Quisque ullamcorper libero sit amet nisi facilisis, scelerisque fermentum ante facilisis. Proin aliquet sollicitudin libero et suscipit. Pellentesque augue quam, porta ac leo vitae, dignissim feugiat leo. Fusce in massa eget velit dictum vehicula. Aliquam non elit dui. Interdum et malesuada fames ac ante ipsum primis in faucibus. Ut ultricies sed nulla pretium porta. Fusce maximus libero ornare, lobortis mi sit amet, varius magna. Donec ut volutpat diam. Suspendisse elit lorem, sollicitudin at turpis in, scelerisque tincidunt velit. ', 'somewhere.com', 'bla1.jpg');
+
+-- --------------------------------------------------------
+
+--
 -- Table structure for table `users`
 --
 
@@ -79,6 +99,12 @@ ALTER TABLE `Papers`
   ADD KEY `Username` (`Username`);
 
 --
+-- Indexes for table `Speakers`
+--
+ALTER TABLE `Speakers`
+  ADD PRIMARY KEY (`Username`);
+
+--
 -- Indexes for table `users`
 --
 ALTER TABLE `users`
@@ -103,6 +129,12 @@ ALTER TABLE `Papers`
 --
 ALTER TABLE `Papers`
   ADD CONSTRAINT `name_relation` FOREIGN KEY (`Username`) REFERENCES `users` (`Username`) ON DELETE CASCADE ON UPDATE CASCADE;
+
+--
+-- Constraints for table `Speakers`
+--
+ALTER TABLE `Speakers`
+  ADD CONSTRAINT `speaker username` FOREIGN KEY (`Username`) REFERENCES `Papers` (`Username`) ON DELETE CASCADE ON UPDATE CASCADE;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;

@@ -92,10 +92,7 @@
                     <div><a style="color:blue;"href="profile/changeinfo.php">Change personal information</a></div>
                     <div><a style="color:blue;"href="profile/changepassword.php">Change password</a></div>
                     <div><a style="color:blue;"href="profile/deleteaccount.php">Delete account</a></div>
-
-
-                    </div>
-               </div>
+                </div>
                 <div class="ads_panel">
                         <a href="index.php">
                             <img class="logo" src="images/ad1.png"/>
