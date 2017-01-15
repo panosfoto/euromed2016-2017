@@ -12,6 +12,9 @@
         $sv=$i+1;
         $sumbittedpapers="../submitted_papers.php"."#".$username;
         $programme="../programme.php";
+        $sv=$i+1;
+        $val="speaker"."$sv";
+
         echo <<<END
                 <div class="conf_speaker" data-name="$name" data-famous="$sv">
                     <a name="$username"></a>
@@ -21,7 +24,7 @@
                         <img style="height:15%;float:left;margin:5px" src="../images/$image"/>
                         $shortinfo
                     </p>
-                        <div style="width:100%;"> <a href="$site">Personal Page</a></div>
+                        <div style="width:100%;"><a href="$site">Personal Page</a></div>
                         <div style="width:100%;"><a href="$programme">See in Programme</a></div>
                         <div style="width:100%;"><a href="$sumbittedpapers">Submitted Papers</a></div>
                     </div>

@@ -1,5 +1,5 @@
 <?php
-    $query="SELECT FirstName,LastName,users.Username,Papers.ShortInfo,PersonalSite,Type FROM `Papers`,`users`,`Speakers` WHERE Papers.Username=users.Username AND Papers.Username=Speakers.Username ORDER BY Username;";
+    $query="SELECT FirstName,LastName,users.Username,Papers.ShortInfo,PersonalSite, Filename, Type FROM `Papers`,`users`,`Speakers` WHERE Papers.Username=users.Username AND Papers.Username=Speakers.Username ORDER BY Username;";
     $result = $db->query($query);
     $prev="";
     for($i=0;$i<$result->num_rows;$i++){
@@ -13,7 +13,7 @@
         $sv=$i+1;
         $sumbittedpapers="../submitted_papers.php"."#".$username;
         $programme="../programme.php";
-
+        $file=$row["Filename"];
         echo <<<END
                 <div class="conf_speaker" data-name="$name" data-famous="$sv">
 END;
@@ -29,7 +29,7 @@ END;
                         $shortinfo
                     </p>
                         <div style="width:100%;"><a href="$site">Author personal Page</a></div>
-                        <div style="width:100%;"><a href="$programme">Download Paper</a></div>
+                        <div style="width:100%;"><a href="speakers_and_researchers/papers/$file">Download Paper</a></div>
                     </div>
                 </div>
 END;

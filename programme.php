@@ -162,6 +162,18 @@
                      </table>
                     <br><br>
                 </div>
+                <?php
+                    if(isset($_SESSION['SELECTED_SPEAKER'])){
+                        $speaker=$_SESSION['SELECTED_SPEAKER'];
+                        unset($_SESSION['SELECTED_SPEAKER']);
+                         echo"  <script>";
+                         echo     " \$(\".\"+\"$speaker\").removeClass(\"selected\");";
+                         echo     " \$(\".\"+\"$speaker\").addClass(\"selected\");";
+                         echo     " \$(\".\"+\"$speaker\").addClass(\"selected\");";
+                         echo     "\$speakerclass=\"$speaker\";";
+                         echo   "</script>";
+                    }
+?>
                 <div class="ads_panel">
                         <a href="index.php">
                             <img class="logo" src="images/ad1.png"/>

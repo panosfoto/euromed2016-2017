@@ -6,7 +6,12 @@
         $name=$row["FirstName"];
         $surname=$row["LastName"];
         $sv=$i+1;
-        echo  "<option value=\"speaker$sv\">$name $surname</option>";
+        $val="speaker$sv";
+        echo $_SESSION['SELECTED_SPEAKER'];
+        if(isset($_SESSION['SELECTED_SPEAKER']) && !strcmp($_SESSION['SELECTED_SPEAKER'],$val))
+            echo  "<option value=\"speaker$sv\" selected>$name $surname</option>";
+        else
+            echo  "<option value=\"speaker$sv\">$name $surname</option>";
     }
 ?>
 
