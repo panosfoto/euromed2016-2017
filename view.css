@@ -1,0 +1,106 @@
+.myform_options {
+	border: 1px solid;
+	border-radius: 5px;
+	margin-bottom: 15px;
+}
+
+.title_options {
+	background-color: #808080;
+	border-bottom: 1px solid;
+	padding-left: 15px;
+}
+
+.title_options  h2, h3, h1, h4 {
+	margin-top: 0 !important;
+	padding-top: 10px !important;
+}
+.myform_options .row {
+	margin-left:0px !important; 
+	margin-right:0px !important; 
+}
+.table_options {
+	padding-left: 15px;
+}
+
+.myform_options .form-group {
+	padding-left: 15px;
+	padding-top: 10px;	
+}
+
+.title_collapse h2:after {
+	content: "\f068";  
+	font-family: FontAwesome;  
+    float: right; 	
+    padding-right: 10px;
+}
+
+.accordion-toggle.collapsed .title_collapse h2:after {
+    /* symbol for "collapsed" panels */
+    content: "\f067";    /* adjust as needed, taken from bootstrap.css */
+
+}
+
+.title_collapse:focus{
+	outline: none !important;
+
+}
+
+.name_persons table tbody tr td {
+	padding-bottom: 5px !important;
+}
+
+.name_persons_daily table tbody tr td {
+	padding-bottom: 5px !important;
+}
+
+.name_persons , .name_persons_daily {
+	padding-bottom: 15px;
+}
+
+span.heading-title-transportation {display: block;position: relative;padding: 0px;margin: 0px;}
+.heading-title-transportation-following { display: none}
+@media (max-width: 992px) {
+	.heading-title-transportation-following { display: block;}
+
+}
+
+@media (min-width: 993px) {
+
+.t_fno {
+	padding-right: 0 !important;
+	width: 105px;
+}
+.t_fno input{
+	width: 80px;
+}
+
+.t_airport {
+	padding: 0;
+}
+
+.t_persons {
+	padding: 0;
+}
+
+.t_persons select {
+	margin-left: 10px;
+}
+
+}
+
+
+.reg-not-available {
+	color: #8D8B8B;
+	font-style: italic;
+}
+
+.reg-days {
+	padding: 10px 0;
+}
+
+@media print {
+html body div.ccm-page.page-type-page.page-template-left-sidebar div.main-container-page div.header-banner {display: none !important;}
+html body div.ccm-page.page-type-page.page-template-left-sidebar div.main-container-page main div.main-content-page.container div.row div.col-sm-3.col-sidebar {display: none !important;}
+html body div.ccm-page.page-type-page.page-template-left-sidebar div.main-container-page header {display: none !important;}
+html body div.ccm-page.page-type-page.page-template-left-sidebar div.main-container-page main div.main-content-page.container div.row div.col-sm-9.col-content div p a#printeroui img {display:none!important;}
+}
