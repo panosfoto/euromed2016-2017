@@ -68,9 +68,9 @@
                 </div>
                 <div class="page_content">
                     <div><h1>Information for Speakers & Researchers</h1></div>
-                    <p> Blablabla </p>
-                    <div style="margin-left:2%;"> &#11044;  <a href="info_for_speakers/information.php" style="margin-left:1%;">General Information</a></div>
-                    <p> Blablabla </p>
+                    <p> Information about requirements/Instructions for paper submission, proceedings, equipment & more: </p>
+                    <div style="margin-left:2%;"> &#11044;  <a href="info_for_speakers/information.php" style="margin-left:1%;">General Information</a></div><br>
+                    <p> To submit a paper, click below: </p>
                     <div style="margin-left:2%;"> &#11044;  <a href="info_for_speakers/paper_submission.php" style="margin-left:1%;">Paper Submission</a></div>
                 </div>
                 <div class="ads_panel">
