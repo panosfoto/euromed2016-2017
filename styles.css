@@ -250,7 +250,7 @@ input[type=submit]:hover {
     margin: 0;
     padding: 0;
     width: 98%;
-    border: 3px solid  var(--button-color);
+    border: 4px solid  var(--button-color);
     border-radius:6px;
     background-color: var(--navigation-color);
 }
@@ -277,7 +277,7 @@ input[type=submit]:hover {
 
 .side_menu li a:hover {
     background-color: var(--button-hover-color);
-    border-radius:4px;
+    border-radius:8px;
     color:  var(--main-color);
 }
 
@@ -288,7 +288,7 @@ input[type=submit]:hover {
 
 
 .side_menu ul ul ul li a {
-  padding: 8px 16px 8px 44px;
+  padding: 8px 16px 8px 47px;
 }
 
 .active {
