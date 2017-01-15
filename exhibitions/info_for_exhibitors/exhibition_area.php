@@ -67,8 +67,42 @@
                     </ul>
                 </div>
                 <div class="page_content">
-                    <div><h1>Exhibition area</h1></div>
-                    <p> Blablabla </p>
+                    <div><h1>Exhibition area & prices</h1></div>
+                    <h3>Exhibition area</h3>
+                    <div style="text-align:center; font-style: italic;">
+                        <img style="border: 2px solid black; height:350px; width:auto;" src="../../images/exhibition_area.jpg"/>
+                        <br>1-5: Exhibition kisks
+                    </div>
+                    <h3>Prices & Info</h3>
+                    Kisk <div style="float:right;">Price</div>
+                    <ul>
+                        <li>
+                            Kisk 1 <div style="float:right;">120&euro; per slot</div><br>
+                            Slots: 4<br>
+                            Space per slot: 8 square meters
+                        </li>
+                        <li>
+                            Kisk 2 <div style="float:right;">70&euro; per slot</div><br>
+                            Slots: 2<br>
+                            Space per slot: 6 square meters
+                        </li>
+                        <li>
+                            Kisk 3 <div style="float:right;">100&euro; per slot</div><br>
+                            Slots: 3<br>
+                            Space per slot: 5 square meters
+                        </li>
+                        <li>
+                            Kisk 4 <div style="float:right;">70&euro; per slot</div><br>
+                            Slots: 2<br>
+                            Space per slot: 6 square meters
+                        </li>
+                        <li>
+                            Kisk 5 <div style="float:right;">120&euro; per slot</div><br>
+                            Slots: 4<br>
+                            Space per slot: 8 square meters
+                        </li>
+                    </ul>
+                    <br>
                 </div>
                 <div class="ads_panel">
                         <a href="../../index.php">
