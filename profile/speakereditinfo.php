@@ -61,7 +61,7 @@
                 <div class="page_content">
                     <div><h1>Edit your personal info</h1></div>
                     <?php include("../login_info.php");?>
-                    <?php include("uptxt.php");?>
+                    <?php include("imageupload.php");?>
                         <form action="" method="POST" enctype="multipart/form-data"/>
                             Tell us more about yourself!
                             <div style="width:100%;height:auto;">
