@@ -11,11 +11,11 @@
 και exhibitions για καλύτερο διαχωρισμό της πληροφορίας.
 
 Usernames & passwords για ενδεικτική χρήση του ιστοχώρου:
-U:
-P:
+U:Aris
+P:12345
 (speaker)
 
-U:
-P:
+U:eusitr
+P:12345
 (normal visitor)
 
