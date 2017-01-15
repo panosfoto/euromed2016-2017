@@ -11,7 +11,7 @@
     <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
     <script type="text/javascript" src="../speakers.js"></script>
     <link rel="stylesheet" href="../styles.css">
-    <?php include("../connect.php")?>;
+    <?php include("../connect.php");?>
     <title>Euromed 2016: Conference Speakers</title>
     <body>
         <div id="frame">

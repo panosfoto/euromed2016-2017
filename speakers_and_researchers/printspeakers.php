@@ -19,7 +19,7 @@
                     <div style="float:left;width:100%;">
                     <p>
                         <img style="height:15%;float:left;margin:5px" src="../images/$image"/>
-                        $shortinfo;
+                        $shortinfo
                     </p>
                         <div style="width:100%;"> <a href="$site">Personal Page</a></div>
                         <div style="width:100%;"><a href="$programme">See in Programme</a></div>
